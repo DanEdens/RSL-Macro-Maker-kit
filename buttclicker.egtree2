@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{03132276-84E5-47DD-83E6-ADD0ECF40249}" Time="1638202422.45">
+<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{64FD03A9-545F-470B-832C-D4DB587009DA}" Time="1638212057.38">
     <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}" Expanded="True">
-        <Plugin id="3" XML_Guid="{214FABC9-4924-49F1-845D-985F81B14EEC}" Identifier="Keyboard" Guid="{59CBD10F-C1D8-4ADB-999B-9B76BA360F1F}" File="Keyboard">
-            gAKJhXEALg==
+        <Plugin XML_Guid="{7E4B3E75-0713-4CC4-86BE-A989C0E83E69}" Identifier="AutoRemote" Guid="{C18A174E-71E3-4C74-9A2B-8653CE9991E1}" File="AutoRemote">
+            gAIoVQpBdXRvUmVtb3RlcQBNHAdYBQAAAEdob3N0cQFdcQIoKFgFAAAAUGl4ZWxxA1gUAAAAaHR0cDovL2dvby5nbC9WakFxa1JxBFiMAAAAQVBBOTFiRWRvTGx5QVVLTDZSUDFzaTdNbzI1UGFHVlR4aUc5WHVOZEtJOXMxSHNuZk9PQjBmMlVPc25kb0RyMnpaa3ZuWWk3aE1NQnpaQkNHbEdYakV0SHMxbWpZZUdfQnFnRFZfRm1SRWFvODd2a0RGdndBYnE4U3ZsVzk3czdXRmFJU3JEQk5tY3dxBVgAAAAAcQaIWAQAAAAxODE3cQd0cQgoWAsAAABTZXJ2ZXJnaG9zdHEJVQBxClisAAAAZ29vLmdsOmdjbUFQQTkxYkhMWV9lWG9DbnJVYlpFeDZ4N3l4THFqYll1bkJxSjJnZjcwdHEyS203MlZEbkljSlBxdmRBbzlKWTVPUnpqNTFxOGxFYlJ2U1ZCeTdZbEJzUnpUblpqNjZTYU50XzVSSm40TUYteUtlWVpkemZ6a0dDV2poYzdIVEtEZWRya1ZHTVpucFdTX0kzNTA3OEwyUGViYmFZWHBDdWV1QXELWA4AAAAxMi4yNDcuMjEzLjExOHEMiE50cQ0oWAsAAABzZXJ2ZXJnaG9zdHEOaApYCwAAAHNlcnZlcmdob3N0cQ9oBohYBAAAADE4MjFxEHRxEShYAgAAAHM4cRJoCliYAAAAY1VOemsxMGJEcWc6QVBBOTFiRnVTOFlrdVBZd0VWYXVwZnU5dFJ5ZVF1UlJaeXJmTGVfMURTWHltUERWakgzSWdFZFY1TnZuUE9UY3lFTmZkQWNoSzNwUXlmczc3QUs2Z0xmWjBRRnZVSmJna0Rxei1PTXlYZEdrd1dlakM1R0pBOHRqTlJnTmJjS1pWUUJ1QXV3VmF3OVZxE06JTnRxFGVoBlgdAAAAJVVTRVJQUk9GSUxFJVxEZXNrdG9wXFNvcnRpbmdxFYhYLQAAADEvTUhidHIyaHBuYnR1WHl4anNzdXNLN2tkR1hib1hIdUQ1c3Q0VmVZTVlOUXEWiYhYEgAAAFNlbmQgdG8gRXZlbnRHaG9zdHEXiGgGiHRxGC4=
+        </Plugin>
+        <Plugin XML_Guid="{1EA9CD22-0CCB-4C1C-A0B1-7DA5372EE613}" Identifier="DesktopRemote" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
+            gAIpLg==
+        </Plugin>
+        <Plugin XML_Guid="{7DB0A872-E584-4763-823F-AAFB1E62C13C}" Identifier="DesktopRemote3" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
+            gAIpLg==
+        </Plugin>
+        <Plugin XML_Guid="{F0C69877-F014-41D2-864A-EF1A9BD641E2}" Identifier="DesktopRemote2" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
+            gAIpLg==
         </Plugin>
         <Plugin id="5" XML_Guid="{BC7EE63E-DE36-409E-B719-17BE18875583}" Identifier="EGAppControl" Guid="{22A5D3F6-3628-4B57-8608-C4098A465BEC}" File="EGAppControl">
             gAIpLg==
@@ -10,20 +19,8 @@
         <Plugin XML_Guid="{10062DE3-4BB9-49EB-8E50-236697B9DAF1}" Identifier="FileOperations" Guid="{50D933C5-F93B-4A8A-A6CE-95A40F906036}" File="FileOperations">
             gAIpLg==
         </Plugin>
-        <Plugin XML_Guid="{1EA9CD22-0CCB-4C1C-A0B1-7DA5372EE613}" Identifier="DesktopRemote" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{F0C69877-F014-41D2-864A-EF1A9BD641E2}" Identifier="DesktopRemote2" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{7DB0A872-E584-4763-823F-AAFB1E62C13C}" Identifier="DesktopRemote3" Guid="{5DFFBD61-7582-4D6F-8EA9-9CB36284C9CF}" File="DesktopRemote">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{7E4B3E75-0713-4CC4-86BE-A989C0E83E69}" Identifier="AutoRemote" Guid="{C18A174E-71E3-4C74-9A2B-8653CE9991E1}" File="AutoRemote">
-            gAIoVQpBdXRvUmVtb3RlcQBNHAdYBQAAAEdob3N0cQFdcQIoKFgFAAAAUGl4ZWxxA1gUAAAAaHR0cDovL2dvby5nbC9WakFxa1JxBFiMAAAAQVBBOTFiRWRvTGx5QVVLTDZSUDFzaTdNbzI1UGFHVlR4aUc5WHVOZEtJOXMxSHNuZk9PQjBmMlVPc25kb0RyMnpaa3ZuWWk3aE1NQnpaQkNHbEdYakV0SHMxbWpZZUdfQnFnRFZfRm1SRWFvODd2a0RGdndBYnE4U3ZsVzk3czdXRmFJU3JEQk5tY3dxBVgAAAAAcQaIWAQAAAAxODE3cQd0cQgoWAsAAABTZXJ2ZXJnaG9zdHEJVQBxClisAAAAZ29vLmdsOmdjbUFQQTkxYkhMWV9lWG9DbnJVYlpFeDZ4N3l4THFqYll1bkJxSjJnZjcwdHEyS203MlZEbkljSlBxdmRBbzlKWTVPUnpqNTFxOGxFYlJ2U1ZCeTdZbEJzUnpUblpqNjZTYU50XzVSSm40TUYteUtlWVpkemZ6a0dDV2poYzdIVEtEZWRya1ZHTVpucFdTX0kzNTA3OEwyUGViYmFZWHBDdWV1QXELWA4AAAAxMi4yNDcuMjEzLjExOHEMiE50cQ0oWAsAAABzZXJ2ZXJnaG9zdHEOaApYCwAAAHNlcnZlcmdob3N0cQ9oBohYBAAAADE4MjFxEHRxEShYAgAAAHM4cRJoCliYAAAAY1VOemsxMGJEcWc6QVBBOTFiRnVTOFlrdVBZd0VWYXVwZnU5dFJ5ZVF1UlJaeXJmTGVfMURTWHltUERWakgzSWdFZFY1TnZuUE9UY3lFTmZkQWNoSzNwUXlmczc3QUs2Z0xmWjBRRnZVSmJna0Rxei1PTXlYZEdrd1dlakM1R0pBOHRqTlJnTmJjS1pWUUJ1QXV3VmF3OVZxE06JTnRxFGVoBlgdAAAAJVVTRVJQUk9GSUxFJVxEZXNrdG9wXFNvcnRpbmdxFYhYLQAAADEvTUhidHIyaHBuYnR1WHl4anNzdXNLN2tkR1hib1hIdUQ1c3Q0VmVZTVlOUXEWiYhYEgAAAFNlbmQgdG8gRXZlbnRHaG9zdHEXiGgGiHRxGC4=
-        </Plugin>
-        <Plugin XML_Guid="{6C490237-519A-4A6A-8817-EF85C38D5DF0}" Identifier="TrayTip" Guid="{707E86FF-660F-49CD-A00A-9963A7351DF0}" File="Traytip">
-            gAIpLg==
+        <Plugin id="3" XML_Guid="{214FABC9-4924-49F1-845D-985F81B14EEC}" Identifier="Keyboard" Guid="{59CBD10F-C1D8-4ADB-999B-9B76BA360F1F}" File="Keyboard">
+            gAKJhXEALg==
         </Plugin>
         <Plugin XML_Guid="{D86C872C-14FE-493F-91E5-A539BF387FAA}" Identifier="Speech" Guid="{76A1638D-1D7D-4582-A726-A17B1A6FC723}" File="Speech">
             gAIpLg==
@@ -31,11 +28,14 @@
         <Plugin id="15" XML_Guid="{87C8952D-684C-49A8-87F2-FAC31B1B0CA7}" Identifier="Timer" Guid="{6149CA99-1FCD-4450-9160-7543BC20CFD3}" File="Timer">
             gAIpLg==
         </Plugin>
+        <Plugin XML_Guid="{6C490237-519A-4A6A-8817-EF85C38D5DF0}" Identifier="TrayTip" Guid="{707E86FF-660F-49CD-A00A-9963A7351DF0}" File="Traytip">
+            gAIpLg==
+        </Plugin>
         <Action Name="Define Globals" XML_Guid="{0F22CD5F-FE5B-4B4D-9EEB-70D8AED23C43}">
-            EventGhost.PythonScript(u'import os\negg = eg.globals\negp = eg.plugins\n\negg.version = 60\negg.boot = 1\negg.debug = 0\negg.togglenumpad = 1\negg.foomonitor = 0\negg.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\neg.globals.dourlparse = 1\neg.globals.status_battery = 1\negg.topic = \'log\'\negg.screenlapOverride = False\n\n\negg.userprofile = os.environ.get(\'USERPROFILE\')\negg.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\negg.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\negg.jobname = os.environ.get(\'jobname\', \'general\')\negg.onedrive = os.environ.get(\'OneDrive\')\n\negg.vault = os.environ.get(\'vault\')\negg.jobpath = os.environ.get(\'jobpath\')+"\\\\"\negg.lab = os.environ.get(\'lab\')\negg.tree = os.environ.get(\'tree\',)\negg.awsip = os.environ.get(\'awsip\')\n\n\negg.desktop = egg.userprofile+"\\\\Desktop\\\\"\negg.bin = egg.userprofile+"\\\\bin\\\\eg"\n\negg.notifications = egg.userprofile+"\\\\Music\\\\Notifications\\\\"\negg.drive = egg.userprofile+"\\\\Drive\\\\"\negg.tasker = egg.drive+"\\\\Tasker\\\\"\negg.ghost = egg.drive+"\\\\Ghost\\\\"\n\negg.geovault = os.path.join(egg.onedrive, \'GeoVault\')\negg.logdir = egg.vault+"Logs\\\\"\negg.logdir = os.environ.get(\'logs\', egg.desktop)\negg.notes = os.environ.get(\'notes\', egg.desktop)\negg.desknote = egg.notes+"\\\\Desknote.txt"\n\negg.nodedir = egg.lab+\'NodeJS\\\\\'\negg.jobs = os.path.join(egg.geovault + \'\\\\Jobs\')\negg.guides = os.path.join(egg.geovault + \'\\\\lab\\\\guides\')\n\negg.sorter = egg.desktop+"Sorting\\\\"\negg.data = os.environ.get(\'data\', "\\\\172.16.16.10\\collection_data\\\\")\negg.amts1 = egg.data+"AMTS1\\\\monstar2\\\\"\negg.argus = egg.data+"LOGGERNET1\\\\Argus\\\\"\negg.sharepointfiles = "C:\\\\Users\\\\Dan.Edens\\\\Keller\\\\GEO-Instruments - Customer Files\\\\"\negg.sharepointhbi = egg.sharepointfiles+"KELLER NA - Central\\\\"\n\negg.rainvar = "1"\negg.rainvalue = "1"\negp.EventGhost.TriggerEvent(u\'rain_var \', 0.0)\negg.config = egg.lab + "Workspaces\\\\generalai\\\\generalai.egtree"\nprint "Config file = "+egg.config[-30:]\n\n#Set Eg.globals.time\n#eg.plugins.EventGhost.TriggerEvent(u\'update_time\', 0.0, None, False, False, False)\n#Set Eg.globals.storage\n#eg.plugins.EventGhost.TriggerEvent(u\'cat_storage\', 0.0, None, False, False, False)\negl = eg.plugins.EGAppControl.LogMonitor\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
+            EventGhost.PythonScript(u'import os\negg = eg.globals\negp = eg.plugins\n\negg.version = 60\negg.boot = 1\negg.debug = 0\negg.togglenumpad = 1\negg.foomonitor = 0\negg.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\neg.globals.dourlparse = 1\neg.globals.status_battery = 0\negg.topic = \'buttclicker/log\'\negg.screenlapOverride = False\n\n\negg.userprofile = os.environ.get(\'USERPROFILE\')\negg.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\negg.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\negg.jobname = os.environ.get(\'jobname\', \'general\')\negg.onedrive = os.environ.get(\'OneDrive\')\n\negg.vault = os.environ.get(\'vault\')\negg.jobpath = os.environ.get(\'jobpath\')+"\\\\"\negg.lab = os.environ.get(\'lab\')\negg.tree = os.environ.get(\'tree\',)\negg.awsip = os.environ.get(\'awsip\')\n\n\negg.desktop = egg.userprofile+"\\\\Desktop\\\\"\negg.bin = egg.userprofile+"\\\\bin\\\\eg"\n\negg.notifications = egg.userprofile+"\\\\Music\\\\Notifications\\\\"\negg.drive = egg.userprofile+"\\\\Drive\\\\"\negg.tasker = egg.drive+"\\\\Tasker\\\\"\negg.ghost = egg.drive+"\\\\Ghost\\\\"\n\negg.geovault = os.path.join(egg.onedrive, \'GeoVault\')\negg.logdir = egg.vault+"Logs\\\\"\negg.logdir = os.environ.get(\'logs\', egg.desktop)\negg.notes = os.environ.get(\'notes\', egg.desktop)\negg.desknote = egg.notes+"\\\\Desknote.txt"\n\negg.nodedir = egg.lab+\'NodeJS\\\\\'\negg.jobs = os.path.join(egg.geovault + \'\\\\Jobs\')\negg.guides = os.path.join(egg.geovault + \'\\\\lab\\\\guides\')\n\negg.sorter = egg.desktop+"Sorting\\\\"\negg.data = os.environ.get(\'data\', "\\\\172.16.16.10\\collection_data\\\\")\negg.amts1 = egg.data+"AMTS1\\\\monstar2\\\\"\negg.argus = egg.data+"LOGGERNET1\\\\Argus\\\\"\negg.sharepointfiles = "C:\\\\Users\\\\Dan.Edens\\\\Keller\\\\GEO-Instruments - Customer Files\\\\"\negg.sharepointhbi = egg.sharepointfiles+"KELLER NA - Central\\\\"\n\negg.rainvar = "1"\negg.rainvalue = "1"\negp.EventGhost.TriggerEvent(u\'rain_var \', 0.0)\negg.config = egg.lab + "Workspaces\\\\generalai\\\\generalai.egtree"\nprint "Config file = "+egg.config[-30:]\n\n#Set Eg.globals.time\n#eg.plugins.EventGhost.TriggerEvent(u\'update_time\', 0.0, None, False, False, False)\n#Set Eg.globals.storage\n#eg.plugins.EventGhost.TriggerEvent(u\'cat_storage\', 0.0, None, False, False, False)\negl = eg.plugins.EGAppControl.LogMonitor\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
         </Action>
     </Autostart>
-    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}" Expanded="True">
+    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}">
         <Event Name="*.OVERRIDE" XML_Guid="{E6083EC8-CF84-47B3-86B2-F814B81C1B0B}" />
         <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
             EventGhost.DisableItem(XmlIdLink(27))
@@ -54,8 +54,24 @@
         </Action>
     </Macro>
     <Folder Name="Toolkit" id="27" XML_Guid="{CD2783E1-0AD7-494F-B011-B98D64BB5ED2}" Expanded="True">
-        <Folder Name="launcher" XML_Guid="{F606CD9B-6572-4D4B-89EA-89AB957C0DF0}" Expanded="True">
-            <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}" Expanded="True">
+        <Macro Name="EG input line" XML_Guid="{EA937F2A-0C13-4A46-BB34-27DB03E1FE4B}">
+            <Event Name="*.egc*" XML_Guid="{37F02DFE-A09E-449C-A9B0-987D4A47AA77}" />
+            <Event Name="Keyboard.Multiply+Subtract+Divide" XML_Guid="{45333415-7B02-452F-B076-F540289CC99F}" />
+            <Action XML_Guid="{1EA22C25-CB38-47D4-8731-1A8551DCCE17}">
+                EGAppControl.SaveConfiguration()
+            </Action>
+            <Action XML_Guid="{746040B5-3E0E-4F94-B374-22B84AC5DBB2}">
+                AutoRemote.ShowInputDialog(u'EGCommandLine', u'Input Command', u'', u'', True)
+            </Action>
+            <Action Enabled="False" XML_Guid="{D343D610-A12A-4DB1-9A7B-D9B5C28AE4D5}">
+                System.Command(u'cmdow EGCommandLine /TOP', False, False, u'', False, False, False, False, True)
+            </Action>
+            <Action Enabled="False" XML_Guid="{B169F67B-74B7-4076-BA07-267E3FAC3828}">
+                EventGhost.PythonScript(u'import win32gui\nimport re\n\n\nclass WindowMgr:\n    """Encapsulates some calls to the winapi for window management"""\n\n    def __init__ (self):\n        """Constructor"""\n        self._handle = None\n\n    def find_window(self, class_name, window_name=None):\n        """find a window by its class_name"""\n        self._handle = win32gui.FindWindow(class_name, window_name)\n\n    def _window_enum_callback(self, hwnd, wildcard):\n        """Pass to win32gui.EnumWindows() to check all the opened windows"""\n        if re.match(wildcard, str(win32gui.GetWindowText(hwnd))) is not None:\n            self._handle = hwnd\n\n    def find_window_wildcard(self, wildcard):\n        """find a window whose title matches the wildcard regex"""\n        self._handle = None\n        win32gui.EnumWindows(self._window_enum_callback, wildcard)\n\n    def set_foreground(self):\n        """put the window in the foreground"""\n        win32gui.SetForegroundWindow(self._handle)\n\n\nw = WindowMgr()\nw.find_window_wildcard("*EGCommandLine*")\nw.set_foreground()')
+            </Action>
+        </Macro>
+        <Folder Name="launcher" XML_Guid="{F606CD9B-6572-4D4B-89EA-89AB957C0DF0}">
+            <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}">
                 <Event Name="*.check?boot?programs" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                 <Action Name="Check boot program list" XML_Guid="{75BCD05D-093D-40BC-B41D-59A926BEDA2F}">
                     EventGhost.PythonScript(u'import os\n\nBoot_programs = []\n_defaultfile = os.environ.get(\'USERPROFILE\')+".bootscripts\\\\process_list"\nfile = os.environ.get(\'EGBOOTPROGRAMS\', _defaultfile)\n\n\n# Program List and .env file override\nif not os.path.exists(os.path.dirname(file)):\n    Boot_programs = [\n        \'Raid.exe\',\n        \'scrcpy.exe\',\n        \'ShareX.exe\',\n        #\'LCore.exe\',\n        \'Altdrag.exe\'\n        ]\nelse:\n    with open(file) as f:\n        content = f.readlines()\n        for x in content:\n            item = x.strip()\n            print item\n            Boot_programs.append(item)\n\n\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in Boot_programs:\n        if e in p.name:\n            print e +" is running"\n        else:\n            pass\n        ')
@@ -154,7 +170,7 @@
                     </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="Software" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}" Expanded="True">
+            <Folder Name="Software" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}">
                 <Folder Name="Terminal" XML_Guid="{C192D0B2-CCC4-4E6B-9F9C-081E6E7405D9}">
                     <Folder Name="launch Profile" XML_Guid="{C6D94220-A293-4BF2-A30B-DB28D90016F5}">
                         <Macro Name="cmd" XML_Guid="{E0BB5C42-95E2-449A-9D7E-738998BC424E}">
@@ -266,12 +282,14 @@
                         </Action>
                     </Macro>
                 </Folder>
-                <Macro Name="VScode" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
-                    <Event Name="*.code" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Action Name="open vscode" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
-                        EventGhost.PythonScript(u'#screen 3\n#eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 683 /siz 681 376"\', False, False, u\'\', False, False, False, False, True)\n#eg.plugins.System.Command(u\'%cmdow% *Raid* /max\', False, False, u\'\', True, False, False, False, True)\neg.plugins.Window.SendKeys(u\'{Win+2}\', False, 2)\n\n#screen 1\n#eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  797 422 /siz 743 414"\', False, False, u\'\', True, False, False, False, True)\n\n#797 422 /siz 743 414')
-                    </Action>
-                </Macro>
+                <Folder Name="VScode" XML_Guid="{861E9019-7AA4-4797-8FA7-B04922DD6186}">
+                    <Macro Name="VScode" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
+                        <Event Name="*.code" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Action Name="open vscode" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u'#screen 3\n#eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 683 /siz 681 376"\', False, False, u\'\', False, False, False, False, True)\n#eg.plugins.System.Command(u\'%cmdow% *Raid* /max\', False, False, u\'\', True, False, False, False, True)\neg.plugins.Window.SendKeys(u\'{Win+2}\', False, 2)\n\n#screen 1\n#eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  797 422 /siz 743 414"\', False, False, u\'\', True, False, False, False, True)\n\n#797 422 /siz 743 414')
+                        </Action>
+                    </Macro>
+                </Folder>
             </Folder>
         </Folder>
         <Folder Name="quickscripts" XML_Guid="{3F4A3E98-E06F-4531-8724-4F8A9BC40875}">
@@ -326,41 +344,6 @@
                 </Action>
             </Macro>
         </Folder>
-        <Macro Name="always on top" XML_Guid="{9E1C17B8-34C2-4AB4-881F-80AE08F21AD7}">
-            <Event Name="*.set?aot" XML_Guid="{9FEA6A32-794E-4F95-854B-CD9A483DB61B}" />
-            <Event Name="Keyboard.LCtrl+LAlt+Cancel" Enabled="False" XML_Guid="{926CF647-2FEA-4ABC-9168-019FE424E5BB}" />
-            <Action XML_Guid="{F39ADAF7-0ACB-4BDA-A1E3-ABA54DC90D68}">
-                Speech.TextToSpeech(u'Microsoft Zira Desktop - English (United States)', 5, u'armed', u'', 100, u'Speakers (10- Logitech G933 Gaming Headset)')
-            </Action>
-            <Action XML_Guid="{EC3EEFCA-921F-4E23-9C84-69EE0474A523}">
-                EventGhost.Wait(1.0)
-            </Action>
-            <Action Enabled="False" XML_Guid="{0A8421ED-2B91-4E09-A8C3-882B98A36C64}">
-                EventGhost.PythonScript(u'#eg.plugins.Speech.TextToSpeech(u\'Microsoft Zira Desktop - English (United States)\', 5, u\'armed\', u\'\', 100, u\'Speakers (10- Logitech G933 Gaming Headset)\')\neg.plugins.EventGhost.Wait(1.0)\neg.plugins.Window.SetAlwaysOnTop(2)\nx= """\neg.plugins.Speech.TextToSpeech(\n    u\'Microsoft Zira Desktop - English (United States)\',\n    5, \n    u\'AOT set\',\n    u\'\', \n    100,\n    u\'Speakers (10- Logitech G933 Gaming Headset)\'\n    )\n\n"""')
-            </Action>
-            <Action XML_Guid="{52527FDC-6FCF-4F7E-9B84-1537E6C28999}">
-                Window.SetAlwaysOnTop(2)
-            </Action>
-            <Action XML_Guid="{F39ADAF7-0ACB-4BDA-A1E3-ABA54DC90D68}">
-                Speech.TextToSpeech(u'Microsoft Zira Desktop - English (United States)', 5, u'AOT set', u'', 100, u'Speakers (10- Logitech G933 Gaming Headset)')
-            </Action>
-        </Macro>
-        <Macro Name="EG input line" XML_Guid="{EA937F2A-0C13-4A46-BB34-27DB03E1FE4B}">
-            <Event Name="*.egc*" XML_Guid="{37F02DFE-A09E-449C-A9B0-987D4A47AA77}" />
-            <Event Name="Keyboard.Multiply+Subtract+Divide" XML_Guid="{45333415-7B02-452F-B076-F540289CC99F}" />
-            <Action XML_Guid="{1EA22C25-CB38-47D4-8731-1A8551DCCE17}">
-                EGAppControl.SaveConfiguration()
-            </Action>
-            <Action XML_Guid="{746040B5-3E0E-4F94-B374-22B84AC5DBB2}">
-                AutoRemote.ShowInputDialog(u'EGCommandLine', u'Input Command', u'', u'', True)
-            </Action>
-            <Action Enabled="False" XML_Guid="{D343D610-A12A-4DB1-9A7B-D9B5C28AE4D5}">
-                System.Command(u'cmdow EGCommandLine /TOP', False, False, u'', False, False, False, False, True)
-            </Action>
-            <Action Enabled="False" XML_Guid="{B169F67B-74B7-4076-BA07-267E3FAC3828}">
-                EventGhost.PythonScript(u'import win32gui\nimport re\n\n\nclass WindowMgr:\n    """Encapsulates some calls to the winapi for window management"""\n\n    def __init__ (self):\n        """Constructor"""\n        self._handle = None\n\n    def find_window(self, class_name, window_name=None):\n        """find a window by its class_name"""\n        self._handle = win32gui.FindWindow(class_name, window_name)\n\n    def _window_enum_callback(self, hwnd, wildcard):\n        """Pass to win32gui.EnumWindows() to check all the opened windows"""\n        if re.match(wildcard, str(win32gui.GetWindowText(hwnd))) is not None:\n            self._handle = hwnd\n\n    def find_window_wildcard(self, wildcard):\n        """find a window whose title matches the wildcard regex"""\n        self._handle = None\n        win32gui.EnumWindows(self._window_enum_callback, wildcard)\n\n    def set_foreground(self):\n        """put the window in the foreground"""\n        win32gui.SetForegroundWindow(self._handle)\n\n\nw = WindowMgr()\nw.find_window_wildcard("*EGCommandLine*")\nw.set_foreground()')
-            </Action>
-        </Macro>
         <Folder Name="Coordinate tools" XML_Guid="{0387646E-F931-4D77-B805-36B9AE9653FB}">
             <Macro Name="mouse cord tool" XML_Guid="{A72D00A9-D618-4A47-8EC6-C140D66307B2}">
                 <Event Name="Keyboard.LCtrl+Oem3" XML_Guid="{3FCEAA08-95C7-4379-8A6D-72FABE530C3A}" />
@@ -404,79 +387,533 @@
     </Folder>
     <Folder Name="bin" id="256" XML_Guid="{20987FD1-2DF1-4BC3-9CA9-2E802DBBA652}" Expanded="True">
         <Folder Name="Raid" XML_Guid="{35DE5D4A-93B4-4E8B-8ECC-EF433BDE6227}" Expanded="True">
-            <Folder Name="Main" XML_Guid="{BCEF0072-F5A1-47D5-A474-02787F76FB27}" Expanded="True">
-                <Macro Name="Loop Menu" XML_Guid="{0A16EAD8-CB3D-4AFC-B189-8E5A93F78B92}" Expanded="True">
-                    <Event Name="*.loop?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+            <Folder Name="Menu" XML_Guid="{BCEF0072-F5A1-47D5-A474-02787F76FB27}">
+                <Macro Name="Loop Menu" XML_Guid="{0A16EAD8-CB3D-4AFC-B189-8E5A93F78B92}">
                     <Event Name="*.raid?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action Name="Building Loop menu.." XML_Guid="{070A6DD3-7933-43B1-9885-D9B3A51AD194}">
+                    <Event Name="*.loop?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                    <Action Name="Loop menu" XML_Guid="{070A6DD3-7933-43B1-9885-D9B3A51AD194}">
                         EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\ntry: eg.globals.loopaot\nexcept AttributeError: eg.globals.loopaot = False\ntry: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\ntry: eg.globals.loopisrunning\nexcept AttributeError: eg.globals.loopisrunning = False\n\ntry: eg.globals.loopautosell\nexcept AttributeError: eg.globals.loopautosell = False\n\n\neg.plugins.DesktopRemote.CreateNew(150, 40, 3, 3, 4, (202, 15, 15), (206, 206, 255), (40, 0, 0), u'0;-13;0;0;0;700;0;0;0;0;3;2;1;34;Arial', u'Buttclick Loop controller', 0, True, True, True)\n\n\nif eg.globals.loopminimize:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nif eg.globals.loopalttab:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\neg.plugins.DesktopRemote.StartNewLine(2)\n\nif eg.globals.loopaot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_aot', 'label': u'Always-on-top'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_aot', 'label': u'Always-on-top'})\nif eg.globals.loopscreenshot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\nif eg.globals.loopautosell:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\n\nif eg.globals.loopisrunning:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input_loop_stop', 'label': u'Stop'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input_loop_start', 'label': u'Start'})\n\neg.plugins.DesktopRemote.StartNewLine(6)\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_name', 'label': u'Name'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_count', 'label': u'Count'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_interval', 'label': u'Interval'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_event', 'label': u'Command'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop_stop', 'label': u'Refresh'})\neg.plugins.DesktopRemote.AddButton({'event': u'raid_rebattle', 'label': u'Rebattle'})\n\n\n\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop_stop', 'label': u'Stop'})\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop  ', 'label': u'Start'})\n\n\n\n\n\n\n\n\n\n\n\nimport win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n\neg.plugins.DesktopRemote.Show(eg.globals.xtemp-160, eg.globals.ytemp-164, True)\n\n")
-                    </Action>
-                </Macro>
-                <Macro Name="Loop Start" XML_Guid="{50AB68BA-1AD9-4388-BD8A-40D43EBA42BD}">
-                    <Event Name="*.raid?loop??" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.luck" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="Mouse.XButton2" Enabled="False" XML_Guid="{9ED7F535-61CF-426F-A425-237F243D2497}" />
-                    <Action XML_Guid="{1A3E7C4E-26D0-4BD3-A0DD-B77BBD5365F5}">
-                        EventGhost.PythonScript(u"import os\n\n\ntry: eg.globals.loopname\nexcept AttributeError: eg.globals.loopname = u'RaidLoop'\ntry: eg.globals.loopcount\nexcept AttributeError: eg.globals.loopcount = 0\ntry: eg.globals.loopinterval\nexcept AttributeError: eg.globals.loopinterval = 210\ntry: eg.globals.loopevent\nexcept AttributeError: eg.globals.loopevent = u'raid_rebattle'\ntry: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\n\neg.plugins.Timer.TimerAction(\n    eg.globals.loopname, # Timer name\n    0, # change type 0 for start, 5 for abort\n    eg.globals.loopcount, # loops \n    eg.globals.loopinterval,  # interval\n    eg.globals.loopevent, #event name\n    False, \n    True, \n    3, # start\n    u'00:00:01') # start after time\n    ")
-                    </Action>
-                </Macro>
-                <Macro Name="Loop Stop" XML_Guid="{6444C771-9BC3-4F09-AB5F-DC006DFEA6CA}">
-                    <Event Name="*.raid?loop?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.loop?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="Mouse.XButton1" XML_Guid="{D72AEB17-7F18-4905-9C3C-460C4437F22B}" />
-                    <Action XML_Guid="{3249C103-8A02-46B6-9C15-543178A2E255}">
-                        Timer.TimerAction(u'click 5', 4, 0, 3.0, u'click 5', False, False, 1, u'00:00:00')
                     </Action>
                 </Macro>
                 <Macro Name="config input" XML_Guid="{A1800287-279C-45F3-8C0F-C66B5BD5DA0D}">
                     <Event Name="DesktopRemote.input=:=raid_loop_*" XML_Guid="{A72F42B8-0889-4344-9C84-03C000934EA7}" />
                     <Action XML_Guid="{493F48A4-56E7-454E-A2DB-D7950CFEFA19}">
-                        EventGhost.PythonScript(u"eg.globals.data = eg.event.suffix[18:]\neg.plugins.AutoRemote.ShowInputDialog(u'Config value: ' + eg.globals.data, u'Please set a value', u'', u'var=:=loop'+eg.globals.data, False)")
+                        EventGhost.PythonScript(u"data = eg.event.suffix[18:]\neg.plugins.AutoRemote.ShowInputDialog(u'Config value: ' + data, u'Please set a value', u'', u'var=:=loop'+data, False)\n")
                     </Action>
                 </Macro>
-                <Folder Name="toggles" XML_Guid="{9F0FDAE3-AF88-4C0C-9ECB-54FB9DDE13D6}" Expanded="True">
-                    <Macro Name="minimize" XML_Guid="{438485E1-BEC8-450B-8FD8-411B0D914FF0}">
+                <Folder Name="loop" XML_Guid="{465F9A68-7AE7-4AD2-A2B3-E5B085DB3F37}">
+                    <Macro Name="Loop Stop" XML_Guid="{6444C771-9BC3-4F09-AB5F-DC006DFEA6CA}">
+                        <Event Name="*.raid?loop?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.loop?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.input_loop?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="Mouse.XButton1" XML_Guid="{D72AEB17-7F18-4905-9C3C-460C4437F22B}" />
+                        <Action Enabled="False" XML_Guid="{68D3D461-AA01-49B8-8231-80F31530C5D9}">
+                            System.PlaySound(u'C:\\Users\\Dan.Edens\\Music\\Notifications\\Titanfall\\All\\Ronin_trasnfering controls.wav', 1, False)
+                        </Action>
+                        <Action Enabled="False" XML_Guid="{93A611B6-0742-410A-ADAC-0EE88BCD34CE}">
+                            EventGhost.PythonScript(u'\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    #eg.plugins.EventGhost.Wait(0.1)\n    #eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\nclick(1868,996)')
+                        </Action>
+                        <Action XML_Guid="{3249C103-8A02-46B6-9C15-543178A2E255}">
+                            Timer.TimerAction(u'RaidLoop', 4, 0, 3.0, u'click 5', False, False, 1, u'00:00:00')
+                        </Action>
+                    </Macro>
+                    <Macro Name="Loop Start" XML_Guid="{50AB68BA-1AD9-4388-BD8A-40D43EBA42BD}">
+                        <Event Name="*.raid?loop??" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.input_loop?start" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.luck" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="Mouse.XButton2" Enabled="False" XML_Guid="{9ED7F535-61CF-426F-A425-237F243D2497}" />
+                        <Action XML_Guid="{1A3E7C4E-26D0-4BD3-A0DD-B77BBD5365F5}">
+                            EventGhost.PythonScript(u"import os\n\n\ntry: eg.globals.loopname\nexcept AttributeError: eg.globals.loopname = u'RaidLoop'\ntry: eg.globals.loopcount\nexcept AttributeError: eg.globals.loopcount = 0\ntry: eg.globals.loopinterval\nexcept AttributeError: eg.globals.loopinterval = 210\ntry: eg.globals.loopevent\nexcept AttributeError: eg.globals.loopevent = u'raid_rebattle'\ntry: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\n\neg.plugins.Timer.TimerAction(\n    eg.globals.loopname, # Timer name\n    0, # change type 0 for start, 5 for abort\n    int(eg.globals.loopcount), # loops \n    int(eg.globals.loopinterval),  # interval\n    eg.globals.loopevent, #event name\n    True, \n    True, \n    3, # start\n    u'00:00:01') # start after time")
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Toggle Buttons" XML_Guid="{9F0FDAE3-AF88-4C0C-9ECB-54FB9DDE13D6}">
+                    <Macro Name="Toggle Icon minimize" XML_Guid="{438485E1-BEC8-450B-8FD8-411B0D914FF0}">
                         <Event Name="DesktopRemote.input=:=raid_toggle_minimize" XML_Guid="{6AB12DCC-0F4D-49E7-98A9-5BECDC6AF454}" />
                         <Event Name="*.raid?toggle?minimize" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Action Name="toggle minimize" XML_Guid="{AAC3EEF0-B765-484C-B168-13090DBD48AD}">
                             EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\n\nif eg.globals.loopminimize:\n    eg.globals.loopminimize = False\nelse:\n    eg.globals.loopminimize = True\n\neg.plugins.DesktopRemote.Close()\neg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)")
                         </Action>
                     </Macro>
-                    <Macro Name="loopalttab" XML_Guid="{438485E1-BEC8-450B-8FD8-411B0D914FF0}">
+                    <Macro Name="Toggle Icon loopalttab" XML_Guid="{438485E1-BEC8-450B-8FD8-411B0D914FF0}">
                         <Event Name="*.raid?toggle?alttab" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Event Name="DesktopRemote.input=:=raid_toggle_alttab" XML_Guid="{6AB12DCC-0F4D-49E7-98A9-5BECDC6AF454}" />
                         <Action Name="toggle alttab" XML_Guid="{AAC3EEF0-B765-484C-B168-13090DBD48AD}">
                             EventGhost.PythonScript(u"try: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\n\nif eg.globals.loopalttab:\n    eg.globals.loopalttab = False\nelse:\n    eg.globals.loopalttab = True\n\neg.plugins.DesktopRemote.Close()\neg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)")
                         </Action>
                     </Macro>
-                    <Macro Name="Always on top" XML_Guid="{58FA0AA2-71B4-4711-8D99-B94629909F3D}">
+                    <Macro Name="Toggle Icon Always on top" XML_Guid="{58FA0AA2-71B4-4711-8D99-B94629909F3D}">
                         <Event Name="*.raid?toggle?aot" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Event Name="DesktopRemote.raid_aot" XML_Guid="{ACEC6167-55A5-4BA8-919D-3100E1F6DCE1}" />
                         <Action Name="toggle alttab" XML_Guid="{AAC3EEF0-B765-484C-B168-13090DBD48AD}">
                             EventGhost.PythonScript(u"try: eg.globals.loopaot\nexcept AttributeError: eg.globals.loopaot = False\n\neg.plugins.Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)\n\nif eg.globals.loopaot:\n    eg.plugins.Window.SetAlwaysOnTop(0)\n    eg.globals.loopaot = False\nelse:\n    eg.plugins.Window.SetAlwaysOnTop(1)\n    eg.globals.loopaot = True\n\neg.plugins.DesktopRemote.Close()\neg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)")
                         </Action>
                     </Macro>
-                    <Macro Name="Toggle Screenehots" XML_Guid="{D93C3C24-AFAD-4B05-8FCC-6A4B47D6DB68}">
+                    <Macro Name="Toggle Icon Screenehots" XML_Guid="{D93C3C24-AFAD-4B05-8FCC-6A4B47D6DB68}">
                         <Event Name="DesktopRemote.raid_toggle_screenshot" XML_Guid="{88A54A99-07FE-43F7-B343-95256DB12AD9}" />
                         <Action Name="toggle screenshot" XML_Guid="{AAC3EEF0-B765-484C-B168-13090DBD48AD}">
                             EventGhost.PythonScript(u"try: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\n\n\nif eg.globals.loopscreenshot:\n    eg.globals.loopscreenshot = False\nelse:\n    eg.globals.loopscreenshot = True\n\neg.plugins.DesktopRemote.Close()\neg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)")
                         </Action>
                     </Macro>
-                    <Macro Name="Toggle autosell" XML_Guid="{D93C3C24-AFAD-4B05-8FCC-6A4B47D6DB68}">
+                    <Macro Name="Toggle Icon AutoSell" XML_Guid="{D93C3C24-AFAD-4B05-8FCC-6A4B47D6DB68}">
                         <Event Name="DesktopRemote.raid_toggle_autosell" XML_Guid="{88A54A99-07FE-43F7-B343-95256DB12AD9}" />
                         <Action Name="toggle autosell" XML_Guid="{AAC3EEF0-B765-484C-B168-13090DBD48AD}">
                             EventGhost.PythonScript(u"try: eg.globals.loopautosell\nexcept AttributeError: eg.globals.loopautosell = False\n\n\nif eg.globals.loopautosell:\n    eg.globals.loopautosell = False\nelse:\n    eg.globals.loopautosell = True\n\neg.plugins.DesktopRemote.Close()\neg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)")
                         </Action>
                     </Macro>
+                    <Macro Name="Toggle Icon Start/Stop" XML_Guid="{E06C8911-CA5F-4E3E-BEB8-201AAC56A400}">
+                        <Event Name="*.input_loop?s*" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action XML_Guid="{50F9A4DF-DFEF-4883-9049-9715D0E6208C}">
+                            EventGhost.PythonScript(u"if eg.event.suffix[-5:] == 'start':\n    eg.globals.loopisrunning = True\nelse:\n    eg.globals.loopisrunning = False\neg.plugins.DesktopRemote.Close()\n#eg.plugins.EventGhost.TriggerEvent(u'loop_menu', 0.0, None, False, False, False)\n")
+                        </Action>
+                    </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="functions" XML_Guid="{C7F4901F-5A9F-40DD-90DB-8068FC0645B4}" Expanded="True">
-                <Macro Name="playtime rewards" XML_Guid="{76BD72F9-F321-4F12-9A4A-E0EFCB50B489}">
-                    <Action Enabled="False" XML_Guid="{EFD12BF3-50AE-4EC9-BFDC-18AA6579A8B5}">
-                        EventGhost.PythonScript(u'# playtime rewards\nclick(178,257)\nclick(249,255)\nclick(306,255)\nclick(378,252)\nclick(438,246)\nclick(495,249)\n')
+            <Folder Name="navigation" XML_Guid="{C7F4901F-5A9F-40DD-90DB-8068FC0645B4}">
+                <Folder Name="bak_Functions Sort for dups" Enabled="False" XML_Guid="{C7F4901F-5A9F-40DD-90DB-8068FC0645B4}">
+                    <Macro Name="Collect playtime rewards" Enabled="False" XML_Guid="{76BD72F9-F321-4F12-9A4A-E0EFCB50B489}">
+                        <Action Name="needs find and resize raid" XML_Guid="{EFD12BF3-50AE-4EC9-BFDC-18AA6579A8B5}">
+                            EventGhost.PythonScript(u'# playtime rewards\nclick(178,257)\nclick(249,255)\nclick(306,255)\nclick(378,252)\nclick(438,246)\nclick(495,249)\n')
+                        </Action>
+                    </Macro>
+                    <Macro Name="launch Raid" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}" Expanded="True">
+                        <Event Name="*.run?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Check for running process" Enabled="False" XML_Guid="{ACBF1FA4-4B88-4171-9B81-45D2936556F2}">
+                            EventGhost.PythonScript(u'egg = eg.globals\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\negg.Boot_programs = [\'TrayPP\', \'PlariumPlay\', \'Raid\']\n\nif eg.event.payload is None:\n    pass\nelif eg.event.payload == "":\n    pass\nelse:\n    if eg.event.payload[-3:] == "exe":\n        egg.Boot_programs.append(eg.event.payload)\n        #print egg.Boot_programs\n    else:\n        pass\n\n\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in egg.Boot_programs:\n        if e in p.name:\n            setattr(eg.globals, e, 1)\n            eg.plugins.EventGhost.TriggerEvent(u\'Is_running_\'+e, 0.0, None, False, False, False)\n            print e +" is running"\n        else:\n            setattr(eg.globals, e, 0)\n        \n        \n')
+                        </Action>
+                        <Action XML_Guid="{85DF79C5-8BF6-4776-9DA5-23374BA75F55}">
+                            System.Command(u'C:\\Users\\Dan.Edens\\AppData\\Local\\Plarium\\PlariumPlay\\PlariumPlay.exe  --args -gameid=101 -tray-start', False, False, u'', True, False, False, False, False)
+                        </Action>
+                    </Macro>
+                    <Macro Name="Click Start" Enabled="False" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_start" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click on battle start" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 637\neg.globals.h_y = 362\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.1)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="tap start" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_start" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click on battle start" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 637\neg.globals.h_y = 362\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.1)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="tap to cont" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_cont" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click on tap to cont" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 374\neg.globals.h_y = 381\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.8)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.3)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="sparring pit" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_pit" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click on battle replay" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    click(535,257)\n    click(83,309)\n    click(215,309)\n    click(376,314)\n    click(526,315)\n    click(643,310)\n    click(711,42)\nelif screen == 3:\n    click(3660, 931)\n    click(3768, 960)\n    click(3244, 960)\n    click(3385, 960)\n    click(3514, 960)\n    click(3640, 960)\n    click(3810, 722)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="minotaur" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_mino" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="open minotaur" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.2)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    pass\nelif screen == 3:\n    click(3740,1013)\n    click(3350,873)\n    click(3820,860)\n    eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 0 /siz 681 1047"\', False, False, u\'\', False, False, False, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    click(3720,989)\n    eg.plugins.EventGhost.Wait(0.3)\n    click(3720,989)\n    eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 683 /siz 681 376"\', False, False, u\'\', False, False, False, False, True)')
+                        </Action>
+                        <Action XML_Guid="{84C30A7C-4F60-47E0-9BD5-6309DDB63E26}">
+                            EventGhost.Wait(1.0)
+                        </Action>
+                        <Action XML_Guid="{9D62DE69-1E6E-4308-9A64-E9D86E21835B}">
+                            Mouse.MouseWheel(-99)
+                        </Action>
+                    </Macro>
+                    <Macro Name="IceGolem" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_ice" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="open Ice golem" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.2)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    click(535,257)\n    click(83,309)\n    click(215,309)\n    click(376,314)\n    click(526,315)\n    click(643,310)\n    click(711,42)\nelif screen == 3:\n    click(3740,1013)\n    click(3350,873)\n    click(3815,780)    ')
+                        </Action>
+                    </Macro>
+                    <Macro Name="Rebattle" XML_Guid="{F46657B6-9257-422D-9BF2-BFF25C36CDFC}">
+                        <Event Name="*.raid_replay" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Event Name="*.raid_rebattle" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                        <Action XML_Guid="{E1AD6398-4E84-4D50-920E-5ACBB9E2CEE4}">
+                            Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{0E109512-5244-4A1E-8DCD-1B5893A21037}">
+                            Window.BringToFront()
+                        </Action>
+                        <Action Name="Screenshot" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                            EventGhost.PythonScript(u'try: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\n\nif eg.globals.loopscreenshot:\n    eg.plugins.EventGhost.Wait(0.1)\n    #screenshot\n')
+                        </Action>
+                        <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
+                            EventGhost.Wait(0.3)
+                        </Action>
+                        <Action XML_Guid="{588D5542-D704-4DAB-B3A7-2B315B92AD6D}">
+                            Window.SendKeys(u'R', False, 2)
+                        </Action>
+                        <Action Name="Minimize" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                            EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\n\nif eg.globals.loopminimize:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.Minimize()\n\nif eg.globals.loopalttab:\n    eg.plugins.Window.SendKeys(u'{Alt+Tabulator}', False, 2)")
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Bastion" XML_Guid="{9974699E-6F1F-46E4-BBD3-2780005132AB}">
+                    <Macro Name="battle button" XML_Guid="{4E69107C-8F1C-42BB-A5AD-FACDEC09F7E9}">
+                        <Event Name="*.raid?battle" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
+                            Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{115CF72A-04A0-496C-8766-69B3DFD201A2}">
+                            Window.BringToFront()
+                        </Action>
+                        <Action XML_Guid="{963960D9-3036-4050-B02A-2FFC21396357}">
+                            Window.SendKeys(u'{Return}', False, 2)
+                        </Action>
+                    </Macro>
+                    <Macro Name="mailbox/exitads" XML_Guid="{12E4884F-7A35-4656-9103-31BE8D95CB6D}">
+                        <Event Name="*.raid?ads" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Exit Ad or mailbox" XML_Guid="{3A96F104-E477-4C3F-A516-4D0CA6A5005D}">
+                            EventGhost.PythonScript(u'import win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\nclick(610,51)\n\n')
+                        </Action>
+                    </Macro>
+                    <Macro Name="Playtime rewards" XML_Guid="{76BD72F9-F321-4F12-9A4A-E0EFCB50B489}">
+                        <Action XML_Guid="{EFD12BF3-50AE-4EC9-BFDC-18AA6579A8B5}">
+                            EventGhost.PythonScript(u'# playtime rewards\nclick(178,257)\nclick(249,255)\nclick(306,255)\nclick(378,252)\nclick(438,246)\nclick(495,249)\n')
+                        </Action>
+                    </Macro>
+                    <Macro Name="sparing pit" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_sparring_pit" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click through pit" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u"\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\n#eg.plugins.Window.Resize(681, 376)\nclick(500,246)\nclick(86,282)\nclick(212,280)\nclick(346,285)\nclick(464,280)\nclick(600,285)\nclick(647,36)")
+                        </Action>
+                    </Macro>
+                    <Macro Name="X out" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid_X out" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="click on X" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u"\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\n#eg.plugins.Window.Resize(681, 376)\nclick(647,36)")
+                        </Action>
+                    </Macro>
+                    <Macro Name="unknown" XML_Guid="{A2EF1E5A-60AA-4F74-8103-828C448321B0}">
+                        <Action XML_Guid="{65AC594D-D6EE-47F9-BC48-5B9498586B82}">
+                            EventGhost.PythonScript(u'click(637,299)')
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Classic Arena page" XML_Guid="{0BA23F2B-25A8-4F54-AE64-A97CE02F9873}">
+                    <Macro Name="move raid to selection" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
+                        <Event Name="*.move?raid?arena?spread" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="move to arena selection" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.globals.screenlap = 0\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 601, 718)")
+                        </Action>
+                        <Action XML_Guid="{272A2499-7F82-4C7B-9219-887E9B3DDED8}">
+                            EventGhost.PythonScript(u"eg.plugins.OSM.ShowMenu([\n    (u'Refresh', u'refresh'),\n    (u'battle 1', u'battle_1'),\n    (u'battle 2', u'battle_2'), \n    (u'battle 3', u'battle_3'), \n    (u'battle 4', u'battle_4'),\n    (u'battle 5', u'battle_5'), \n    (u'battle 6', u'battle_6'), \n    (u'battle 7', u'battle_7'),\n    (u'battle 8', u'battle_8'), \n    (u'battle 9', u'battle_9'), \n    (u'battle 0', u'battle_0')\n    ], (75, 75, 75), (180, 180, 180), \n    u'0;-48;0;0;0;400;0;0;0;1;0;0;0;0;Segoe UI', \n    u'.raid_arena', 0, 0, (180, 180, 180), \n    (75, 75, 75), False, False)\n    \n")
+                        </Action>
+                        <Action Name="Fire Trigger: raid_arena_opponents_enable" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                            EventGhost.TriggerEvent(u'raid_arena_opponents_enable', 0.0, None, False, False, False)
+                        </Action>
+                    </Macro>
+                    <Macro Name="Open arena" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid?nav?arena" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="Nav to Arena Classic" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u"\nimport win32api\neg.globals.screenlap = 0\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.3)\n#eg.plugins.Window.Resize(882, 219)\nmove_raid(0, 0, 681, 376)\nclick(613,348)\nclick(485,189)\nclick(246,191)\neg.plugins.EventGhost.Wait(0.3)\nmove_raid(0, 0, 601, 718)")
+                        </Action>
+                    </Macro>
+                    <Macro Name="Consume Refill" XML_Guid="{D04206F4-9108-49C6-A7E9-2ECFF84CB9C9}" />
+                    <Macro Name="Refresh Arena Selection" XML_Guid="{9B5660E5-CFA9-48F0-9022-1C1763F54E53}">
+                        <Event Name="*.raid?arena?refresh" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Pressing Refresh.." XML_Guid="{DB3A499A-C591-421E-B624-B1A88B2C64E2}">
+                            EventGhost.PythonScript(u'import win32api\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\nclick(516,110)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="tap to contuine" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                        <Event Name="*.raid?arena?cont" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Return to Selection" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                            EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.screenlap = 0\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\n#move_raid(0, 0, 681, 376)\n#move_raid(0, 0, 601, 718)\nclick(303,682)\neg.plugins.EventGhost.Wait(0.1)\nclick(303,682)\n")
+                        </Action>
+                    </Macro>
+                    <Folder Name="Opponents" XML_Guid="{D2DF9A80-3145-4C05-B98F-5A91108A6A59}">
+                        <Macro Name="Battle 1" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?1" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 1" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(521,146)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 2" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?2" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 2" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(528,207)\neg.plugins.EventGhost.Wait(0.2)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 3" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?3" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 3" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(520,265)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 4" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?4" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 4" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"\nimport win32api\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(527,321)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.2)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 5" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?5" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 5" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(523,380)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 6" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?6" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 6" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(531,437)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.2)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 7" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?7" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 7" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(520,505)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.2)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 8" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?8" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 8" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(523,547)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 9" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?9" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 9" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(522,607)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                        <Macro Name="Battle 0" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                            <Event Name="*.raid?arena?battle?0" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                            <Action Name="Start Battle 0" XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                                EventGhost.PythonScript(u"import win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.3)\nclick(528,667)\nclick(523,683)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.EventGhost.TriggerEvent(u'return_mouse', 0.0, None, False, False, False)")
+                            </Action>
+                        </Macro>
+                    </Folder>
+                    <Folder Name="Hotkeys" XML_Guid="{CAB16C20-69F6-43DB-9E4E-4E0FF9B59A0B}">
+                        <Folder Name="Opponents" id="2514" Enabled="False" XML_Guid="{D2DF9A80-3145-4C05-B98F-5A91108A6A59}">
+                            <Macro Name="Hotkey - Battle 1" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad1" XML_Guid="{899B987D-0A16-428D-BBDC-085463B5C311}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_1" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_1', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 2" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad2" XML_Guid="{F582ECCF-5E95-47D9-8FAA-3FE63128E874}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_2" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_2', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 3" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad3" XML_Guid="{D427FC59-6992-42FB-AF28-EA37889FF42A}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_3" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_3', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 4" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad4" XML_Guid="{33C98648-FBCF-48C5-A997-3EEA868D87E0}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_4" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_4', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 5" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad5" XML_Guid="{C9A6139E-5409-47D1-89A1-AF29ADF962B2}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_5" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_5', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 6" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad6" XML_Guid="{97B0F203-FAA8-4564-BF0B-CD73837CE9FC}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_6" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_6', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 7" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad7" XML_Guid="{2B91B9F2-84DE-4781-BA2E-66054EB5AC5D}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_7" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_7', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 8" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad8" XML_Guid="{158E73BC-9095-4E72-919E-B3F52B7173C2}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_8" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_8', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 9" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad9" XML_Guid="{2F3F5E88-D74E-4199-A733-E3CB63B0BD57}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_9" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_9', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 0" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad0" XML_Guid="{F032F448-CFDB-4452-A663-2A9E9D70429C}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_0" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_0', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                        </Folder>
+                        <Macro Name="Disable: Opponents" XML_Guid="{B4A2A399-391B-4C31-806D-51EC5C5F7017}">
+                            <Event Name="*.raid?arena?opponents?disable" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                            <Action XML_Guid="{1E166FD2-A2E1-490F-A576-9B5182298ED3}">
+                                EventGhost.DisableItem(XmlIdLink(2514))
+                            </Action>
+                        </Macro>
+                        <Macro Name="Enable: Opponents" XML_Guid="{42C38162-F06C-4965-B8CB-6E55A2B78EF3}">
+                            <Event Name="*.raid?arena?opponents?enable" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                            <Action XML_Guid="{BCD104CA-0563-4307-BF26-28B89C937C74}">
+                                EventGhost.EnableItem(XmlIdLink(2514))
+                            </Action>
+                        </Macro>
+                        <Folder Name="bakOpponents" Enabled="False" XML_Guid="{D2DF9A80-3145-4C05-B98F-5A91108A6A59}">
+                            <Macro Name="Hotkey - Battle 1" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad1" XML_Guid="{899B987D-0A16-428D-BBDC-085463B5C311}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_1" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_1', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 2" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad2" XML_Guid="{F582ECCF-5E95-47D9-8FAA-3FE63128E874}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_2" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_2', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 3" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad3" XML_Guid="{D427FC59-6992-42FB-AF28-EA37889FF42A}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_3" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_3', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 4" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad4" XML_Guid="{33C98648-FBCF-48C5-A997-3EEA868D87E0}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_4" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_4', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 5" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad5" XML_Guid="{C9A6139E-5409-47D1-89A1-AF29ADF962B2}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_5" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_5', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 6" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad6" XML_Guid="{97B0F203-FAA8-4564-BF0B-CD73837CE9FC}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_6" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_6', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 7" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad7" XML_Guid="{2B91B9F2-84DE-4781-BA2E-66054EB5AC5D}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_7" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_7', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 8" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad8" XML_Guid="{158E73BC-9095-4E72-919E-B3F52B7173C2}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_8" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_8', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 9" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad9" XML_Guid="{2F3F5E88-D74E-4199-A733-E3CB63B0BD57}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_9" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_9', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                            <Macro Name="Hotkey - Battle 0" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                                <Event Name="Keyboard.Numpad0" XML_Guid="{F032F448-CFDB-4452-A663-2A9E9D70429C}" />
+                                <Action Name="Fire Trigger: raid_arena_battle_0" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                                    EventGhost.TriggerEvent(u'raid_arena_battle_0', 0.0, None, False, False, False)
+                                </Action>
+                            </Macro>
+                        </Folder>
+                    </Folder>
+                    <Macro Name="start" XML_Guid="{194DA84C-FECB-4B5E-81B5-3D7D0ABF828E}">
+                        <Event Name="*.raid?arena?start" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action XML_Guid="{8D246E81-9292-4DAC-8103-B35F097CDF8D}">
+                            EventGhost.PythonScript(u'\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\nclick(511,673)')
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Dungeons" XML_Guid="{6CDDEEAF-E365-4F10-B2DA-B95ED77EC064}">
+                    <Macro Name="Open Dungeons" XML_Guid="{4E69107C-8F1C-42BB-A5AD-FACDEC09F7E9}">
+                        <Event Name="*.raid?dung" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Navigating to Dungeons selection.." XML_Guid="{372CDA1E-A9F7-4B4E-9978-44E6655B3B37}">
+                            EventGhost.PythonScript(u"import win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.SendKeys(u'{Return}', False, 2)\neg.plugins.EventGhost.Wait(0.1)\nclick(218,191)\n")
+                        </Action>
+                    </Macro>
+                    <Macro Name="IceGolem" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                        <Event Name="*.raid?ig" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                        <Action Name="Nav to Ice golem" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                            EventGhost.PythonScript(u"\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.Resize(882, 219)\nclick(628,67)\n\neg.plugins.Window.Resize(681, 376)\n\n\n")
+                        </Action>
+                    </Macro>
+                    <Macro Name="stage 20" XML_Guid="{EEB4AF34-FDC1-45ED-8622-94738208672F}">
+                        <Event Name="*.raid?stage?20" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="Nav to stage 20" XML_Guid="{49A65F31-EAC6-4C81-A292-E66314F0D446}">
+                            EventGhost.PythonScript(u"# pick stage 20\n\n\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.Resize(269, 675)\neg.plugins.EventGhost.Wait(0.1)\nclick(231,528)\neg.plugins.Window.Resize(681, 376)")
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Macro Name="Last Loop detector" XML_Guid="{5BD3657C-9729-4BB6-B846-E3E73545C01E}">
+                    <Event Name="*.raid_rebattle0" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                    <Action XML_Guid="{3CD0A7D0-6BCB-4C06-B79E-E68D599077DD}">
+                        System.Command(u'post status/ghost/log Raid Looping has finished', False, False, u'', False, False, False, False, False)
+                    </Action>
+                    <Action Name="Fire Trigger: input_loop_stop" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
+                        EventGhost.TriggerEvent(u'input_loop_stop', 0.0, None, False, True, False)
+                    </Action>
+                    <Action XML_Guid="{CDC58EA7-2077-483F-A47E-B306AB687EB9}">
+                        EventGhost.StopProcessing()
                     </Action>
                 </Macro>
-                <Macro Name="launch Raid" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
+                <Macro Name="Raid Rebattle" XML_Guid="{F46657B6-9257-422D-9BF2-BFF25C36CDFC}">
+                    <Event Name="*.raid_replay" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                    <Event Name="*.raid_rebattle??" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                    <Event Name="*.raid_rebattle?" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                    <Event Name="*.raid_rebattle" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                    <Action Enabled="False" XML_Guid="{68D3D461-AA01-49B8-8231-80F31530C5D9}">
+                        System.PlaySound(u'C:\\Users\\Dan.Edens\\Music\\Notifications\\Titanfall\\All\\Ronin_engaging_enemy_titan.wav', 1, False)
+                    </Action>
+                    <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
+                        EventGhost.Wait(0.1)
+                    </Action>
+                    <Action XML_Guid="{E1AD6398-4E84-4D50-920E-5ACBB9E2CEE4}">
+                        Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
+                    </Action>
+                    <Action XML_Guid="{0E109512-5244-4A1E-8DCD-1B5893A21037}">
+                        Window.BringToFront()
+                    </Action>
+                    <Action Name="Screenshot" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                        EventGhost.PythonScript(u"try: \n    eg.globals.loopscreenshot\nexcept AttributeError: \n    eg.globals.loopscreenshot = False\n\nif eg.globals.loopscreenshot:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.SendKeys(u'{Shift+Alt+P}', False, 2)\n")
+                    </Action>
+                    <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
+                        EventGhost.Wait(0.3)
+                    </Action>
+                    <Action XML_Guid="{588D5542-D704-4DAB-B3A7-2B315B92AD6D}">
+                        Window.SendKeys(u'R', False, 2)
+                    </Action>
+                    <Action Name="Check: Minimize" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                        EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\nprint 'Minimize is: ' + str(eg.globals.loopminimize)\nif eg.globals.loopminimize:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.Minimize()\nif eg.globals.loopalttab:\n    eg.plugins.Window.SendKeys(u'{Alt+Tabulator}', False, 2)")
+                    </Action>
+                    <Action XML_Guid="{DB6B7460-AD5A-4D9A-A86C-52AC1D48E0F3}">
+                        Mouse.LeftButton()
+                    </Action>
+                </Macro>
+                <Macro Name="Start battle" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
+                    <Event Name="*.raid_start" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                    <Action Name="click on battle start" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
+                        EventGhost.PythonScript(u"\nimport win32api\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n\neg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.Resize(681, 376)\nclick(596,321)\n")
+                    </Action>
+                    <Action XML_Guid="{94593757-2120-4F17-A970-227950FA48BF}">
+                        Window.Minimize()
+                    </Action>
+                </Macro>
+            </Folder>
+            <Folder Name="Window control" XML_Guid="{29B5558B-47F7-433E-BE1A-255CF52B0967}">
+                <Macro Name="screenshot raid" Enabled="False" XML_Guid="{D0A41A54-BC51-4E92-AA19-349B8574B81B}">
+                    <Event Name="*.raid_screenshot" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                    <Action XML_Guid="{908F04B4-D1D7-4DC9-84C6-DDFCF24DE9F9}">
+                        Window.SendKeys(u'{Shift+Alt+P}', False, 2)
+                    </Action>
+                </Macro>
+                <Macro Name="launch Raid (unbuilt)" Enabled="False" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
                     <Event Name="*.run?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action Name="Check for running process" Enabled="False" XML_Guid="{ACBF1FA4-4B88-4171-9B81-45D2936556F2}">
                         EventGhost.PythonScript(u'egg = eg.globals\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\negg.Boot_programs = [\'TrayPP\', \'PlariumPlay\', \'Raid\']\n\nif eg.event.payload is None:\n    pass\nelif eg.event.payload == "":\n    pass\nelse:\n    if eg.event.payload[-3:] == "exe":\n        print eg.event.payload\n        egg.Boot_programs.append(eg.event.payload)\n        print egg.Boot_programs\n    else:\n        pass\n\n\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in egg.Boot_programs:\n        if e in p.name:\n            setattr(eg.globals, e, 1)\n            eg.plugins.EventGhost.TriggerEvent(u\'Is_running_\'+e, 0.0, None, False, False, False)\n            #print e +" is running"\n        else:\n            setattr(eg.globals, e, 0)\n        \n        \n')
@@ -485,73 +922,10 @@
                         System.Command(u'C:\\Users\\Dan.Edens\\AppData\\Local\\Plarium\\PlariumPlay\\PlariumPlay.exe  --args -gameid=101 -tray-start', False, False, u'', True, False, False, False, False)
                     </Action>
                 </Macro>
-                <Macro Name="refresh list" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_start" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="click on battle start" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 637\neg.globals.h_y = 362\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.1)')
-                    </Action>
+                <Macro Name="Window Menu" XML_Guid="{44865819-D880-4E44-A346-F60C42C19095}">
+                    <Event Name="*.raid?window?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                 </Macro>
-                <Macro Name="tap start" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_start" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="click on battle start" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 637\neg.globals.h_y = 362\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.1)')
-                    </Action>
-                </Macro>
-                <Macro Name="tap to cont" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_cont" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="click on tap to cont" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\n\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\neg.globals.h_x = 374\neg.globals.h_y = 381\n\neg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.8)\neg.plugins.Mouse.LeftDoubleClick()\neg.plugins.EventGhost.Wait(0.3)')
-                    </Action>
-                </Macro>
-                <Macro Name="sparring pit" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_pit" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="click on battle replay" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.1)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    click(535,257)\n    click(83,309)\n    click(215,309)\n    click(376,314)\n    click(526,315)\n    click(643,310)\n    click(711,42)\nelif screen == 3:\n    click(3660, 931)\n    click(3768, 960)\n    click(3244, 960)\n    click(3385, 960)\n    click(3514, 960)\n    click(3640, 960)\n    click(3810, 722)')
-                    </Action>
-                </Macro>
-                <Macro Name="minotaur" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_mino" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="open minotaur" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.2)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    pass\nelif screen == 3:\n    click(3740,1013)\n    click(3350,873)\n    click(3820,860)\n    eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 0 /siz 681 1047"\', False, False, u\'\', False, False, False, False, True)\n    eg.plugins.EventGhost.Wait(0.3)\n    click(3720,989)\n    eg.plugins.EventGhost.Wait(0.3)\n    click(3720,989)\n    eg.plugins.System.Command(u\'cmdow "Raid: Shadow Legends" /mov  3166 683 /siz 681 376"\', False, False, u\'\', False, False, False, False, True)')
-                    </Action>
-                    <Action XML_Guid="{84C30A7C-4F60-47E0-9BD5-6309DDB63E26}">
-                        EventGhost.Wait(1.0)
-                    </Action>
-                    <Action XML_Guid="{9D62DE69-1E6E-4308-9A64-E9D86E21835B}">
-                        Mouse.MouseWheel(-99)
-                    </Action>
-                </Macro>
-                <Macro Name="IceGolem" XML_Guid="{D85EC8FC-9D0B-4530-9A51-A6D6DE736B4A}">
-                    <Event Name="*.raid_ice" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Action Name="open Ice golem" XML_Guid="{249D2AA8-0FC9-4502-93A1-C5ABB8E24C69}">
-                        EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.2)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    click(535,257)\n    click(83,309)\n    click(215,309)\n    click(376,314)\n    click(526,315)\n    click(643,310)\n    click(711,42)\nelif screen == 3:\n    click(3740,1013)\n    click(3350,873)\n    click(3815,780)    ')
-                    </Action>
-                </Macro>
-                <Macro Name="Rebattle" XML_Guid="{F46657B6-9257-422D-9BF2-BFF25C36CDFC}">
-                    <Event Name="*.raid_replay" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                    <Event Name="*.raid_rebattle" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
-                    <Action XML_Guid="{E1AD6398-4E84-4D50-920E-5ACBB9E2CEE4}">
-                        Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
-                    </Action>
-                    <Action XML_Guid="{0E109512-5244-4A1E-8DCD-1B5893A21037}">
-                        Window.BringToFront()
-                    </Action>
-                    <Action Name="Screenshot" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
-                        EventGhost.PythonScript(u'try: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\n\nif eg.globals.loopscreenshot:\n    eg.plugins.EventGhost.Wait(0.1)\n    #screenshot\n')
-                    </Action>
-                    <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
-                        EventGhost.Wait(0.3)
-                    </Action>
-                    <Action XML_Guid="{588D5542-D704-4DAB-B3A7-2B315B92AD6D}">
-                        Window.SendKeys(u'R', False, 2)
-                    </Action>
-                    <Action Name="Minimize" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
-                        EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\n\nif eg.globals.loopminimize:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.Minimize()\n\nif eg.globals.loopalttab:\n    eg.plugins.Window.SendKeys(u'{Alt+Tabulator}', False, 2)")
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="Window control" XML_Guid="{29B5558B-47F7-433E-BE1A-255CF52B0967}" Expanded="True">
-                <Folder Name="Location" XML_Guid="{22D558AC-9D90-4242-BFAE-5E2EDD63D42C}" Expanded="True">
+                <Folder Name="Location" XML_Guid="{22D558AC-9D90-4242-BFAE-5E2EDD63D42C}">
                     <Macro Name="Python Script" Enabled="False" XML_Guid="{7DC67233-09B6-44BF-BD6F-5C8578CD5F15}">
                         <Event Name="System.WindowsCommand.raid_location" XML_Guid="{15A7C813-B967-44D4-A00F-2F2B9D50AA86}" />
                         <Action Enabled="False" XML_Guid="{EC800D63-126F-4192-8930-B7E30B8D8DC8}">
@@ -580,7 +954,7 @@
                             Window.MoveTo(3166, 683, 1)
                         </Action>
                     </Macro>
-                    <Macro Name="move raid (screen 1)" XML_Guid="{CA12D036-C253-4709-8A6D-5248E3318F82}">
+                    <Macro Name="move raid (screen 1)" XML_Guid="{CA12D036-C253-4709-8A6D-5248E3318F82}" Expanded="True">
                         <Event Name="*.mov?raid?1" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Event Name="*.mov?raid" Enabled="False" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Action XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
@@ -594,6 +968,40 @@
                             EventGhost.PythonScript(u"eg.globals.screenlap = 1\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 681, 376)")
                         </Action>
                     </Macro>
+                    <Macro Name="screen 2 corner" Enabled="False" XML_Guid="{7DC67233-09B6-44BF-BD6F-5C8578CD5F15}">
+                        <Event Name="System.WindowsCommand.raid_location" XML_Guid="{15A7C813-B967-44D4-A00F-2F2B9D50AA86}" />
+                        <Action Enabled="False" XML_Guid="{EC800D63-126F-4192-8930-B7E30B8D8DC8}">
+                            EventGhost.PythonScript(u"import re\n\n#0x120FE4 1 17780 Res Ina Ena Vis   3166    683    681    376 Raid     Raid: Sha\neg.globals.raid_size = eg.event.payload\n#temp2 = eg.event.payload(1)\n#temp3 = eg.event.payload(2)\n\nx = eg.globals.raid_size.split('   ')\n\ny = 0\nfor each in x:\n    y += 1\n    print y, each\n#print x\n#print re.findall('\\s*(?:(\\d+)\\D+)+(\\d+)\\s*', x)\n#print temp2\n#print temp3\n")
+                        </Action>
+                        <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" Enabled="False" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
+                            Window.MoveTo(5095, 637, 0)
+                        </Action>
+                        <Action XML_Guid="{72FCBF06-3B26-4E95-B47E-2BF70E7E619B}">
+                            Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
+                            Window.MoveTo(1263, 637, 1)
+                        </Action>
+                    </Macro>
+                    <Macro Name="screen 3 corner" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
+                        <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
+                            Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{8A2F39E2-990A-4557-B260-87765687CDCA}">
+                            Window.Resize(681, 376)
+                        </Action>
+                        <Action XML_Guid="{0C5EC5DF-68D8-49FF-9BA3-7E5B8DF3D3A3}">
+                            Window.MoveTo(3166, 683, 1)
+                        </Action>
+                    </Macro>
+                    <Macro Name="move raid 0 0" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
+                        <Event Name="*.move?raid?0?0" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="move to 0 o" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.globals.screenlap = 0\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 681, 376)")
+                        </Action>
+                    </Macro>
                     <Macro Name="move_raid(300, 672, 681, 376)" Enabled="False" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
                         <Event Name="*.move?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
@@ -603,7 +1011,7 @@
                         </Action>
                     </Macro>
                 </Folder>
-                <Folder Name="Size" XML_Guid="{E720F9A8-F42D-4B0A-B461-C8FDC0E273EC}" Expanded="True">
+                <Folder Name="Size" XML_Guid="{E720F9A8-F42D-4B0A-B461-C8FDC0E273EC}">
                     <Macro Name="raid min tiny" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
                         <Event Name="*.minimize_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
                         <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
@@ -620,9 +1028,15 @@
                             Window.MoveTo(1700, 938, 2)
                         </Action>
                     </Macro>
+                    <Macro Name="Make raid tiny" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
+                        <Event Name="*.move?raid?tiny" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="move to 0 o" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.globals.screenlap = 0\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 341, 231)")
+                        </Action>
+                    </Macro>
                     <Macro Name="raid minimize" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
                         <Event Name="*.minimize_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                        <Event Name="*.min_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
                         <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
                             Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
                         </Action>
@@ -638,6 +1052,15 @@
                 </Action>
             </Macro>
             <Folder Name="Built-in Hotkeys" XML_Guid="{8059E88E-AE35-4292-BCC2-9C1920AA66A1}">
+                <Macro Name="Hotkey hotkeys" XML_Guid="{06EB82D1-2C41-4BB3-87E6-C9DD21673E56}" Expanded="True">
+                    <Event Name="*.raid?notes?hotkey" XML_Guid="{EBE7EFB8-0080-4CE0-81C6-B8C1B1FDCC97}" />
+                    <Action Name="notes" id="2620" Enabled="False" XML_Guid="{5E794D3A-B300-41A0-A06D-FC1B997E2A3A}">
+                        EventGhost.PythonScript(u'x = """\nP = Pause/exit Fight\nT = Open Profile on base or Auto Battle\nR = Replay Battle or open Limited Special Offers tab\nC = Champions\nE = Events\nAlt+Enter = Fullscreen in/out\nShift = Speed in Battles or to trigger the left menu\nN = Daily rewards calling on base\nV = Challenges calling on base\nZ = Also shop but Packs tab\nI = Inbox if called on base or info in battle\nH = Clan info\nK = Progress Missions\nL = Daily quests\nX = Champion Index\nQ/W/E = Select \u2013 A1/A2/A3 in battle\nEnter = Start Dungeons / Dungeon menu\nESC = Back\n\n"""')
+                    </Action>
+                    <Action XML_Guid="{3CC4435D-A485-4F4F-8820-DB8A7A8D43A7}">
+                        EventGhost.OpenConfig(XmlIdLink(2620))
+                    </Action>
+                </Macro>
                 <Macro Name="P = Pause/exit Fight" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
                 <Macro Name="T = Open Profile on base or Auto Battle" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
                 <Macro Name="R = Replay Battle or open Limited Special Offers tab" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
@@ -679,15 +1102,37 @@
                     <Macro Name="Offers - R" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
                     <Macro Name="Playtime reward - N" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
                 </Folder>
-                <Folder Name="select heros for battle window" XML_Guid="{6BA141CC-BBB4-4C9E-A29A-494393DCF816}">
+                <Folder Name="select heros for battle window" XML_Guid="{6BA141CC-BBB4-4C9E-A29A-494393DCF816}" Expanded="True">
                     <Macro Name="champions - C" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
                     <Macro Name="Start - Enter" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
                     <Macro Name="Selkect a hero - space" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
                     <Macro Name="Right D" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
                     <Macro Name="Lefft A" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
                 </Folder>
+                <Folder Name="Hotkeys" XML_Guid="{A0A79D33-20A6-4E7F-BAD1-C42C03743FCD}" />
             </Folder>
             <Folder Name="Custom Hotkeys" XML_Guid="{E5B81B10-48BE-48D0-A84D-52059F31CB34}" />
+            <Folder Name="old" Enabled="False" XML_Guid="{D01BEDA5-1A64-40A4-805C-2E996F3A6F2A}" />
+            <Folder Name="LogParser" XML_Guid="{C7A7307D-696D-410F-A4E3-1EF877BF0C44}">
+                <Macro Name="parse logs example" XML_Guid="{83A11CAF-E798-4FAE-8D5C-0089B7B41E09}">
+                    <Action Name="log parser" XML_Guid="{ACF825F9-BC46-416B-B5C5-8A6E3B785653}">
+                        EventGhost.PythonScript(u'x = "Full normalization mode set [Time: 6/25/2021 5:41:33 PM, Resources: [Energy: 24.9111111111112], [Silver: 263430.073149072], [Token: 3.22583333333334], [Gem: 42], [Arena3X3ShopCurrency:       1278], [Arena3x3Token: 5], [Orb_MagicLow: 20], [Orb_MagicMid: 9], [Orb_MagicHigh: 4], [Orb_ForceMid: 97], [Orb_SpiritLow: 692], [Orb_SpiritMid: 111], [Orb_SpiritHigh: 28], [Orb_VoidLow: 45], [Orb_VoidMid: 80], [Orb_VoidHigh: 14], [Orb_ArcaneLow: 50], [Orb_ArcaneMid: 5], [Orb_ArcaneHigh: 26], [Medal_Bronze: 1], [Medal_Silver: 1], [Medal_Gold: 745], [AllianceBossKey:       1.04421296296297], [FractionWarKey_BannerLords: 6], [FractionWarKey_OgrynTribes: 10], [Forge_Magisteel: 3001], [Forge_Corehammer: 3], [Forge_SoulstoneRare: 367], [Forge_SoulstoneEpic:       434], [Forge_SoulstoneLeg: 20], [Forge_BloodstoneRare: 261], [Forge_BloodstoneEpic: 224], [Forge_BloodstoneLeg: 2], [Forge_NetherSpiderEggsRare: 200], [Forge_NetherSpiderEggsEpic: 19]      , [Forge_ScarabClawsRare: 7], [Forge_ScarabClawsEpic: 4], [Forge_MagmaDragonCoresRare: 406], [Forge_MagmaDragonCoresEpic: 129], [Forge_FrostSpiderSpinesRare: 7], [Forge_DragonBoneRare:       577], [Forge_DragonBoneEpic: 214], [Forge_GriffinFeatherRare: 211], [Forge_GriffinFeatherEpic: 1], [DoomTowerGoldKey: 10], [DoomTowerSilverKey: 10]]"\n\ninput =  x[67:-1]\nstring =  input.split(\',\')\nmyvars = {}\nfor each in string:\n    name, var = each.partition(":")[::2]\n    try:\n        myvars[name.strip()] = float(var[:-1])\n    except:\n        pass\n    myvars[name[2:]] = var[:-1]\n\n\nprint(myvars[\'Energy\'])\nprint(myvars[\'Silver\'])\nprint(myvars[\'Token\'])\nprint(myvars[\'Gem\'])\nprint(myvars[\'Arena3X3ShopCurrency\'])\nprint(myvars[\'Arena3x3Token\'])\nprint(myvars[\'Orb_MagicLow\'])\nprint(myvars[\'Orb_MagicMid\'])\nprint(myvars[\'Orb_MagicHigh\'])\nprint(myvars[\'Orb_ForceMid\'])\nprint(myvars[\'Orb_SpiritLow\'])\nprint(myvars[\'Orb_SpiritMid\'])\nprint(myvars[\'Orb_SpiritHigh\'])\nprint(myvars[\'Orb_VoidLow\'])\nprint(myvars[\'Orb_VoidMid\'])\nprint(myvars[\'Orb_VoidHigh\'])\nprint(myvars[\'Orb_ArcaneLow\'])\nprint(myvars[\'Orb_ArcaneMid\'])\nprint(myvars[\'Orb_ArcaneHigh\'])\nprint(myvars[\'Medal_Bronze\'])\nprint(myvars[\'Medal_Silver\'])\nprint(myvars[\'Medal_Gold\'])\nprint(myvars[\'AllianceBossKey\'])\nprint(myvars[\'FractionWarKey_BannerLords\'])\nprint(myvars[\'FractionWarKey_OgrynTribes\'])\nprint(myvars[\'Forge_Magisteel\'])\nprint(myvars[\'Forge_Corehammer\'])\nprint(myvars[\'Forge_SoulstoneRare\'])\nprint(myvars[\'Forge_SoulstoneEpic\'])\nprint(myvars[\'Forge_SoulstoneLeg\'])\nprint(myvars[\'Forge_BloodstoneRare\'])\nprint(myvars[\'Forge_BloodstoneEpic\'])\nprint(myvars[\'Forge_BloodstoneLeg\'])\nprint(myvars[\'Forge_NetherSpiderEggsRare\'])\nprint(myvars[\'Forge_NetherSpiderEggsEpic\'])\nprint(myvars[\'Forge_ScarabClawsRare\'])\nprint(myvars[\'Forge_ScarabClawsEpic\'])\nprint(myvars[\'Forge_MagmaDragonCoresRare\'])\nprint(myvars[\'Forge_MagmaDragonCoresEpic\'])\nprint(myvars[\'Forge_FrostSpiderSpinesRare\'])\nprint(myvars[\'Forge_DragonBoneRare\'])\nprint(myvars[\'Forge_DragonBoneEpic\'])\nprint(myvars[\'Forge_GriffinFeatherRare\'])\nprint(myvars[\'Forge_GriffinFeatherEpic\'])\nprint(myvars[\'DoomTowerGoldKey\'])\nprint(myvars[\'DoomTowerSilverKey\'])')
+                    </Action>
+                </Macro>
+                <Macro Name="Open Logparse" XML_Guid="{F47E9D61-1383-4025-918A-E175CD176340}">
+                    <Event Name="*.cd?logparse" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                    <Action XML_Guid="{11AEBF55-0140-4806-AE42-6705371D773D}">
+                        System.Execute(u'C:\\Users\\Dan.Edens\\OneDrive - Keller\\.user\\the_lab\\logparse\\', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
+                    </Action>
+                </Macro>
+                <Macro Name="Run parser" XML_Guid="{18F02C85-0C3A-4D2D-A540-140F56DC3FE8}">
+                    <Event Name="*.raid?parser?run" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                    <Event Name="*.monitor?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                    <Action XML_Guid="{C892C6DE-7292-4BF9-99F2-C397BBB376A2}">
+                        System.Execute(u'C:\\Users\\Dan.Edens\\OneDrive - Keller\\.user\\the_lab\\logparse\\run.cmd', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
+                    </Action>
+                </Macro>
+            </Folder>
         </Folder>
         <Folder Name="Interface controller" XML_Guid="{C6E41CC2-087A-48F5-A690-C124C894B8FF}">
             <Folder Name="Lcore groups" id="373" Enabled="False" XML_Guid="{641E7FF3-572D-45F6-B0B3-EF26285DCA07}">
@@ -967,7 +1412,7 @@
                     </Folder>
                 </Folder>
             </Folder>
-            <Folder Name="Mouse" XML_Guid="{F692F6ED-90E0-4266-B34A-FD75B93628DC}" Expanded="True">
+            <Folder Name="Mouse" XML_Guid="{F692F6ED-90E0-4266-B34A-FD75B93628DC}">
                 <Folder Name="Clicker" id="505" XML_Guid="{B20F7640-FA00-47CA-BE18-C3CDCD7485EA}" Expanded="True">
                     <Macro Name="return mouse" XML_Guid="{511DAE4B-3AA5-45CB-94DF-2C1A64066F75}">
                         <Event Name="*.return?mouse" XML_Guid="{565772B1-46DD-40AE-B4C3-8D3A58A1CAC9}" />
@@ -2039,7 +2484,7 @@
                         </Action>
                     </Macro>
                 </Folder>
-                <Folder Name="focus phone" XML_Guid="{AB7D8627-7C4F-4EAA-BB77-48996255CB8B}" Expanded="True">
+                <Folder Name="focus phone" XML_Guid="{AB7D8627-7C4F-4EAA-BB77-48996255CB8B}">
                     <Macro Name="Find Window: scrcpy.exe" XML_Guid="{7D222D72-4071-4CC5-A02F-EF7168929958}">
                         <Action XML_Guid="{D686678B-0799-4098-A81D-E82FEC680EBF}">
                             Window.FindWindow(u'scrcpy.exe', u'SM-G970U', u'SDL_app', None, None, None, False, 0.0, 0)
@@ -2055,6 +2500,25 @@
                         </Action>
                     </Macro>
                 </Folder>
+                <Macro Name="always on top" XML_Guid="{9E1C17B8-34C2-4AB4-881F-80AE08F21AD7}">
+                    <Event Name="*.set?aot" XML_Guid="{9FEA6A32-794E-4F95-854B-CD9A483DB61B}" />
+                    <Event Name="Keyboard.LCtrl+LAlt+Cancel" Enabled="False" XML_Guid="{926CF647-2FEA-4ABC-9168-019FE424E5BB}" />
+                    <Action XML_Guid="{F39ADAF7-0ACB-4BDA-A1E3-ABA54DC90D68}">
+                        Speech.TextToSpeech(u'Microsoft Zira Desktop - English (United States)', 5, u'armed', u'', 100, u'Speakers (10- Logitech G933 Gaming Headset)')
+                    </Action>
+                    <Action XML_Guid="{EC3EEFCA-921F-4E23-9C84-69EE0474A523}">
+                        EventGhost.Wait(1.0)
+                    </Action>
+                    <Action Enabled="False" XML_Guid="{0A8421ED-2B91-4E09-A8C3-882B98A36C64}">
+                        EventGhost.PythonScript(u'#eg.plugins.Speech.TextToSpeech(u\'Microsoft Zira Desktop - English (United States)\', 5, u\'armed\', u\'\', 100, u\'Speakers (10- Logitech G933 Gaming Headset)\')\neg.plugins.EventGhost.Wait(1.0)\neg.plugins.Window.SetAlwaysOnTop(2)\nx= """\neg.plugins.Speech.TextToSpeech(\n    u\'Microsoft Zira Desktop - English (United States)\',\n    5, \n    u\'AOT set\',\n    u\'\', \n    100,\n    u\'Speakers (10- Logitech G933 Gaming Headset)\'\n    )\n\n"""')
+                    </Action>
+                    <Action XML_Guid="{52527FDC-6FCF-4F7E-9B84-1537E6C28999}">
+                        Window.SetAlwaysOnTop(2)
+                    </Action>
+                    <Action XML_Guid="{F39ADAF7-0ACB-4BDA-A1E3-ABA54DC90D68}">
+                        Speech.TextToSpeech(u'Microsoft Zira Desktop - English (United States)', 5, u'AOT set', u'', 100, u'Speakers (10- Logitech G933 Gaming Headset)')
+                    </Action>
+                </Macro>
             </Folder>
             <Folder Name="Group controller" Enabled="False" XML_Guid="{8944EDA1-A4DE-4EEC-8B41-CFAAEC1CAE86}">
                 <Macro Name="Enable Exclusively: Mouse group 1 - Main" XML_Guid="{55788066-9E83-42BC-83D2-174C2B1BD164}">
@@ -3415,8 +3879,8 @@
         </Folder>
     </Folder>
     <Folder Name="Main" id="1782" XML_Guid="{A2DF748D-1A26-48B7-96BA-4BB24F475592}" Expanded="True">
-        <Folder Name="Clipboard Manager" XML_Guid="{FFA73B0A-D202-499E-B39B-7F98E46907BE}">
-            <Folder Name="Extended" XML_Guid="{50EFD6F9-5847-4847-9141-A7B97F2F365D}">
+        <Folder Name="Clipboard Manager" XML_Guid="{FFA73B0A-D202-499E-B39B-7F98E46907BE}" Expanded="True">
+            <Folder Name="Extended" XML_Guid="{50EFD6F9-5847-4847-9141-A7B97F2F365D}" Expanded="True">
                 <Folder Name="Clip" XML_Guid="{DFFCA712-054A-4F76-A736-A7A58075C1D4}">
                     <Macro Name="Grab Clip 1" id="1786" XML_Guid="{3D37150D-CEE8-4F8E-92EC-81CE397334B1}">
                         <Event Name="*.Alt+1" XML_Guid="{400970D1-411C-4802-9F19-49017679D9FD}" />
@@ -3546,39 +4010,6 @@
                         </Action>
                         <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
                             System.Command(u'rost vars/clip0 {eg.globals.clip0}', False, False, u'', False, False, False, False, False)
-                        </Action>
-                    </Macro>
-                    <Macro Name="Set all to null" XML_Guid="{8F4A4292-D16B-4FC3-8507-05448F05D34E}">
-                        <Event Name="nrost?clip?all" XML_Guid="{8863B8BC-60D3-44F9-984D-CB41715F546D}" />
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip1', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip2', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip3', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip4', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip5', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip6', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip7', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip8', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip9', False, False, u'', False, False, False, False, False)
-                        </Action>
-                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
-                            System.Command(u'nrost vars/clip0', False, False, u'', False, False, False, False, False)
                         </Action>
                     </Macro>
                 </Folder>
@@ -3744,13 +4175,87 @@
                         </Action>
                     </Macro>
                 </Folder>
+                <Folder Name="utlities" XML_Guid="{029E84BD-08D4-40D9-9579-E91B1D78A728}" Expanded="True">
+                    <Macro Name="Edit Clip" XML_Guid="{D7C5BABB-3651-4E0E-99FB-CD10F69703FF}">
+                        <Event Name="*.clip?new" XML_Guid="{3232828D-80E3-4C9D-B0F1-CD68FDF0A273}" />
+                        <Action XML_Guid="{6B50A284-0FB2-493D-9F1E-2A7FCF056AF3}">
+                            EventGhost.OpenConfig(XmlIdLink(2685))
+                        </Action>
+                        <Action Name="Manually set new values" id="2685" Enabled="False" XML_Guid="{942272F6-C73A-461F-970E-BE150F2E782F}">
+                            EventGhost.PythonScript(u'eg.globals.clip1 = ""\neg.globals.clip2 = ""\neg.globals.clip3 = ""\neg.globals.clip4 = ""\neg.globals.clip5 = ""\neg.globals.clip6 = ""\neg.globals.clip7 = ""\neg.globals.clip8 = ""\neg.globals.clip9 = ""\neg.globals.clip0 = ""\neg.plugins.EventGhost.TriggerEvent(u\'vars/clip_update\', 0.0, None, False, False, False)')
+                        </Action>
+                    </Macro>
+                    <Macro Name="Rost Clip - all" XML_Guid="{8F4A4292-D16B-4FC3-8507-05448F05D34E}">
+                        <Event Name="*.clip?update" XML_Guid="{8863B8BC-60D3-44F9-984D-CB41715F546D}" />
+                        <Action XML_Guid="{942272F6-C73A-461F-970E-BE150F2E782F}">
+                            EventGhost.PythonScript(u"eg.plugins.System.Command(u'rost vars/clip1 {eg.globals.clip1}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip2 {eg.globals.clip2}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip3 {eg.globals.clip3}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip4 {eg.globals.clip4}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip5 {eg.globals.clip5}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip6 {eg.globals.clip6}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip7 {eg.globals.clip7}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip8 {eg.globals.clip8}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip9 {eg.globals.clip9}', False, False, u'', False, False, False, False, False)\neg.plugins.System.Command(u'rost vars/clip0 {eg.globals.clip0}', False, False, u'', False, False, False, False, False)\n\n")
+                        </Action>
+                    </Macro>
+                    <Macro Name="Nrost clip - all" XML_Guid="{8F4A4292-D16B-4FC3-8507-05448F05D34E}">
+                        <Event Name="*.clip?nrost?all" XML_Guid="{8863B8BC-60D3-44F9-984D-CB41715F546D}" />
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip1', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip2', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip3', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip4', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip5', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip6', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip7', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip8', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip9', False, False, u'', False, False, False, False, False)
+                        </Action>
+                        <Action XML_Guid="{6542BD97-DA91-4143-9C0A-2216E98E52C8}">
+                            System.Command(u'nrost vars/clip0', False, False, u'', False, False, False, False, False)
+                        </Action>
+                    </Macro>
+                    <Macro Name="Show Clip" XML_Guid="{1FA1A3ED-4B7F-4E7A-B67E-365AEEC45DC4}">
+                        <Event Name="*.clip?view" XML_Guid="{D922B35E-D195-4220-8BFF-594FD6D722F9}" />
+                        <Action Name="view file in clipboard" XML_Guid="{C2C15042-1C76-4A9F-A604-C27581B1F6BD}">
+                            EventGhost.PythonScript(u'import os\nimport win32clipboard\nwin32clipboard.OpenClipboard()\neg.globals.clip = os.path.normpath(win32clipboard.GetClipboardData())\nwin32clipboard.CloseClipboard()\neg.globals.clip = str(eg.globals.clip)\nprint eg.globals.clip\nispic = os.path.isfile(eg.globals.clip.encode(\'utf-8\'))\nprint ispic\nif not ispic or eg.globals.picIsShowing == 1:\n    print "Clearing last or isnt photo"\n    eg.globals.picIsShowing = 0\n    eg.plugins.System.ShowPicture(u\'\', 0)\nelse:\n    eg.globals.picIsShowing = 1\n    print "Uploading"\n    eg.plugins.System.ShowPicture(u\'{eg.globals.clip}\', 0)\n    \n# C:\\Users\\Dan.Edens\\Desktop\\Sorting\\KUzspT6i7Z.jpg')
+                        </Action>
+                    </Macro>
+                    <Macro Name="Run Clip" XML_Guid="{A7BDE815-0546-4501-A64C-68B6EC44DF71}">
+                        <Event Name="*.clip?run" XML_Guid="{045282B4-9AF7-454E-B473-55C2CBC9C4F8}" />
+                        <Action Name="Run clip contents through CMD" XML_Guid="{E5D4FA15-8937-4931-884E-78848E68F930}">
+                            EventGhost.PythonScript(u"import win32clipboard\nwin32clipboard.OpenClipboard()\neg.globals.clip = win32clipboard.GetClipboardData()\nwin32clipboard.CloseClipboard()\neg.plugins.System.Execute(u'C:\\\\Windows\\\\System32\\\\cmd.exe', u'/k {eg.globals.clip}', 0, False, 2, u'{eg.globals.activedir}', False, False, u'', False, False, False, False)\n\n\n")
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Clip repair bot" XML_Guid="{C89A1211-A6A0-43E2-B453-5C8346B675E5}">
+                    <Macro Name="Init Clip Repairbot" XML_Guid="{33F606D0-4F61-4317-A2B1-E624E71F5E01}" Expanded="True">
+                        <Event Name="Main.OnInit" XML_Guid="{4B85E51E-4BA5-4BB3-92F8-BDF200952A00}" />
+                        <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
+                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                        </Action>
+                    </Macro>
+                    <Macro Name="Repairbot: FixClip " XML_Guid="{ECF2573F-A0A9-466B-9574-E4075F7E2C25}">
+                        <Event Name="*.clip?fix" XML_Guid="{EA5CF647-8290-4F08-81E2-E0F6DE2CB5B5}" />
+                        <Event Name="*.fix?clip" XML_Guid="{EA5CF647-8290-4F08-81E2-E0F6DE2CB5B5}" />
+                        <Action Name="Repairing Broken Clipboard.." XML_Guid="{8D3FFC0F-116F-46BD-8DC0-E9AEF22664B6}">
+                            EventGhost.PythonScript(u'import win32clipboard\nwin32clipboard.OpenClipboard()\nwin32clipboard.CloseClipboard()\n\n\n#wxError1: Failed to get data from the clipboard (error -2147221040: openClipboard Failed)')
+                        </Action>
+                        <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
+                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                        </Action>
+                    </Macro>
+                </Folder>
             </Folder>
-            <Macro Name="Show clip picture" XML_Guid="{1FA1A3ED-4B7F-4E7A-B67E-365AEEC45DC4}">
-                <Event Name="*.view?clip" XML_Guid="{D922B35E-D195-4220-8BFF-594FD6D722F9}" />
-                <Action XML_Guid="{C2C15042-1C76-4A9F-A604-C27581B1F6BD}">
-                    EventGhost.PythonScript(u'import os\nimport win32clipboard\nwin32clipboard.OpenClipboard()\neg.globals.clip = os.path.normpath(win32clipboard.GetClipboardData())\nwin32clipboard.CloseClipboard()\neg.globals.clip = str(eg.globals.clip)\nprint eg.globals.clip\nispic = os.path.isfile(eg.globals.clip.encode(\'utf-8\'))\nprint ispic\nif not ispic or eg.globals.picIsShowing == 1:\n    print "Clearing last or isnt photo"\n    eg.globals.picIsShowing = 0\n    eg.plugins.System.ShowPicture(u\'\', 0)\nelse:\n    eg.globals.picIsShowing = 1\n    print "Uploading"\n    eg.plugins.System.ShowPicture(u\'{eg.globals.clip}\', 0)\n    \n# C:\\Users\\Dan.Edens\\Desktop\\Sorting\\KUzspT6i7Z.jpg')
-                </Action>
-            </Macro>
         </Folder>
         <Folder Name="File manager" XML_Guid="{E1FE9236-9513-49D6-8123-1D8CAD4A676C}">
             <Folder Name="File Shute" XML_Guid="{3C4E8F45-EE1A-459C-9696-47D72AC9E21B}">
@@ -4195,8 +4700,8 @@
                 </Macro>
             </Folder>
         </Folder>
-        <Folder Name="Damage Control" XML_Guid="{FF2DEA4B-A66D-427C-833F-09AF9B1E397A}">
-            <Folder Name="!Debugging" XML_Guid="{252F5762-B0DE-43F9-BC1A-8CA911FAFB18}">
+        <Folder Name="Damage Control" XML_Guid="{FF2DEA4B-A66D-427C-833F-09AF9B1E397A}" Expanded="True">
+            <Folder Name="!Debugging" XML_Guid="{252F5762-B0DE-43F9-BC1A-8CA911FAFB18}" Expanded="True">
                 <Macro Name="Debugger" XML_Guid="{900471C6-6A5C-49B3-8E5E-1557D32E69DD}">
                     <Event Name="*.debug" XML_Guid="{139D14EB-19A4-4C4F-829F-CE246EA516B4}" />
                     <Action Name="print and log debug data" XML_Guid="{E5483536-1594-41DB-BE42-21D99AAEE581}">
@@ -4231,49 +4736,9 @@
                     </Action>
                 </Macro>
             </Folder>
-            <Folder Name="Repairbot" XML_Guid="{2EB7668A-B0BC-4659-BBC0-A4EEC4AB2178}" Expanded="True">
-                <Macro Name="Emergency Override" Enabled="False" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}">
-                    <Event Name="*.OVERRIDE" XML_Guid="{E6083EC8-CF84-47B3-86B2-F814B81C1B0B}" />
-                    <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-                        EventGhost.DisableItem(XmlIdLink(-1))
-                    </Action>
-                    <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-                        EventGhost.DisableItem(XmlIdLink(-1))
-                    </Action>
-                    <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-                        EventGhost.DisableItem(XmlIdLink(-1))
-                    </Action>
-                    <Action XML_Guid="{0FF29032-440A-4B56-8FC2-9A2CC8154489}">
-                        EventGhost.StopProcessing()
-                    </Action>
-                    <Action XML_Guid="{A4BA1870-9833-45C1-8695-5C0EB7D56119}">
-                        EventGhost.FlushEvents()
-                    </Action>
-                    <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-                        EventGhost.DisableItem(XmlIdLink(-1))
-                    </Action>
-                </Macro>
-                <Folder Name="Clip" XML_Guid="{C89A1211-A6A0-43E2-B453-5C8346B675E5}">
-                    <Macro Name="Init Clip Repairbot" XML_Guid="{33F606D0-4F61-4317-A2B1-E624E71F5E01}" Expanded="True">
-                        <Event Name="Main.OnInit" XML_Guid="{4B85E51E-4BA5-4BB3-92F8-BDF200952A00}" />
-                        <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
-                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
-                        </Action>
-                    </Macro>
-                    <Macro Name="Repairbot: FixClip " XML_Guid="{ECF2573F-A0A9-466B-9574-E4075F7E2C25}">
-                        <Event Name="*.clip?fix" XML_Guid="{EA5CF647-8290-4F08-81E2-E0F6DE2CB5B5}" />
-                        <Event Name="*.fix?clip" XML_Guid="{EA5CF647-8290-4F08-81E2-E0F6DE2CB5B5}" />
-                        <Action Name="Repairing Broken Clipboard.." XML_Guid="{8D3FFC0F-116F-46BD-8DC0-E9AEF22664B6}">
-                            EventGhost.PythonScript(u'import win32clipboard\nwin32clipboard.OpenClipboard()\nwin32clipboard.CloseClipboard()\n\n\n#wxError1: Failed to get data from the clipboard (error -2147221040: openClipboard Failed)')
-                        </Action>
-                        <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
-                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
-                        </Action>
-                    </Macro>
-                </Folder>
-            </Folder>
-            <Folder Name="Alerts" XML_Guid="{E55687F1-DF5B-4504-ACD7-5D670B6D83F3}">
-                <Folder Name="Payload autologgers" XML_Guid="{9B22DD42-CAF0-4009-9D64-0366D3F18F2D}">
+            <Folder Name="Repairbot" XML_Guid="{2EB7668A-B0BC-4659-BBC0-A4EEC4AB2178}" />
+            <Folder Name="Alerts" XML_Guid="{E55687F1-DF5B-4504-ACD7-5D670B6D83F3}" Expanded="True">
+                <Folder Name="Payload autologgers" XML_Guid="{9B22DD42-CAF0-4009-9D64-0366D3F18F2D}" Expanded="True">
                     <Macro Name="Devices connected/dis" Enabled="False" XML_Guid="{A64A5576-EA3A-493C-832C-EF7EB60D76CE}">
                         <Event Name="*.payload?autolog" XML_Guid="{134BF3AB-4BF6-4B0C-B4A9-367D717D0ABF}" />
                         <Event Name="System.DeviceRemoved" XML_Guid="{11024866-E68A-46D3-8C2C-0E2858CC5ACD}" />
@@ -4286,9 +4751,9 @@
                         </Action>
                     </Macro>
                 </Folder>
-                <Folder Name="Titanfall sound stockpile" XML_Guid="{F1575744-86B3-4EE8-ADB6-4DCFF62F4F43}" Expanded="True">
-                    <Folder Name="Ronin" XML_Guid="{DF44A675-351F-42DC-8311-B9480931CBE5}" Expanded="True">
-                        <Macro Name="Controls are handed to you pilot" XML_Guid="{EFC24DC5-68D5-44C5-B291-DDA4C19CF869}" Expanded="True">
+                <Folder Name="Titanfall sound stockpile" XML_Guid="{F1575744-86B3-4EE8-ADB6-4DCFF62F4F43}">
+                    <Folder Name="Ronin" XML_Guid="{DF44A675-351F-42DC-8311-B9480931CBE5}">
+                        <Macro Name="Controls are handed to you pilot" XML_Guid="{EFC24DC5-68D5-44C5-B291-DDA4C19CF869}">
                             <Event Name="Main.OnInit" Enabled="False" XML_Guid="{4B85E51E-4BA5-4BB3-92F8-BDF200952A00}" />
                             <Event Name="*.ronin?controls?are?yours" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                             <Action XML_Guid="{68D3D461-AA01-49B8-8231-80F31530C5D9}">
@@ -4572,13 +5037,7 @@
                         EventGhost.ShowOSD(u'Message was recieved successfully', u'0;-24;0;0;0;700;0;0;0;1;0;0;2;32;Arial', (244, 0, 18), (0, 0, 0), 2, (100, 300), 0, 1.0, u'Default')
                     </Action>
                 </Macro>
-                <Macro Name="Alexa Notification" XML_Guid="{0C5B2AC0-9E50-43C3-B543-6133A431A86A}">
-                    <Event Name="*.send?alexa?note" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action Name="Alexanotification.bat" XML_Guid="{83577C94-9ACE-40F8-8FD4-A5BA330AC058}">
-                        System.Command(u'alexanotification.bat {eg.globals.alexanote}', True, False, u'', False, False, False, False, False)
-                    </Action>
-                </Macro>
-                <Macro Name="Power Level monitor" XML_Guid="{AA7B97E1-36AE-4A36-BFC4-9341E2248FA3}">
+                <Macro Name="Power Level monitor" XML_Guid="{AA7B97E1-36AE-4A36-BFC4-9341E2248FA3}" Expanded="True">
                     <Event Name="System.BatteryLevel.?0%" XML_Guid="{ABA7C958-1F94-4558-9C6E-D87E544B5602}" />
                     <Event Name="System.BatteryLevel.?5%" Enabled="False" XML_Guid="{ABA7C958-1F94-4558-9C6E-D87E544B5602}" />
                     <Event Name="*.status.batt" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
@@ -4589,10 +5048,10 @@
                 <Macro Name="Desktop Notification" XML_Guid="{0A44D5CD-D963-4FB4-84CD-0A1EB63E4DED}">
                     <Event Name="*.traytip*" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action Name="Traytip: Parse Payload" XML_Guid="{269FC6AE-540D-4313-AFB4-C4E61AF7F6B5}">
-                        EventGhost.PythonScript(u'eg.globals.msg = "Jobname: " + eg.globals.jobname\n\neg.globals.joinedmsg = " ".join(eg.event.payload[:])\neg.plugins.TrayTip.ShowTip(\n    \'{eg.globals.joinedmsg}\', \n    u\'{eg.globals.msg}\', \n    u\'\', \n    4, \n    True\n    )\n')
+                        EventGhost.PythonScript(u'eg.globals.msg = "Jobname: " + eg.globals.jobname\n\neg.globals.joinedmsg = " ".join(eg.event.payload[:])\neg.plugins.TrayTip.ShowTip(\n    u\'{eg.globals.joinedmsg}\', \n    u\'{eg.globals.msg}\', \n    u\'\', \n    4, \n    True\n    )\n')
                     </Action>
                 </Macro>
-                <Macro Name="Autoremote recieved alert" XML_Guid="{0A44D5CD-D963-4FB4-84CD-0A1EB63E4DED}">
+                <Macro Name="Autoremote recieved alert" XML_Guid="{0A44D5CD-D963-4FB4-84CD-0A1EB63E4DED}" Expanded="True">
                     <Event Name="*.Autoremote*" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action XML_Guid="{7391E4A7-4690-4488-94FC-D77D0A7BD205}">
                         TrayTip.ShowTip(u'Autoremote recieved', u'eg.event.suffix', u'', 4, True)
