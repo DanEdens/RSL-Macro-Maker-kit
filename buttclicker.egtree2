@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{5AD88953-8E9E-48EE-A6EB-7D878259C431}" Time="1638217143.75">
+<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{336D4A5C-C7E5-47F3-B351-2BACC0E5EC21}" Time="1638217762.53">
     <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}" Expanded="True">
         <Plugin XML_Guid="{7E4B3E75-0713-4CC4-86BE-A989C0E83E69}" Identifier="AutoRemote" Guid="{C18A174E-71E3-4C74-9A2B-8653CE9991E1}" File="AutoRemote">
             gAIoVQpBdXRvUmVtb3RlcQBNHAdYBQAAAEdob3N0cQFdcQIoKFgFAAAAUGl4ZWxxA1gUAAAAaHR0cDovL2dvby5nbC9WakFxa1JxBFiMAAAAQVBBOTFiRWRvTGx5QVVLTDZSUDFzaTdNbzI1UGFHVlR4aUc5WHVOZEtJOXMxSHNuZk9PQjBmMlVPc25kb0RyMnpaa3ZuWWk3aE1NQnpaQkNHbEdYakV0SHMxbWpZZUdfQnFnRFZfRm1SRWFvODd2a0RGdndBYnE4U3ZsVzk3czdXRmFJU3JEQk5tY3dxBVgAAAAAcQaIWAQAAAAxODE3cQd0cQgoWAsAAABTZXJ2ZXJnaG9zdHEJVQBxClisAAAAZ29vLmdsOmdjbUFQQTkxYkhMWV9lWG9DbnJVYlpFeDZ4N3l4THFqYll1bkJxSjJnZjcwdHEyS203MlZEbkljSlBxdmRBbzlKWTVPUnpqNTFxOGxFYlJ2U1ZCeTdZbEJzUnpUblpqNjZTYU50XzVSSm40TUYteUtlWVpkemZ6a0dDV2poYzdIVEtEZWRya1ZHTVpucFdTX0kzNTA3OEwyUGViYmFZWHBDdWV1QXELWA4AAAAxMi4yNDcuMjEzLjExOHEMiE50cQ0oWAsAAABzZXJ2ZXJnaG9zdHEOaApYCwAAAHNlcnZlcmdob3N0cQ9oBohYBAAAADE4MjFxEHRxEShYAgAAAHM4cRJoCliYAAAAY1VOemsxMGJEcWc6QVBBOTFiRnVTOFlrdVBZd0VWYXVwZnU5dFJ5ZVF1UlJaeXJmTGVfMURTWHltUERWakgzSWdFZFY1TnZuUE9UY3lFTmZkQWNoSzNwUXlmczc3QUs2Z0xmWjBRRnZVSmJna0Rxei1PTXlYZEdrd1dlakM1R0pBOHRqTlJnTmJjS1pWUUJ1QXV3VmF3OVZxE06JTnRxFGVoBlgdAAAAJVVTRVJQUk9GSUxFJVxEZXNrdG9wXFNvcnRpbmdxFYhYLQAAADEvTUhidHIyaHBuYnR1WHl4anNzdXNLN2tkR1hib1hIdUQ1c3Q0VmVZTVlOUXEWiYhYEgAAAFNlbmQgdG8gRXZlbnRHaG9zdHEXiGgGiHRxGC4=
@@ -35,10 +35,10 @@
             gAIpLg==
         </Plugin>
         <Action Name="Define Globals" XML_Guid="{0F22CD5F-FE5B-4B4D-9EEB-70D8AED23C43}">
-            EventGhost.PythonScript(u'import os\n\neg.globals.version = 61\neg.globals.boot = 1 \neg.globals.debug = 0 # Print verbose debug messages\neg.globals.status_battery = 0 # print out changes in battery value\neg.globals.foomonitor = 0 # Number for default monitor\neg.globals.screenlapOverride = False # Override default monitor and use foomonitor (WIP)\neg.globals.remote_show_location = \'test\' # "mouse" also accepted\n\n# Define system variables\neg.globals.togglenumpad = 1\neg.globals.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\n\n# Setup Environment and check for settings overrides\neg.globals.DeNa = os.environ.get(\'hostname\')\neg.globals.userprofile = os.environ.get(\'USERPROFILE\')\neg.globals.jobname = os.environ.get(\'jobname\', \'buttclicker\')\neg.globals.logparsedir = os.environ.get(\'logparsedir\', eg.globals.userprofile)\neg.globals.machineshopdir = os.environ.get(\'machineshopdir\', eg.globals.userprofile)\n\n\neg.globals.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\neg.globals.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\n\n\neg.globals.vault = os.environ.get(\'vault\', eg.globals.userprofile)\neg.globals.jobpath = os.environ.get(\'jobpath\', eg.globals.userprofile + "\\\\" + eg.globals.jobname)\neg.globals.lab = os.environ.get(\'lab\', eg.globals.userprofile + "\\\\lab")\n\neg.globals.awsip = os.environ.get(\'awsip\')\n\n\neg.globals.desktop = eg.globals.userprofile+"\\\\Desktop\\\\"\neg.globals.bin = eg.globals.userprofile+"\\\\bin\\\\eg"\n\neg.globals.notifications = eg.globals.userprofile+"\\\\Music\\\\Notifications\\\\"\neg.globals.drive = eg.globals.userprofile+"\\\\Drive\\\\"\neg.globals.tasker = eg.globals.drive+"\\\\Tasker\\\\"\neg.globals.ghost = eg.globals.drive+"\\\\Ghost\\\\"\n\neg.globals.geovault = os.path.join(eg.globals.onedrive, \'GeoVault\')\neg.globals.logdir = eg.globals.vault+"Logs\\\\"\neg.globals.logdir = os.environ.get(\'logs\', eg.globals.desktop)\neg.globals.notes = os.environ.get(\'notes\', eg.globals.desktop)\neg.globals.desknote = eg.globals.notes+"\\\\Desknote.txt"\n\neg.globals.jobs = os.path.join(eg.globals.geovault + \'\\\\Jobs\')\neg.globals.sorter = eg.globals.desktop+"Sorting\\\\"\n\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
+            EventGhost.PythonScript(u'import os\n\neg.globals.version = 61\neg.globals.boot = 1 \neg.globals.debug = 0 # Print verbose debug messages\neg.globals.status_battery = 0 # print out changes in battery value\neg.globals.foomonitor = 0 # Number for default monitor\neg.globals.screenlapOverride = False # Override default monitor and use foomonitor (WIP)\neg.globals.remote_show_location = \'test\' # "mouse" also accepted\n\n# Define system variables\neg.globals.togglenumpad = 1\neg.globals.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\n\n# Setup Environment and check for settings overrides\neg.globals.DeNa = os.environ.get(\'username\')\neg.plugins.System.Command(u\'rost Buttclicker running for user {eg.globals.DeNa}..\', False, False, u\'\', False, False, False, False, False)\neg.globals.userprofile = os.environ.get(\'USERPROFILE\')\neg.globals.jobname = os.environ.get(\'jobname\', \'buttclicker\')\neg.globals.logparsedir = os.environ.get(\'logparsedir\', eg.globals.userprofile)\neg.globals.machineshopdir = os.environ.get(\'machineshopdir\', eg.globals.userprofile)\n\n\neg.globals.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\neg.globals.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\n\n\neg.globals.vault = os.environ.get(\'vault\', eg.globals.userprofile)\neg.globals.jobpath = os.environ.get(\'jobpath\', eg.globals.userprofile + "\\\\" + eg.globals.jobname)\neg.globals.lab = os.environ.get(\'lab\', eg.globals.userprofile + "\\\\lab")\n\neg.globals.awsip = os.environ.get(\'awsip\')\n\n\neg.globals.desktop = eg.globals.userprofile+"\\\\Desktop\\\\"\neg.globals.bin = eg.globals.userprofile+"\\\\bin\\\\eg"\n\neg.globals.notifications = eg.globals.userprofile+"\\\\Music\\\\Notifications\\\\"\neg.globals.drive = eg.globals.userprofile+"\\\\Drive\\\\"\neg.globals.tasker = eg.globals.drive+"\\\\Tasker\\\\"\neg.globals.ghost = eg.globals.drive+"\\\\Ghost\\\\"\n\neg.globals.geovault = os.path.join(eg.globals.onedrive, \'GeoVault\')\neg.globals.logdir = eg.globals.vault+"Logs\\\\"\neg.globals.logdir = os.environ.get(\'logs\', eg.globals.desktop)\neg.globals.notes = os.environ.get(\'notes\', eg.globals.desktop)\neg.globals.desknote = eg.globals.notes+"\\\\Desknote.txt"\n\neg.globals.jobs = os.path.join(eg.globals.geovault + \'\\\\Jobs\')\neg.globals.sorter = eg.globals.desktop+"Sorting\\\\"\n\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\neg.plugins.EGAppControl.LogMonitor(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
         </Action>
     </Autostart>
-    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}">
+    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}" Expanded="True">
         <Event Name="*.OVERRIDE" XML_Guid="{E6083EC8-CF84-47B3-86B2-F814B81C1B0B}" />
         <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
             EventGhost.DisableItem(XmlIdLink(27))
@@ -59,7 +59,7 @@
             EventGhost.PythonScript(u"eg.plugins.System.Command(u'post Override command has been used on {eg.globals.DeNa}', False, False, u'', False, False, False, False, False)")
         </Action>
     </Macro>
-    <Folder Name="Toolkit" id="27" XML_Guid="{CD2783E1-0AD7-494F-B011-B98D64BB5ED2}" Expanded="True">
+    <Folder Name="Toolkit" id="27" XML_Guid="{CD2783E1-0AD7-494F-B011-B98D64BB5ED2}">
         <Macro Name="EG input line" XML_Guid="{EA937F2A-0C13-4A46-BB34-27DB03E1FE4B}">
             <Event Name="*.egc*" XML_Guid="{37F02DFE-A09E-449C-A9B0-987D4A47AA77}" />
             <Event Name="Keyboard.Multiply+Subtract+Divide" XML_Guid="{45333415-7B02-452F-B076-F540289CC99F}" />
@@ -76,13 +76,13 @@
                 EventGhost.PythonScript(u'import win32gui\nimport re\n\n\nclass WindowMgr:\n    """Encapsulates some calls to the winapi for window management"""\n\n    def __init__ (self):\n        """Constructor"""\n        self._handle = None\n\n    def find_window(self, class_name, window_name=None):\n        """find a window by its class_name"""\n        self._handle = win32gui.FindWindow(class_name, window_name)\n\n    def _window_enum_callback(self, hwnd, wildcard):\n        """Pass to win32gui.EnumWindows() to check all the opened windows"""\n        if re.match(wildcard, str(win32gui.GetWindowText(hwnd))) is not None:\n            self._handle = hwnd\n\n    def find_window_wildcard(self, wildcard):\n        """find a window whose title matches the wildcard regex"""\n        self._handle = None\n        win32gui.EnumWindows(self._window_enum_callback, wildcard)\n\n    def set_foreground(self):\n        """put the window in the foreground"""\n        win32gui.SetForegroundWindow(self._handle)\n\n\nw = WindowMgr()\nw.find_window_wildcard("*EGCommandLine*")\nw.set_foreground()')
             </Action>
         </Macro>
-        <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}" Expanded="True">
+        <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}">
             <Event Name="*.check?boot?programs" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
             <Action Name="Check boot program list" XML_Guid="{75BCD05D-093D-40BC-B41D-59A926BEDA2F}">
                 EventGhost.PythonScript(u'import os\n\nBoot_programs = []\n_defaultfile = os.environ.get(\'USERPROFILE\')+".bootscripts\\\\process_list"\nfile = os.environ.get(\'EGBOOTPROGRAMS\', _defaultfile)\n\n\n# Program List and .env file override\nif not os.path.exists(os.path.dirname(file)):\n    Boot_programs = [\n        \'Raid.exe\',\n        \'scrcpy.exe\',\n        \'ShareX.exe\',\n        #\'LCore.exe\',\n        \'Altdrag.exe\'\n        ]\nelse:\n    with open(file) as f:\n        content = f.readlines()\n        for x in content:\n            item = x.strip()\n            print item\n            Boot_programs.append(item)\n\n\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in Boot_programs:\n        if e in p.name:\n            print e +" is running"\n        else:\n            pass\n        ')
             </Action>
         </Macro>
-        <Folder Name="Software toolkits" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}" Expanded="True">
+        <Folder Name="Software toolkits" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}">
             <Folder Name="Playirum Play Launcher" XML_Guid="{C27CB091-52EE-45A5-BCDA-C2A98DB0FC7C}">
                 <Macro Name="launch plarium play launcher" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
                     <Event Name="*.run?plarium" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
@@ -97,7 +97,7 @@
                     </Action>
                 </Macro>
             </Folder>
-            <Folder Name="Raid" XML_Guid="{03CBECCF-07EA-486A-B061-1BFA9C3D4A81}" Expanded="True">
+            <Folder Name="Raid" XML_Guid="{03CBECCF-07EA-486A-B061-1BFA9C3D4A81}">
                 <Macro Name="launch Raid" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
                     <Event Name="*.run?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action Name="Launch raid if not running" XML_Guid="{ACBF1FA4-4B88-4171-9B81-45D2936556F2}">
@@ -111,7 +111,7 @@
                     </Action>
                 </Macro>
             </Folder>
-            <Folder Name="Terminal" XML_Guid="{C192D0B2-CCC4-4E6B-9F9C-081E6E7405D9}" Expanded="True">
+            <Folder Name="Terminal" XML_Guid="{C192D0B2-CCC4-4E6B-9F9C-081E6E7405D9}">
                 <Folder Name="launch Profile" XML_Guid="{C6D94220-A293-4BF2-A30B-DB28D90016F5}">
                     <Macro Name="cmd" XML_Guid="{E0BB5C42-95E2-449A-9D7E-738998BC424E}">
                         <Event Name="*.wt?cmd" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
@@ -187,7 +187,7 @@
                     </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="Lcore" XML_Guid="{E367C4E9-9ED5-4602-A204-5FF25A5AF850}" Expanded="True">
+            <Folder Name="Lcore" XML_Guid="{E367C4E9-9ED5-4602-A204-5FF25A5AF850}">
                 <Macro Name="Hide Lcore" XML_Guid="{39D85600-FB1B-4302-B097-9EA515D8F594}">
                     <Event Name="*.hide?lcore" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action XML_Guid="{FB83775C-725D-4FCE-9026-B84171E19E43}">
@@ -1404,7 +1404,7 @@
             </Macro>
         </Folder>
     </Folder>
-    <Folder Name="bin" id="256" XML_Guid="{20987FD1-2DF1-4BC3-9CA9-2E802DBBA652}" Expanded="True">
+    <Folder Name="bin" id="256" XML_Guid="{20987FD1-2DF1-4BC3-9CA9-2E802DBBA652}">
         <Folder Name="Buttclicker" XML_Guid="{35DE5D4A-93B4-4E8B-8ECC-EF433BDE6227}">
             <Folder Name="repo-tools" XML_Guid="{D553D227-90B0-45BC-BBCA-5380865B7BDC}">
                 <Macro Name="Open buttclicker Repo" XML_Guid="{E461A572-B26E-475D-841A-102E654A99CB}">
@@ -2128,7 +2128,7 @@
             </Macro>
         </Folder>
     </Folder>
-    <Folder Name="Main" id="1782" XML_Guid="{A2DF748D-1A26-48B7-96BA-4BB24F475592}" Expanded="True">
+    <Folder Name="Main" id="1782" XML_Guid="{A2DF748D-1A26-48B7-96BA-4BB24F475592}">
         <Folder Name="Clipboard Manager" XML_Guid="{FFA73B0A-D202-499E-B39B-7F98E46907BE}">
             <Folder Name="Extended" XML_Guid="{50EFD6F9-5847-4847-9141-A7B97F2F365D}">
                 <Folder Name="Clip" XML_Guid="{DFFCA712-054A-4F76-A736-A7A58075C1D4}">
@@ -4132,7 +4132,7 @@
                 </Macro>
             </Folder>
         </Folder>
-        <Folder Name="File manager" XML_Guid="{E1FE9236-9513-49D6-8123-1D8CAD4A676C}" Expanded="True">
+        <Folder Name="File manager" XML_Guid="{E1FE9236-9513-49D6-8123-1D8CAD4A676C}">
             <Folder Name="File Shute " XML_Guid="{3C4E8F45-EE1A-459C-9696-47D72AC9E21B}" Expanded="True">
                 <Folder Name="Autosorter" XML_Guid="{2307A110-1E6D-4A51-81F9-CCE51BF468C1}">
                     <Macro Name="Send to Autosorter context item" XML_Guid="{9552EB6E-43C5-411F-8FC2-B4543DE7BB28}">
@@ -4930,7 +4930,7 @@
             </Folder>
         </Folder>
     </Folder>
-    <Folder Name="Bonus" XML_Guid="{267EB406-2073-451D-9E4D-42144D04C113}" Expanded="True">
+    <Folder Name="Bonus" XML_Guid="{267EB406-2073-451D-9E4D-42144D04C113}">
         <Folder Name="random Python scripts to try!" Enabled="False" XML_Guid="{F6BB9806-8012-4E83-8B93-81F754C09FCB}">
             <Folder Name="Scripts" XML_Guid="{88B73A33-5AE7-42AF-AF4C-02917981DFBD}" Expanded="True">
                 <Macro Name="Folder by day created" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
