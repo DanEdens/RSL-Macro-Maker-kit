@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{D1CA3829-2FAD-4107-B51E-21171CC665DC}" Time="1637950963.15">
-    <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}">
+<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{03132276-84E5-47DD-83E6-ADD0ECF40249}" Time="1638202422.45">
+    <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}" Expanded="True">
         <Plugin id="3" XML_Guid="{214FABC9-4924-49F1-845D-985F81B14EEC}" Identifier="Keyboard" Guid="{59CBD10F-C1D8-4ADB-999B-9B76BA360F1F}" File="Keyboard">
             gAKJhXEALg==
         </Plugin>
-        <Plugin id="4" Enabled="False" XML_Guid="{78EDF33B-3C2C-4D46-AEFD-31C9BC35C6CA}" Identifier="MQTTthreads" Guid="{D5CCABA6-8E20-4B59-A7A7-9C197F91037F}" File="MQTT Client">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{BC7EE63E-DE36-409E-B719-17BE18875583}" Identifier="EGAppControl" Guid="{22A5D3F6-3628-4B57-8608-C4098A465BEC}" File="EGAppControl">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{BF65818F-6F9A-4900-B625-8C19776BEF61}" Identifier="GlobalMonitor" Guid="{B2B1CE64-2FF5-4C11-B247-8A2F13F57EA3}" File="GlobalMonitor">
+        <Plugin id="5" XML_Guid="{BC7EE63E-DE36-409E-B719-17BE18875583}" Identifier="EGAppControl" Guid="{22A5D3F6-3628-4B57-8608-C4098A465BEC}" File="EGAppControl">
             gAIpLg==
         </Plugin>
         <Plugin XML_Guid="{10062DE3-4BB9-49EB-8E50-236697B9DAF1}" Identifier="FileOperations" Guid="{50D933C5-F93B-4A8A-A6CE-95A40F906036}" File="FileOperations">
@@ -34,32 +28,23 @@
         <Plugin XML_Guid="{D86C872C-14FE-493F-91E5-A539BF387FAA}" Identifier="Speech" Guid="{76A1638D-1D7D-4582-A726-A17B1A6FC723}" File="Speech">
             gAIpLg==
         </Plugin>
-        <Plugin XML_Guid="{80F30152-252F-4426-AF4C-A7141DAB83C4}" Identifier="GoogleChrome" Guid="{2CD4676D-6C65-499F-B538-3B59878F76A9}" File="GoogleChrome">
-            gAIpLg==
-        </Plugin>
-        <Plugin XML_Guid="{87C8952D-684C-49A8-87F2-FAC31B1B0CA7}" Identifier="Timer" Guid="{6149CA99-1FCD-4450-9160-7543BC20CFD3}" File="Timer">
+        <Plugin id="15" XML_Guid="{87C8952D-684C-49A8-87F2-FAC31B1B0CA7}" Identifier="Timer" Guid="{6149CA99-1FCD-4450-9160-7543BC20CFD3}" File="Timer">
             gAIpLg==
         </Plugin>
         <Action Name="Define Globals" XML_Guid="{0F22CD5F-FE5B-4B4D-9EEB-70D8AED23C43}">
-            EventGhost.PythonScript(u'import os\negg = eg.globals\negp = eg.plugins\n\negg.version = 59\negg.boot = 1\negg.debug = 0\negg.togglenumpad = 1\negg.foomonitor = 0\negg.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\neg.globals.dourlparse = 1\neg.globals.status_battery = 1\negg.topic = \'log\'\n\n\negg.userprofile = os.environ.get(\'USERPROFILE\')\negg.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\negg.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\negg.jobname = os.environ.get(\'jobname\', \'general\')\negg.onedrive = os.environ.get(\'OneDrive\')\n\negg.vault = os.environ.get(\'vault\')\negg.jobpath = os.environ.get(\'jobpath\')+"\\\\"\negg.lab = os.environ.get(\'lab\')\negg.tree = os.environ.get(\'tree\',)\negg.awsip = os.environ.get(\'awsip\')\n\n\negg.desktop = egg.userprofile+"\\\\Desktop\\\\"\negg.bin = egg.userprofile+"\\\\bin\\\\eg"\n\negg.notifications = egg.userprofile+"\\\\Music\\\\Notifications\\\\"\negg.drive = egg.userprofile+"\\\\Drive\\\\"\negg.tasker = egg.drive+"\\\\Tasker\\\\"\negg.ghost = egg.drive+"\\\\Ghost\\\\"\n\negg.geovault = os.path.join(egg.onedrive, \'GeoVault\')\negg.logdir = egg.vault+"Logs\\\\"\negg.logdir = os.environ.get(\'logs\', egg.desktop)\negg.notes = os.environ.get(\'notes\', egg.desktop)\negg.desknote = egg.notes+"Desknote.txt"\n\negg.nodedir = egg.lab+\'NodeJS\\\\\'\negg.jobs = os.path.join(egg.geovault + \'\\\\Jobs\')\negg.guides = os.path.join(egg.geovault + \'\\\\lab\\\\guides\')\n\negg.sorter = egg.desktop+"Sorting\\\\"\negg.data = os.environ.get(\'data\', "\\\\172.16.16.10\\collection_data\\\\")\negg.amts1 = egg.data+"AMTS1\\\\monstar2\\\\"\negg.argus = egg.data+"LOGGERNET1\\\\Argus\\\\"\negg.sharepointfiles = "C:\\\\Users\\\\Dan.Edens\\\\Keller\\\\GEO-Instruments - Customer Files\\\\"\negg.sharepointhbi = egg.sharepointfiles+"KELLER NA - Central\\\\"\n\negg.rainvar = "1"\negg.rainvalue = "1"\negp.EventGhost.TriggerEvent(u\'rain_var \', 0.0)\negg.config = egg.lab + "Workspaces\\\\generalai\\\\generalai.egtree"\nprint "Config file = "+egg.config[-30:]\n\n#Set Eg.globals.time\n#eg.plugins.EventGhost.TriggerEvent(u\'update_time\', 0.0, None, False, False, False)\n#Set Eg.globals.storage\n#eg.plugins.EventGhost.TriggerEvent(u\'cat_storage\', 0.0, None, False, False, False)\negl = eg.plugins.EGAppControl.LogMonitor\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
+            EventGhost.PythonScript(u'import os\negg = eg.globals\negp = eg.plugins\n\negg.version = 60\negg.boot = 1\negg.debug = 0\negg.togglenumpad = 1\negg.foomonitor = 0\negg.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\neg.globals.picIsShowing = 0\neg.globals.dourlparse = 1\neg.globals.status_battery = 1\negg.topic = \'log\'\negg.screenlapOverride = False\n\n\negg.userprofile = os.environ.get(\'USERPROFILE\')\negg.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\negg.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\negg.jobname = os.environ.get(\'jobname\', \'general\')\negg.onedrive = os.environ.get(\'OneDrive\')\n\negg.vault = os.environ.get(\'vault\')\negg.jobpath = os.environ.get(\'jobpath\')+"\\\\"\negg.lab = os.environ.get(\'lab\')\negg.tree = os.environ.get(\'tree\',)\negg.awsip = os.environ.get(\'awsip\')\n\n\negg.desktop = egg.userprofile+"\\\\Desktop\\\\"\negg.bin = egg.userprofile+"\\\\bin\\\\eg"\n\negg.notifications = egg.userprofile+"\\\\Music\\\\Notifications\\\\"\negg.drive = egg.userprofile+"\\\\Drive\\\\"\negg.tasker = egg.drive+"\\\\Tasker\\\\"\negg.ghost = egg.drive+"\\\\Ghost\\\\"\n\negg.geovault = os.path.join(egg.onedrive, \'GeoVault\')\negg.logdir = egg.vault+"Logs\\\\"\negg.logdir = os.environ.get(\'logs\', egg.desktop)\negg.notes = os.environ.get(\'notes\', egg.desktop)\negg.desknote = egg.notes+"\\\\Desknote.txt"\n\negg.nodedir = egg.lab+\'NodeJS\\\\\'\negg.jobs = os.path.join(egg.geovault + \'\\\\Jobs\')\negg.guides = os.path.join(egg.geovault + \'\\\\lab\\\\guides\')\n\negg.sorter = egg.desktop+"Sorting\\\\"\negg.data = os.environ.get(\'data\', "\\\\172.16.16.10\\collection_data\\\\")\negg.amts1 = egg.data+"AMTS1\\\\monstar2\\\\"\negg.argus = egg.data+"LOGGERNET1\\\\Argus\\\\"\negg.sharepointfiles = "C:\\\\Users\\\\Dan.Edens\\\\Keller\\\\GEO-Instruments - Customer Files\\\\"\negg.sharepointhbi = egg.sharepointfiles+"KELLER NA - Central\\\\"\n\negg.rainvar = "1"\negg.rainvalue = "1"\negp.EventGhost.TriggerEvent(u\'rain_var \', 0.0)\negg.config = egg.lab + "Workspaces\\\\generalai\\\\generalai.egtree"\nprint "Config file = "+egg.config[-30:]\n\n#Set Eg.globals.time\n#eg.plugins.EventGhost.TriggerEvent(u\'update_time\', 0.0, None, False, False, False)\n#Set Eg.globals.storage\n#eg.plugins.EventGhost.TriggerEvent(u\'cat_storage\', 0.0, None, False, False, False)\negl = eg.plugins.EGAppControl.LogMonitor\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
         </Action>
-        <Action Name="Define Globals" id="18" Enabled="False" XML_Guid="{0F22CD5F-FE5B-4B4D-9EEB-70D8AED23C43}">
-            EventGhost.PythonScript(u'import os\negg = eg.globals\negp = eg.plugins\n\negg.boot = 1\negg.debug = 0\negg.foomonitor = 0\negg.mouse_return = 1\neg.globals.h_x = 1\neg.globals.h_y = 1\negg.topic = \'log\'\n\n\negg.userprofile = os.environ.get(\'USERPROFILE\')\negg.chromeurl = os.environ.get(\'chromeexe\', \'chrome.exe\')\negg.sharex = os.environ.get(\'portableapps\', "PROGRAMFILES")+"\\\\ShareX\\\\ShareX.exe"\negg.jobname = os.environ.get(\'jobname\', \'clicker\')\negg.jobpath = os.environ.get(\'jobpath\')+"\\\\"\negg.awsip = os.environ.get(\'awsip\')\n\negg.desktop = egg.userprofile+"\\\\Desktop\\\\"\negg.bin = egg.userprofile+"\\\\bin\\\\eg"\n\negg.notifications = egg.userprofile+"\\\\Music\\\\Notifications\\\\"\negg.drive = egg.userprofile+"\\\\Drive\\\\"\negg.tasker = egg.drive+"\\\\Tasker\\\\"\n\negg.logdir = egg.vault+"Logs\\\\"\negg.logdir = os.environ.get(\'logs\', egg.desktop)\negg.notes = os.environ.get(\'notes\', egg.desktop)\n\n\negg.rainvar = "1"\negg.rainvalue = "1"\negp.EventGhost.TriggerEvent(u\'rain_var \', 0.0)\n\n#Set Eg.globals.time\n#eg.plugins.EventGhost.TriggerEvent(u\'update_time\', 0.0, None, False, False, False)\n#Set Eg.globals.storage\n#eg.plugins.EventGhost.TriggerEvent(u\'cat_storage\', 0.0, None, False, False, False)\negl = eg.plugins.EGAppControl.LogMonitor\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Traceback (most recent call last)\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'UnexpectedErrorOccurred\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': True})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Plugin "\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'PluginNotActive\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, False, False, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Error: Destination path\'}, {\'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchChar1\': u\'\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': True, \'fireEvent\': True, \'eventName\': u\'renamingoffileneeded\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})\negl(True, {\'caseSensitive\': True, \'watchMsgTypes\': [True, True, True, False, False, False], \'wholeMessage\': False, \'searchMsg\': u\'Failed to get data from the clipboard\'}, {\'searchChar1\': u\'\', \'searchMode\': 0, \'searchChar2\': u\'\', \'searchRegex\': u\'\\\\d*\\\\.\\\\d+|\\\\d+\', \'searchPos1\': 0, \'searchPos2\': 0}, {\'onlyOnce\': False, \'fireEvent\': True, \'eventName\': u\'clip_fix\', \'printToLog\': False, \'setVariable\': False, \'variableName\': u\'MyVariable\', \'eventPayload\': False})')
-        </Action>
-        <Plugin Enabled="False" XML_Guid="{61448E8C-3952-4675-B260-CCCDD892E211}" Identifier="SchedulGhost" Guid="{39EFE2FF-6CA9-4450-B0E3-1AA125420B37}" File="SchedulGhost">
-            gAIoWC4AAABDOlxVc2Vyc1xEYW4uRWRlbnNcRGVza3RvcFxUcmVlXHRoZV92YXVsdFxMb2dzcQBYAAAAAHEBWAwAAABTY2hlZHVsR2hvc3RxAl1xAyhdcQRdcQVlSwB0cQYu
-        </Plugin>
     </Autostart>
-    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}">
+    <Macro Name="Emergency Override" XML_Guid="{0E64BCAC-DA1F-4654-BFEF-58E616B2DA54}" Expanded="True">
         <Event Name="*.OVERRIDE" XML_Guid="{E6083EC8-CF84-47B3-86B2-F814B81C1B0B}" />
         <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-            EventGhost.DisableItem(XmlIdLink(-1))
+            EventGhost.DisableItem(XmlIdLink(27))
         </Action>
         <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-            EventGhost.DisableItem(XmlIdLink(-1))
+            EventGhost.DisableItem(XmlIdLink(256))
         </Action>
         <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-            EventGhost.DisableItem(XmlIdLink(-1))
+            EventGhost.DisableItem(XmlIdLink(1782))
         </Action>
         <Action XML_Guid="{0FF29032-440A-4B56-8FC2-9A2CC8154489}">
             EventGhost.StopProcessing()
@@ -67,19 +52,13 @@
         <Action XML_Guid="{A4BA1870-9833-45C1-8695-5C0EB7D56119}">
             EventGhost.FlushEvents()
         </Action>
-        <Action XML_Guid="{17B5A983-F4EF-4E48-89BF-9115A5027202}">
-            EventGhost.DisableItem(XmlIdLink(-1))
-        </Action>
     </Macro>
-    <Folder Name="Toolkit" XML_Guid="{CD2783E1-0AD7-494F-B011-B98D64BB5ED2}">
-        <Folder Name="launcher" XML_Guid="{F606CD9B-6572-4D4B-89EA-89AB957C0DF0}">
-            <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}">
+    <Folder Name="Toolkit" id="27" XML_Guid="{CD2783E1-0AD7-494F-B011-B98D64BB5ED2}" Expanded="True">
+        <Folder Name="launcher" XML_Guid="{F606CD9B-6572-4D4B-89EA-89AB957C0DF0}" Expanded="True">
+            <Macro Name="Check Boot progrms" XML_Guid="{CE25FB43-BD71-4E3C-A066-85939A5211DE}" Expanded="True">
                 <Event Name="*.check?boot?programs" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                 <Action Name="Check boot program list" XML_Guid="{75BCD05D-093D-40BC-B41D-59A926BEDA2F}">
-                    EventGhost.PythonScript(u'import os\n\n_defaultfile = os.environ.get(\'USERPROFILE\')+".bootscripts\\\\process_list"\n\nfile = os.environ.get(\'EGBOOTPROGRAMS\', _defaultfile)\nBoot_programs = []\n \nif not os.path.exists(os.path.dirname(file)):\n    Boot_programs = [\n        \'LCore.exe\', \n        \'ShareX.exe\',\n        \'Altdrag.exe\'\n        ]\nelse:\n    with open(file) as f:\n        content = f.readlines()\n        for x in content:\n            item = x.strip()\n            print item\n            Boot_programs.append(item)\n                \nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in Boot_programs:\n        if e in p.name:\n            print e +" is running"\n        else:\n            pass\n        ')
-                </Action>
-                <Action Name="!TODO: status lights for rainmeter" XML_Guid="{79DB8544-43EA-4D9C-9C4D-8EA1345B9783}">
-                    EventGhost.PythonScript(u'#TODO\n# make rainmeter status lights for running processes')
+                    EventGhost.PythonScript(u'import os\n\nBoot_programs = []\n_defaultfile = os.environ.get(\'USERPROFILE\')+".bootscripts\\\\process_list"\nfile = os.environ.get(\'EGBOOTPROGRAMS\', _defaultfile)\n\n\n# Program List and .env file override\nif not os.path.exists(os.path.dirname(file)):\n    Boot_programs = [\n        \'Raid.exe\',\n        \'scrcpy.exe\',\n        \'ShareX.exe\',\n        #\'LCore.exe\',\n        \'Altdrag.exe\'\n        ]\nelse:\n    with open(file) as f:\n        content = f.readlines()\n        for x in content:\n            item = x.strip()\n            print item\n            Boot_programs.append(item)\n\n\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in Boot_programs:\n        if e in p.name:\n            print e +" is running"\n        else:\n            pass\n        ')
                 </Action>
             </Macro>
             <Folder Name="Files" XML_Guid="{F2331FB9-38D2-407B-93F7-148690A27FFB}">
@@ -175,90 +154,7 @@
                     </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="Web" XML_Guid="{AC973C47-8892-44E2-AE37-DD4B83B9D7C8}">
-                <Folder Name="Launch Url" XML_Guid="{A0AFAE15-8118-4371-9BD2-74C228FA5A58}">
-                    <Macro Name="google photos" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Action Name="url: google photos" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening google photos"\neg.globals.url = "https://photos.google.com"\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                        <Event Name="*.gphotos" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    </Macro>
-                    <Macro Name="aws dash" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Event Name="*.aws?dash" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="url: aws dash" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening AWS Dashboard"\neg.globals.url = "https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2#"\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                    </Macro>
-                    <Macro Name="Learning Hub" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Event Name="*.learn" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="url: Learning Hub" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening Learning Hub"\neg.globals.url = "https://docs.microsoft.com/en-us/users/danedens/"\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                    </Macro>
-                    <Macro Name="Screenconnect" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Event Name="*.screenconnect" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Event Name="*.sconnect" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="url: screenconnect" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening Screenconnect"\neg.globals.url = "https://screenconnect.com/Host#Access/All%20Machines//"\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                        <Action XML_Guid="{34258842-5F80-4D81-A306-55085795D849}">
-                            Window.FindWindow(u'chrome.exe', u'ConnectWise Control Remote Support Software - Google Chrome', u'Chrome_WidgetWin_1', u'Chrome Legacy Window', u'Chrome_RenderWidgetHostHWND', 1, False, 0.0, 0)
-                        </Action>
-                        <Action XML_Guid="{E7ED4552-46A6-417E-A389-00C9415DA34F}">
-                            EventGhost.Wait(1.0)
-                        </Action>
-                    </Macro>
-                    <Macro Name="inbox" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Event Name="*.gmail" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="Url: inbox" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening Inbox"\neg.globals.url = "https://mail.google.com/mail/u/0/#inbox"\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                    </Macro>
-                    <Macro Name="saws dash" XML_Guid="{60A6E5E4-4D53-4AE0-9599-BBE9C4C37876}">
-                        <Event Name="*.dash" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="Url: saws dash" XML_Guid="{22B03F2F-F65B-4089-ACFF-FC8D35D77E16}">
-                            EventGhost.PythonScript(u'print "Opening saws dash"\neg.globals.url = ""\neg.plugins.GoogleChrome.NewTab(u\'{eg.globals.url}\', True, False, 0, 0)')
-                        </Action>
-                    </Macro>
-                </Folder>
-                <Macro Name="Website launcher" XML_Guid="{508B80E0-8A0D-4FAD-ACCE-14BA2C2E102F}">
-                    <Event Name="*.web?selector" XML_Guid="{4CA106D7-5D01-4048-BD98-27D98570A95F}" />
-                    <Action XML_Guid="{1E737288-FF26-4B9A-B4B7-D76CB5D61725}">
-                        DesktopRemote.CreateNew(70, 30, 4, 4, 4, (88, 48, 49), (199, 200, 254), (69, 69, 69), u'0;-13;0;0;0;700;0;0;0;0;3;2;1;34;Arial', u'Autosorter', 0, True, True, False)
-                    </Action>
-                    <Action XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_quickview', 'label': u'Quickview'})
-                    </Action>
-                    <Action XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_capitol', 'label': u'Captiol'})
-                    </Action>
-                    <Action Name="RButton: statedevolpment" XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_capitol', 'label': u'gilbanestate'})
-                    </Action>
-                    <Action Name="RButton: audi" XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_audi', 'label': u'Audi'})
-                    </Action>
-                    <Action XML_Guid="{0261BE38-8D4B-4C0B-BF7D-FE233AAD84FF}">
-                        DesktopRemote.StartNewLine(1)
-                    </Action>
-                    <Action XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_texasint', 'label': u'TexasInt'})
-                    </Action>
-                    <Action Name="RButton: Mulewall" XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_mulewall', 'label': u'mulewall'})
-                    </Action>
-                    <Action Name="RButton: vortex" XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_vortex', 'label': u'vortex'})
-                    </Action>
-                    <Action Name="RButton: screenconnect" XML_Guid="{F2608DF6-411B-4F17-A4C2-FCB96A60CD55}">
-                        DesktopRemote.AddButton({'event': u'website_screenconnect', 'label': u'screenconnect'})
-                    </Action>
-                    <Action XML_Guid="{1A234A54-82EF-4E35-A365-E4CBD61AFCC4}">
-                        DesktopRemote.Show(1, 1, False)
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="Software" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}">
+            <Folder Name="Software" XML_Guid="{E8FB22D8-9630-48FD-90D6-F0F8F2B823D7}" Expanded="True">
                 <Folder Name="Terminal" XML_Guid="{C192D0B2-CCC4-4E6B-9F9C-081E6E7405D9}">
                     <Folder Name="launch Profile" XML_Guid="{C6D94220-A293-4BF2-A30B-DB28D90016F5}">
                         <Macro Name="cmd" XML_Guid="{E0BB5C42-95E2-449A-9D7E-738998BC424E}">
@@ -334,18 +230,9 @@
                             </Action>
                         </Macro>
                     </Folder>
-                    <Macro Name="relog saws shell" Enabled="False" XML_Guid="{B4FAF8CC-A159-4795-9076-701202DB9161}">
-                        <Event Name="*.resaws" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action XML_Guid="{7E0D91E2-A8DB-44EA-B110-764407726010}">
-                            EventGhost.PythonScript(u"# reloginto saws shell\neg.plugins.Window.SendKeys(u'{Alt+Shift+F8}', False, 2)\neg.plugins.EventGhost.Wait(1.0)\neg.plugins.Window.SendKeys(u'{Alt+p}', False, 2)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.SendKeys(u'{Enter}', False, 2)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.SendKeys(u'{Alt+Left}', False, 2)\neg.plugins.EventGhost.Wait(0.1)\neg.plugins.Window.SendKeys(u'{Ctrl+Delete}', False, 2)\n\n")
-                        </Action>
-                        <Action Enabled="False" XML_Guid="{10DD94FF-2B38-462A-8342-1020D843E2B0}">
-                            Window.SendKeys(u'{Ctrl+\\}{Alt+p}{Ctrl+Alt+Left}{Ctrl+Insert}', False, 2)
-                        </Action>
-                    </Macro>
                 </Folder>
                 <Folder Name="Lcore" XML_Guid="{E367C4E9-9ED5-4602-A204-5FF25A5AF850}">
-                    <Macro Name="Hide Lcore" XML_Guid="{39D85600-FB1B-4302-B097-9EA515D8F594}" Expanded="True">
+                    <Macro Name="Hide Lcore" XML_Guid="{39D85600-FB1B-4302-B097-9EA515D8F594}">
                         <Event Name="*.hide?lcore" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Action XML_Guid="{FB83775C-725D-4FCE-9026-B84171E19E43}">
                             Window.FindWindow(u'LCore.exe', u'Logitech Gaming Software', u'Qt5QWindowIcon', None, None, None, False, 0.0, 0)
@@ -439,44 +326,6 @@
                 </Action>
             </Macro>
         </Folder>
-        <Folder Name="Desknote" XML_Guid="{9E5F326C-F4DC-413B-90C1-BB5C362168E4}">
-            <Macro Name="Append Payload from chrome plugin to note" XML_Guid="{A64A5576-EA3A-493C-832C-EF7EB60D76CE}">
-                <Event Name="*.payload?chromenote" XML_Guid="{134BF3AB-4BF6-4B0C-B4A9-367D717D0ABF}" />
-                <Event Name="Chrome.Selection.select" XML_Guid="{A73EE6E8-0A27-4E10-B672-90CE6442D08B}" />
-                <Action Name="Need to change into python script to replace path" XML_Guid="{7A8BA41B-709A-4B68-9281-DC5B65D62743}">
-                    EventGhost.PythonScript(u"if eg.event.payload != None:\n    print eg.event.payload\n    eg.plugins.FileOperations.Write(2, u'{eg.event.payload}', u'{eg.globals.chromenote}', 2, 0, False, True, False, 'cp1252')\nelse:    \n    import win32clipboard\n    win32clipboard.OpenClipboard()\n    eg.globals.clip = win32clipboard.GetClipboardData()\n    win32clipboard.CloseClipboard()\n    print eg.globals.clip\n    eg.plugins.FileOperations.Write(2, u'{eg.globals.clip}', u'{eg.globals.chromenote}', 2, 0, False, True, False, 'cp1252')")
-                </Action>
-                <Action Name="File Operations: Write {eg.event.payload} to file" Enabled="False" XML_Guid="{21F918A7-070B-4ECF-8551-1B67CDA90CB2}">
-                    FileOperations.Write(2, u'{eg.event.payload}', u'{egg.desknote}', 2, 0, False, True, False, 'cp1252')
-                </Action>
-                <Action XML_Guid="{CA79C00D-CDEF-4070-8E0B-10A00634D026}">
-                    System.Execute(u'{eg.globals.chromenote}', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                </Action>
-            </Macro>
-            <Macro Name="Append Payload from Tasker to Desktop notepad" XML_Guid="{A64A5576-EA3A-493C-832C-EF7EB60D76CE}">
-                <Event Name="*.payload?desknote" XML_Guid="{134BF3AB-4BF6-4B0C-B4A9-367D717D0ABF}" />
-                <Event Name="Chrome.Selection.select" XML_Guid="{A73EE6E8-0A27-4E10-B672-90CE6442D08B}" />
-                <Action Name="Need to change into python script to replace path" XML_Guid="{7A8BA41B-709A-4B68-9281-DC5B65D62743}">
-                    EventGhost.PythonScript(u"if eg.event.payload != None:\n    print eg.event.payload\n    eg.plugins.FileOperations.Write(2, u'{eg.event.payload}', u'{eg.globals.desknote}', 2, 0, False, True, False, 'cp1252')\nelse:    \n    import win32clipboard\n    win32clipboard.OpenClipboard()\n    eg.globals.clip = win32clipboard.GetClipboardData()\n    win32clipboard.CloseClipboard()\n    print eg.globals.clip\n    eg.plugins.FileOperations.Write(2, u'{eg.globals.clip}', u'{eg.globals.desknote}', 2, 0, False, True, False, 'cp1252')")
-                </Action>
-                <Action Name="File Operations: Write {eg.event.payload} to file" Enabled="False" XML_Guid="{21F918A7-070B-4ECF-8551-1B67CDA90CB2}">
-                    FileOperations.Write(2, u'{eg.event.payload}', u'{egg.desknote}', 2, 0, False, True, False, 'cp1252')
-                </Action>
-            </Macro>
-            <Macro Name="line to save command note" XML_Guid="{4A94BBDA-C089-4929-9E6A-182E5F683223}">
-                <Event Name="*.note" XML_Guid="{8B215B2C-2D25-4032-8CF9-FD4B08BA69FF}" />
-                <Action XML_Guid="{94DE6DDC-FA91-4626-AEBA-FEB38106C318}">
-                    AutoRemote.ShowInputDialog(u'Save to desktop note', u'Paste note', u'', u'payload_desknote', False)
-                </Action>
-            </Macro>
-            <Macro Name="!open desknote" XML_Guid="{3B638438-3D6E-412E-B687-7F46A0C051DB}">
-                <Event Name="*.open*desknote" XML_Guid="{61DDD526-052B-4CB4-AB0B-EFC31D68A325}" />
-                <Event Name="Main.Input.OK.desknote" XML_Guid="{2A11ADED-8F86-4B26-834F-684BABC1859E}" />
-                <Action Name="Open Desktop notepad" XML_Guid="{7358D345-7766-463C-BFE6-66690A9887E4}">
-                    System.Execute(u'C:\\Program Files\\Notepad++\\notepad++.exe', u'{eg.globals.desknote}', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                </Action>
-            </Macro>
-        </Folder>
         <Macro Name="always on top" XML_Guid="{9E1C17B8-34C2-4AB4-881F-80AE08F21AD7}">
             <Event Name="*.set?aot" XML_Guid="{9FEA6A32-794E-4F95-854B-CD9A483DB61B}" />
             <Event Name="Keyboard.LCtrl+LAlt+Cancel" Enabled="False" XML_Guid="{926CF647-2FEA-4ABC-9168-019FE424E5BB}" />
@@ -496,7 +345,7 @@
                 Speech.TextToSpeech(u'Microsoft Zira Desktop - English (United States)', 5, u'AOT set', u'', 100, u'Speakers (10- Logitech G933 Gaming Headset)')
             </Action>
         </Macro>
-        <Macro Name="EG input line" XML_Guid="{EA937F2A-0C13-4A46-BB34-27DB03E1FE4B}" Expanded="True">
+        <Macro Name="EG input line" XML_Guid="{EA937F2A-0C13-4A46-BB34-27DB03E1FE4B}">
             <Event Name="*.egc*" XML_Guid="{37F02DFE-A09E-449C-A9B0-987D4A47AA77}" />
             <Event Name="Keyboard.Multiply+Subtract+Divide" XML_Guid="{45333415-7B02-452F-B076-F540289CC99F}" />
             <Action XML_Guid="{1EA22C25-CB38-47D4-8731-1A8551DCCE17}">
@@ -553,17 +402,14 @@
             </Macro>
         </Folder>
     </Folder>
-    <Folder Name="bin" XML_Guid="{20987FD1-2DF1-4BC3-9CA9-2E802DBBA652}" Expanded="True">
+    <Folder Name="bin" id="256" XML_Guid="{20987FD1-2DF1-4BC3-9CA9-2E802DBBA652}" Expanded="True">
         <Folder Name="Raid" XML_Guid="{35DE5D4A-93B4-4E8B-8ECC-EF433BDE6227}" Expanded="True">
             <Folder Name="Main" XML_Guid="{BCEF0072-F5A1-47D5-A474-02787F76FB27}" Expanded="True">
-                <Macro Name="Loop Menu (entry point)" XML_Guid="{0A16EAD8-CB3D-4AFC-B189-8E5A93F78B92}">
-                    <Event Name="Keyboard.LShift+Oem3" Enabled="False" XML_Guid="{4392A7C0-86F7-4816-9E73-46A7FD239A1D}" />
+                <Macro Name="Loop Menu" XML_Guid="{0A16EAD8-CB3D-4AFC-B189-8E5A93F78B92}" Expanded="True">
                     <Event Name="*.loop?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action Name="Grab Mouse Coordinates." XML_Guid="{0A584759-5F82-4AAC-8575-CA60012616DB}">
-                        EventGhost.TriggerEvent(u'grab loop_menu', 0.0, None, True, False, False)
-                    </Action>
+                    <Event Name="*.raid?menu" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action Name="Building Loop menu.." XML_Guid="{070A6DD3-7933-43B1-9885-D9B3A51AD194}">
-                        EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\ntry: eg.globals.loopaot\nexcept AttributeError: eg.globals.loopaot = False\ntry: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\ntry: eg.globals.loopautosell\nexcept AttributeError: eg.globals.loopautosell = False\n\n\neg.plugins.DesktopRemote.CreateNew(150, 40, 3, 3, 4, (202, 15, 15), (206, 206, 255), (40, 0, 0), u'0;-13;0;0;0;700;0;0;0;0;3;2;1;34;Arial', u'Buttclick Loop controller', 0, True, True, True)\n\n\nif eg.globals.loopminimize:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nif eg.globals.loopalttab:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\neg.plugins.DesktopRemote.StartNewLine(2)\n\nif eg.globals.loopaot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_aot', 'label': u'Always-on-top'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_aot', 'label': u'Always-on-top'})\nif eg.globals.loopscreenshot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_name', 'label': u'Name'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_count', 'label': u'Count'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_interval', 'label': u'Interval'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_event', 'label': u'Command'})\n\neg.plugins.DesktopRemote.StartNewLine(6)\nif eg.globals.loopautosell:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_rebattle', 'label': u'Rebattle'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\n\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop_stop', 'label': u'Stop'})\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop  ', 'label': u'Start'})\n\neg.plugins.DesktopRemote.Show(eg.globals.h_xloopmenu, eg.globals.h_yloopmenu, True)\n")
+                        EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\ntry: eg.globals.loopaot\nexcept AttributeError: eg.globals.loopaot = False\ntry: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\ntry: eg.globals.loopisrunning\nexcept AttributeError: eg.globals.loopisrunning = False\n\ntry: eg.globals.loopautosell\nexcept AttributeError: eg.globals.loopautosell = False\n\n\neg.plugins.DesktopRemote.CreateNew(150, 40, 3, 3, 4, (202, 15, 15), (206, 206, 255), (40, 0, 0), u'0;-13;0;0;0;700;0;0;0;0;3;2;1;34;Arial', u'Buttclick Loop controller', 0, True, True, True)\n\n\nif eg.globals.loopminimize:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_minimize', 'label': u'Minimize'})\nif eg.globals.loopalttab:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input=:=raid_toggle_alttab', 'label': u'Alt-tab'})\neg.plugins.DesktopRemote.StartNewLine(2)\n\nif eg.globals.loopaot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_aot', 'label': u'Always-on-top'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_aot', 'label': u'Always-on-top'})\nif eg.globals.loopscreenshot:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_screenshot', 'label': u'Screenshot'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\nif eg.globals.loopautosell:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'raid_toggle_autosell', 'label': u'AutoSell'})\n\nif eg.globals.loopisrunning:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (1, 239, 7), 'foregroundColour': (238, 32, 32), 'event': u'input_loop_stop', 'label': u'Stop'})\nelse:\n    eg.plugins.DesktopRemote.AddButton({'backgroundColour': (238, 32, 32), 'foregroundColour': (1, 239, 7), 'event': u'input_loop_start', 'label': u'Start'})\n\neg.plugins.DesktopRemote.StartNewLine(6)\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_name', 'label': u'Name'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_count', 'label': u'Count'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_interval', 'label': u'Interval'})\neg.plugins.DesktopRemote.AddButton({'event': u'input=:=raid_loop_event', 'label': u'Command'})\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop_stop', 'label': u'Refresh'})\neg.plugins.DesktopRemote.AddButton({'event': u'raid_rebattle', 'label': u'Rebattle'})\n\n\n\n\neg.plugins.DesktopRemote.StartNewLine(2)\n\n\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop_stop', 'label': u'Stop'})\neg.plugins.DesktopRemote.AddButton({'event': u'raid_loop  ', 'label': u'Start'})\n\n\n\n\n\n\n\n\n\n\n\nimport win32api\neg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n\neg.plugins.DesktopRemote.Show(eg.globals.xtemp-160, eg.globals.ytemp-164, True)\n\n")
                     </Action>
                 </Macro>
                 <Macro Name="Loop Start" XML_Guid="{50AB68BA-1AD9-4388-BD8A-40D43EBA42BD}">
@@ -588,7 +434,7 @@
                         EventGhost.PythonScript(u"eg.globals.data = eg.event.suffix[18:]\neg.plugins.AutoRemote.ShowInputDialog(u'Config value: ' + eg.globals.data, u'Please set a value', u'', u'var=:=loop'+eg.globals.data, False)")
                     </Action>
                 </Macro>
-                <Folder Name="toggles" XML_Guid="{9F0FDAE3-AF88-4C0C-9ECB-54FB9DDE13D6}">
+                <Folder Name="toggles" XML_Guid="{9F0FDAE3-AF88-4C0C-9ECB-54FB9DDE13D6}" Expanded="True">
                     <Macro Name="minimize" XML_Guid="{438485E1-BEC8-450B-8FD8-411B0D914FF0}">
                         <Event Name="DesktopRemote.input=:=raid_toggle_minimize" XML_Guid="{6AB12DCC-0F4D-49E7-98A9-5BECDC6AF454}" />
                         <Event Name="*.raid?toggle?minimize" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
@@ -624,8 +470,13 @@
                     </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="functions(wip)" XML_Guid="{C7F4901F-5A9F-40DD-90DB-8068FC0645B4}" Expanded="True">
-                <Macro Name="launch Raid (unbuilt)" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
+            <Folder Name="functions" XML_Guid="{C7F4901F-5A9F-40DD-90DB-8068FC0645B4}" Expanded="True">
+                <Macro Name="playtime rewards" XML_Guid="{76BD72F9-F321-4F12-9A4A-E0EFCB50B489}">
+                    <Action Enabled="False" XML_Guid="{EFD12BF3-50AE-4EC9-BFDC-18AA6579A8B5}">
+                        EventGhost.PythonScript(u'# playtime rewards\nclick(178,257)\nclick(249,255)\nclick(306,255)\nclick(378,252)\nclick(438,246)\nclick(495,249)\n')
+                    </Action>
+                </Macro>
+                <Macro Name="launch Raid" XML_Guid="{A1736752-9977-4702-A207-1C48B2CA18CC}">
                     <Event Name="*.run?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action Name="Check for running process" Enabled="False" XML_Guid="{ACBF1FA4-4B88-4171-9B81-45D2936556F2}">
                         EventGhost.PythonScript(u'egg = eg.globals\nimport win32com.client\nwmi=win32com.client.GetObject(\'winmgmts:\')\negg.Boot_programs = [\'TrayPP\', \'PlariumPlay\', \'Raid\']\n\nif eg.event.payload is None:\n    pass\nelif eg.event.payload == "":\n    pass\nelse:\n    if eg.event.payload[-3:] == "exe":\n        print eg.event.payload\n        egg.Boot_programs.append(eg.event.payload)\n        print egg.Boot_programs\n    else:\n        pass\n\n\nfor p in wmi.InstancesOf(\'win32_process\'):\n    for e in egg.Boot_programs:\n        if e in p.name:\n            setattr(eg.globals, e, 1)\n            eg.plugins.EventGhost.TriggerEvent(u\'Is_running_\'+e, 0.0, None, False, False, False)\n            #print e +" is running"\n        else:\n            setattr(eg.globals, e, 0)\n        \n        \n')
@@ -676,119 +527,169 @@
                         EventGhost.PythonScript(u'import win32api\n\nscreen = 3\n\ndef click(_x, _y):\n    eg.globals.h_x = _x\n    eg.globals.h_y = _y\n    eg.globals.xtemp, eg.globals.ytemp = win32api.GetCursorPos()\n    eg.plugins.Mouse.MoveAbsolute(eg.globals.h_x, eg.globals.h_y, eg.globals.foomonitor, False, True)\n    eg.plugins.EventGhost.Wait(0.2)\n    eg.plugins.Mouse.LeftDoubleClick()\n    eg.plugins.EventGhost.Wait(0.2)\n    # eg.plugins.Mouse.LeftDoubleClick()\n\nif screen == 1:\n    click(535,257)\n    click(83,309)\n    click(215,309)\n    click(376,314)\n    click(526,315)\n    click(643,310)\n    click(711,42)\nelif screen == 3:\n    click(3740,1013)\n    click(3350,873)\n    click(3815,780)    ')
                     </Action>
                 </Macro>
-            </Folder>
-            <Folder Name="Window control(wip)" XML_Guid="{29B5558B-47F7-433E-BE1A-255CF52B0967}" Expanded="True">
-                <Macro Name="move raid 0 0" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
-                    <Event Name="*.move?raid?0?0" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action Name="move to 0 o" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
-                        EventGhost.PythonScript(u"eg.globals.screenlap = 1\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 681, 376)")
-                    </Action>
-                </Macro>
-                <Macro Name="playtime rewards" XML_Guid="{76BD72F9-F321-4F12-9A4A-E0EFCB50B489}">
-                    <Action Enabled="False" XML_Guid="{EFD12BF3-50AE-4EC9-BFDC-18AA6579A8B5}">
-                        EventGhost.PythonScript(u'# playtime rewards\nclick(178,257)\nclick(249,255)\nclick(306,255)\nclick(378,252)\nclick(438,246)\nclick(495,249)\n')
-                    </Action>
-                </Macro>
-                <Macro Name="move_raid(300, 672, 681, 376)" Enabled="False" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
-                    <Event Name="*.move?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.mov?raid?3" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action Name="move to 5087-672" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
-                        EventGhost.PythonScript(u"eg.globals.screenlap = 1\n\ndef move_raid(par1=0, par2=0, par3=681, par4=376, par5=u'Raid',par6=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow(par5+'.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.Resize(par3, par4)\n    eg.plugins.Window.MoveTo(par1, par2, eg.globals.screenlap)\n\nmove_raid(300, 672, 681, 376)")
-                    </Action>
-                </Macro>
-                <Macro Name="move raid (screen 1)" XML_Guid="{CA12D036-C253-4709-8A6D-5248E3318F82}">
-                    <Event Name="*.mov?raid?1" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Event Name="*.mov?raid" Enabled="False" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
-                        EventGhost.PythonScript(u"eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.Window.MoveTo(743, 414, 1)\n#797 422 /siz 743 414")
-                    </Action>
-                </Macro>
-                <Macro Name="raid minimize" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
-                    <Event Name="*.minimize_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Event Name="*.min_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
-                        Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
-                    </Action>
-                    <Action XML_Guid="{106AEF8C-DA25-4D05-95F6-34E260CB9572}">
-                        Window.Minimize()
-                    </Action>
-                </Macro>
-                <Macro Name="raid min" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
-                    <Event Name="*.minimize_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
-                        Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
-                    </Action>
-                    <Action XML_Guid="{8A2F39E2-990A-4557-B260-87765687CDCA}">
-                        Window.Resize(681, 376)
-                    </Action>
-                    <Action XML_Guid="{0C5EC5DF-68D8-49FF-9BA3-7E5B8DF3D3A3}">
-                        Window.MoveTo(3166, 683, 1)
-                    </Action>
-                </Macro>
-                <Macro Name="raid min tiny" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
-                    <Event Name="*.minimize_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
-                    <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
-                        Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
-                    </Action>
-                    <Action XML_Guid="{8A2F39E2-990A-4557-B260-87765687CDCA}">
-                        Window.Resize(223, 105)
-                    </Action>
-                    <Action Enabled="False" XML_Guid="{ED344536-AC5E-41A5-BFED-1674CFA42423}">
-                        EventGhost.PythonScript(u"eg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.Resize(223, 105)\neg.plugins.Window.MoveTo(1700, 938, 2)")
-                    </Action>
-                    <Action XML_Guid="{0C5EC5DF-68D8-49FF-9BA3-7E5B8DF3D3A3}">
-                        Window.MoveTo(1700, 938, 2)
-                    </Action>
-                </Macro>
-                <Macro Name="Python Script" Enabled="False" XML_Guid="{7DC67233-09B6-44BF-BD6F-5C8578CD5F15}">
-                    <Event Name="System.WindowsCommand.raid_location" XML_Guid="{15A7C813-B967-44D4-A00F-2F2B9D50AA86}" />
-                    <Action Enabled="False" XML_Guid="{EC800D63-126F-4192-8930-B7E30B8D8DC8}">
-                        EventGhost.PythonScript(u"import re\n\n#0x120FE4 1 17780 Res Ina Ena Vis   3166    683    681    376 Raid     Raid: Sha\neg.globals.raid_size = eg.event.payload\n#temp2 = eg.event.payload(1)\n#temp3 = eg.event.payload(2)\n\nx = eg.globals.raid_size.split('   ')\n\ny = 0\nfor each in x:\n    y += 1\n    print y, each\n#print x\n#print re.findall('\\s*(?:(\\d+)\\D+)+(\\d+)\\s*', x)\n#print temp2\n#print temp3\n")
-                    </Action>
-                    <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" Enabled="False" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
-                        Window.MoveTo(5095, 637, 0)
-                    </Action>
-                    <Action XML_Guid="{72FCBF06-3B26-4E95-B47E-2BF70E7E619B}">
+                <Macro Name="Rebattle" XML_Guid="{F46657B6-9257-422D-9BF2-BFF25C36CDFC}">
+                    <Event Name="*.raid_replay" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
+                    <Event Name="*.raid_rebattle" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
+                    <Action XML_Guid="{E1AD6398-4E84-4D50-920E-5ACBB9E2CEE4}">
                         Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
                     </Action>
-                    <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
-                        Window.MoveTo(1263, 637, 1)
+                    <Action XML_Guid="{0E109512-5244-4A1E-8DCD-1B5893A21037}">
+                        Window.BringToFront()
+                    </Action>
+                    <Action Name="Screenshot" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                        EventGhost.PythonScript(u'try: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\n\nif eg.globals.loopscreenshot:\n    eg.plugins.EventGhost.Wait(0.1)\n    #screenshot\n')
+                    </Action>
+                    <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
+                        EventGhost.Wait(0.3)
+                    </Action>
+                    <Action XML_Guid="{588D5542-D704-4DAB-B3A7-2B315B92AD6D}">
+                        Window.SendKeys(u'R', False, 2)
+                    </Action>
+                    <Action Name="Minimize" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
+                        EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\n\nif eg.globals.loopminimize:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.Minimize()\n\nif eg.globals.loopalttab:\n    eg.plugins.Window.SendKeys(u'{Alt+Tabulator}', False, 2)")
                     </Action>
                 </Macro>
             </Folder>
-            <Macro Name="Rebattle" XML_Guid="{F46657B6-9257-422D-9BF2-BFF25C36CDFC}">
-                <Event Name="*.raid_replay" XML_Guid="{7DFB8754-C6E3-4FE4-9D51-C3A5F4AD4C65}" />
-                <Event Name="*.raid_rebattle" XML_Guid="{55283E49-FCE6-4EF5-A27A-6F56C1F84994}" />
-                <Action XML_Guid="{E1AD6398-4E84-4D50-920E-5ACBB9E2CEE4}">
-                    Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
-                </Action>
-                <Action XML_Guid="{0E109512-5244-4A1E-8DCD-1B5893A21037}">
-                    Window.BringToFront()
-                </Action>
-                <Action Name="Screenshot" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
-                    EventGhost.PythonScript(u'try: eg.globals.loopscreenshot\nexcept AttributeError: eg.globals.loopscreenshot = False\n\nif eg.globals.loopscreenshot:\n    eg.plugins.EventGhost.Wait(0.1)\n    #screenshot\n')
-                </Action>
-                <Action XML_Guid="{4BC4C692-B49E-419A-9D9D-BEB2266A33A9}">
-                    EventGhost.Wait(0.3)
-                </Action>
-                <Action XML_Guid="{588D5542-D704-4DAB-B3A7-2B315B92AD6D}">
-                    Window.SendKeys(u'R', False, 2)
-                </Action>
-                <Action Name="Minimize" XML_Guid="{499AE3C7-A98C-48F9-B441-2AF8CAC6936C}">
-                    EventGhost.PythonScript(u"try: eg.globals.loopminimize\nexcept AttributeError: eg.globals.loopminimize = False\ntry: eg.globals.loopalttab\nexcept AttributeError: eg.globals.loopalttab = False\n\nif eg.globals.loopminimize:\n    eg.plugins.EventGhost.Wait(0.1)\n    eg.plugins.Window.Minimize()\n\nif eg.globals.loopalttab:\n    eg.plugins.Window.SendKeys(u'{Alt+Tabulator}', False, 2)")
-                </Action>
-            </Macro>
-            <Macro Name="parse logs" XML_Guid="{83A11CAF-E798-4FAE-8D5C-0089B7B41E09}">
+            <Folder Name="Window control" XML_Guid="{29B5558B-47F7-433E-BE1A-255CF52B0967}" Expanded="True">
+                <Folder Name="Location" XML_Guid="{22D558AC-9D90-4242-BFAE-5E2EDD63D42C}" Expanded="True">
+                    <Macro Name="Python Script" Enabled="False" XML_Guid="{7DC67233-09B6-44BF-BD6F-5C8578CD5F15}">
+                        <Event Name="System.WindowsCommand.raid_location" XML_Guid="{15A7C813-B967-44D4-A00F-2F2B9D50AA86}" />
+                        <Action Enabled="False" XML_Guid="{EC800D63-126F-4192-8930-B7E30B8D8DC8}">
+                            EventGhost.PythonScript(u"import re\n\n#0x120FE4 1 17780 Res Ina Ena Vis   3166    683    681    376 Raid     Raid: Sha\neg.globals.raid_size = eg.event.payload\n#temp2 = eg.event.payload(1)\n#temp3 = eg.event.payload(2)\n\nx = eg.globals.raid_size.split('   ')\n\ny = 0\nfor each in x:\n    y += 1\n    print y, each\n#print x\n#print re.findall('\\s*(?:(\\d+)\\D+)+(\\d+)\\s*', x)\n#print temp2\n#print temp3\n")
+                        </Action>
+                        <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" Enabled="False" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
+                            Window.MoveTo(5095, 637, 0)
+                        </Action>
+                        <Action XML_Guid="{72FCBF06-3B26-4E95-B47E-2BF70E7E619B}">
+                            Window.FindWindow(u'Raid.exe', u'Raid: Shadow Legends', u'UnityWndClass', None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action Name="Move window to corner: screen 3 direct, X: 5095, Y: 637" XML_Guid="{A3D4DC27-EBCA-490A-BF2F-55855AEC6355}">
+                            Window.MoveTo(1263, 637, 1)
+                        </Action>
+                    </Macro>
+                    <Macro Name="raid min" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
+                        <Event Name="*.minimize_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
+                            Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{8A2F39E2-990A-4557-B260-87765687CDCA}">
+                            Window.Resize(681, 376)
+                        </Action>
+                        <Action XML_Guid="{0C5EC5DF-68D8-49FF-9BA3-7E5B8DF3D3A3}">
+                            Window.MoveTo(3166, 683, 1)
+                        </Action>
+                    </Macro>
+                    <Macro Name="move raid (screen 1)" XML_Guid="{CA12D036-C253-4709-8A6D-5248E3318F82}">
+                        <Event Name="*.mov?raid?1" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.mov?raid" Enabled="False" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.BringToFront()\neg.plugins.Window.MoveTo(743, 414, 1)\n#797 422 /siz 743 414")
+                        </Action>
+                    </Macro>
+                    <Macro Name="move raid 0 0" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
+                        <Event Name="*.move?raid?0?0" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="move to 0 o" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.globals.screenlap = 1\n\ndef move_raid(move_x=0, move_y=0, size_x=681, size_y=376, screen=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.Resize(size_x, size_y)\n    eg.plugins.Window.MoveTo(move_x, move_y, eg.globals.screenlap)\n\nmove_raid(0, 0, 681, 376)")
+                        </Action>
+                    </Macro>
+                    <Macro Name="move_raid(300, 672, 681, 376)" Enabled="False" XML_Guid="{5DAC365F-D939-425C-BA69-F13F6ACDB425}">
+                        <Event Name="*.move?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.mov?raid" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Event Name="*.mov?raid?3" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                        <Action Name="move to 5087-672" XML_Guid="{0C0614D1-3087-4BFF-A555-A51D8A653A53}">
+                            EventGhost.PythonScript(u"eg.globals.screenlap = 1\n\ndef move_raid(par1=0, par2=0, par3=681, par4=376, par5=u'Raid',par6=eg.globals.screenlap):\n    eg.plugins.Window.FindWindow(par5+'.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.Resize(par3, par4)\n    eg.plugins.Window.MoveTo(par1, par2, eg.globals.screenlap)\n\nmove_raid(300, 672, 681, 376)")
+                        </Action>
+                    </Macro>
+                </Folder>
+                <Folder Name="Size" XML_Guid="{E720F9A8-F42D-4B0A-B461-C8FDC0E273EC}" Expanded="True">
+                    <Macro Name="raid min tiny" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
+                        <Event Name="*.minimize_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Event Name="*.min_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
+                            Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{8A2F39E2-990A-4557-B260-87765687CDCA}">
+                            Window.Resize(223, 105)
+                        </Action>
+                        <Action Enabled="False" XML_Guid="{ED344536-AC5E-41A5-BFED-1674CFA42423}">
+                            EventGhost.PythonScript(u"eg.plugins.Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)\neg.plugins.Window.Resize(223, 105)\neg.plugins.Window.MoveTo(1700, 938, 2)")
+                        </Action>
+                        <Action XML_Guid="{0C5EC5DF-68D8-49FF-9BA3-7E5B8DF3D3A3}">
+                            Window.MoveTo(1700, 938, 2)
+                        </Action>
+                    </Macro>
+                    <Macro Name="raid minimize" XML_Guid="{D6D9EC5D-77B5-4EE6-969C-BE7CCFBD7378}">
+                        <Event Name="*.minimize_raid" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Event Name="*.min_raid" Enabled="False" XML_Guid="{8A3C2AC9-AAAD-4087-9278-F835F3226F80}" />
+                        <Action XML_Guid="{DF2783E2-5282-48FF-ADC3-23564EE3D6EF}">
+                            Window.FindWindow(u'Raid.exe', None, None, None, None, None, False, 0.0, 0)
+                        </Action>
+                        <Action XML_Guid="{106AEF8C-DA25-4D05-95F6-34E260CB9572}">
+                            Window.Minimize()
+                        </Action>
+                    </Macro>
+                </Folder>
+            </Folder>
+            <Macro Name="parse logs" Enabled="False" XML_Guid="{83A11CAF-E798-4FAE-8D5C-0089B7B41E09}">
                 <Action Name="log parser" XML_Guid="{ACF825F9-BC46-416B-B5C5-8A6E3B785653}">
                     EventGhost.PythonScript(u'x = "Full normalization mode set [Time: 6/25/2021 5:41:33 PM, Resources: [Energy: 24.9111111111112], [Silver: 263430.073149072], [Token: 3.22583333333334], [Gem: 42], [Arena3X3ShopCurrency:       1278], [Arena3x3Token: 5], [Orb_MagicLow: 20], [Orb_MagicMid: 9], [Orb_MagicHigh: 4], [Orb_ForceMid: 97], [Orb_SpiritLow: 692], [Orb_SpiritMid: 111], [Orb_SpiritHigh: 28], [Orb_VoidLow: 45], [Orb_VoidMid: 80], [Orb_VoidHigh: 14], [Orb_ArcaneLow: 50], [Orb_ArcaneMid: 5], [Orb_ArcaneHigh: 26], [Medal_Bronze: 1], [Medal_Silver: 1], [Medal_Gold: 745], [AllianceBossKey:       1.04421296296297], [FractionWarKey_BannerLords: 6], [FractionWarKey_OgrynTribes: 10], [Forge_Magisteel: 3001], [Forge_Corehammer: 3], [Forge_SoulstoneRare: 367], [Forge_SoulstoneEpic:       434], [Forge_SoulstoneLeg: 20], [Forge_BloodstoneRare: 261], [Forge_BloodstoneEpic: 224], [Forge_BloodstoneLeg: 2], [Forge_NetherSpiderEggsRare: 200], [Forge_NetherSpiderEggsEpic: 19]      , [Forge_ScarabClawsRare: 7], [Forge_ScarabClawsEpic: 4], [Forge_MagmaDragonCoresRare: 406], [Forge_MagmaDragonCoresEpic: 129], [Forge_FrostSpiderSpinesRare: 7], [Forge_DragonBoneRare:       577], [Forge_DragonBoneEpic: 214], [Forge_GriffinFeatherRare: 211], [Forge_GriffinFeatherEpic: 1], [DoomTowerGoldKey: 10], [DoomTowerSilverKey: 10]]"\n\ninput =  x[67:-1]\nstring =  input.split(\',\')\nmyvars = {}\nfor each in string:\n    name, var = each.partition(":")[::2]\n    try:\n        myvars[name.strip()] = float(var[:-1])\n    except:\n        pass\n    myvars[name[2:]] = var[:-1]\n\n\nprint(myvars[\'Energy\'])\nprint(myvars[\'Silver\'])\nprint(myvars[\'Token\'])\nprint(myvars[\'Gem\'])\nprint(myvars[\'Arena3X3ShopCurrency\'])\nprint(myvars[\'Arena3x3Token\'])\nprint(myvars[\'Orb_MagicLow\'])\nprint(myvars[\'Orb_MagicMid\'])\nprint(myvars[\'Orb_MagicHigh\'])\nprint(myvars[\'Orb_ForceMid\'])\nprint(myvars[\'Orb_SpiritLow\'])\nprint(myvars[\'Orb_SpiritMid\'])\nprint(myvars[\'Orb_SpiritHigh\'])\nprint(myvars[\'Orb_VoidLow\'])\nprint(myvars[\'Orb_VoidMid\'])\nprint(myvars[\'Orb_VoidHigh\'])\nprint(myvars[\'Orb_ArcaneLow\'])\nprint(myvars[\'Orb_ArcaneMid\'])\nprint(myvars[\'Orb_ArcaneHigh\'])\nprint(myvars[\'Medal_Bronze\'])\nprint(myvars[\'Medal_Silver\'])\nprint(myvars[\'Medal_Gold\'])\nprint(myvars[\'AllianceBossKey\'])\nprint(myvars[\'FractionWarKey_BannerLords\'])\nprint(myvars[\'FractionWarKey_OgrynTribes\'])\nprint(myvars[\'Forge_Magisteel\'])\nprint(myvars[\'Forge_Corehammer\'])\nprint(myvars[\'Forge_SoulstoneRare\'])\nprint(myvars[\'Forge_SoulstoneEpic\'])\nprint(myvars[\'Forge_SoulstoneLeg\'])\nprint(myvars[\'Forge_BloodstoneRare\'])\nprint(myvars[\'Forge_BloodstoneEpic\'])\nprint(myvars[\'Forge_BloodstoneLeg\'])\nprint(myvars[\'Forge_NetherSpiderEggsRare\'])\nprint(myvars[\'Forge_NetherSpiderEggsEpic\'])\nprint(myvars[\'Forge_ScarabClawsRare\'])\nprint(myvars[\'Forge_ScarabClawsEpic\'])\nprint(myvars[\'Forge_MagmaDragonCoresRare\'])\nprint(myvars[\'Forge_MagmaDragonCoresEpic\'])\nprint(myvars[\'Forge_FrostSpiderSpinesRare\'])\nprint(myvars[\'Forge_DragonBoneRare\'])\nprint(myvars[\'Forge_DragonBoneEpic\'])\nprint(myvars[\'Forge_GriffinFeatherRare\'])\nprint(myvars[\'Forge_GriffinFeatherEpic\'])\nprint(myvars[\'DoomTowerGoldKey\'])\nprint(myvars[\'DoomTowerSilverKey\'])')
                 </Action>
             </Macro>
+            <Folder Name="Built-in Hotkeys" XML_Guid="{8059E88E-AE35-4292-BCC2-9C1920AA66A1}">
+                <Macro Name="P = Pause/exit Fight" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="T = Open Profile on base or Auto Battle" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="R = Replay Battle or open Limited Special Offers tab" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="C = Champions" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="E = Events" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="Alt+Enter = Fullscreen in/out" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="Shift = Speed in Battles or to trigger the left menu" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="N = Daily rewards calling on base" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="V = Challenges calling on base" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="I = Inbox if called on base or info in battle" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="H = Clan info" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="K = Progress Missions" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="L = Daily quests" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="X = Champion Index" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}" />
+                <Macro Name="Q/W/E = Select – A1/A2/A3 in battle" XML_Guid="{DCA769C1-65AA-4A10-94FA-AC819D525AD0}" />
+                <Macro Name="Enter = Start Dungeons / Dungeon menu" XML_Guid="{FD41421D-56EA-4DC1-AD21-DDDD518D4152}" />
+                <Macro Name="ESC = Back" XML_Guid="{FD41421D-56EA-4DC1-AD21-DDDD518D4152}" />
+                <Macro Name="YI the F key will bring up the artifact reward in the battle results screen as well." XML_Guid="{FD41421D-56EA-4DC1-AD21-DDDD518D4152}" />
+                <Macro Name="In battle, the “R” key is also used for the A4 ability (Mortu’s Peril for example)." XML_Guid="{9166812A-8757-4254-B777-C6532FA79EA2}" />
+                <Macro Name="Space is “Next”" XML_Guid="{FE34E05D-E045-49E6-A737-51F2B306F2E5}" />
+                <Macro Name='Enter is "Battle"' XML_Guid="{BDFA5B52-FB48-405A-8ACA-142C3B93215A}" />
+                <Folder Name="battle results window" XML_Guid="{A8D8FE4E-B662-4D52-B083-A82A6751CDD8}" Expanded="True">
+                    <Macro Name="bastion - esc" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="map - M" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="CHampions - C" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="replay - R" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="Edit team - X" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="Next - Space" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="stage selection - S" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                    <Macro Name="show artifact - F" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" />
+                </Folder>
+                <Folder Name="bastion 2" XML_Guid="{4C27CA18-B1E2-4DD0-8F9D-921A7934B150}">
+                    <Macro Name="battle - Enter" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="Left-side Menu - SHift" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="Inbox - I" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="profile - T" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="chat - ~" XML_Guid="{3ACC53CE-3FA5-4F38-B661-8B30AA594996}" />
+                    <Macro Name="events - E" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="Offers - R" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                    <Macro Name="Playtime reward - N" XML_Guid="{AAD71F6C-7320-4FE4-8A21-62D6EDF61789}" />
+                </Folder>
+                <Folder Name="select heros for battle window" XML_Guid="{6BA141CC-BBB4-4C9E-A29A-494393DCF816}">
+                    <Macro Name="champions - C" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
+                    <Macro Name="Start - Enter" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
+                    <Macro Name="Selkect a hero - space" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
+                    <Macro Name="Right D" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
+                    <Macro Name="Lefft A" XML_Guid="{0983504E-8484-434B-B465-50D992C2FC51}" />
+                </Folder>
+            </Folder>
+            <Folder Name="Custom Hotkeys" XML_Guid="{E5B81B10-48BE-48D0-A84D-52059F31CB34}" />
         </Folder>
-        <Folder Name="Interface controller" XML_Guid="{C6E41CC2-087A-48F5-A690-C124C894B8FF}" Expanded="True">
+        <Folder Name="Interface controller" XML_Guid="{C6E41CC2-087A-48F5-A690-C124C894B8FF}">
             <Folder Name="Lcore groups" id="373" Enabled="False" XML_Guid="{641E7FF3-572D-45F6-B0B3-EF26285DCA07}">
                 <Folder Name="Groups" XML_Guid="{55DE33A7-7209-447F-8E1B-F2127E64ED8E}" Expanded="True">
                     <Folder Name="Mouse group 0 - Switch" id="375" Enabled="False" XML_Guid="{641E7FF3-572D-45F6-B0B3-EF26285DCA07}">
@@ -2384,7 +2285,7 @@
                 </Macro>
             </Folder>
         </Folder>
-        <Folder Name="Eventghost" XML_Guid="{6D1F618E-45BA-448D-A0C7-94FDC4A89F51}" Expanded="True">
+        <Folder Name="Eventghost" XML_Guid="{6D1F618E-45BA-448D-A0C7-94FDC4A89F51}">
             <Folder Name="Remotes" XML_Guid="{9A488D89-6AC0-461E-BE5D-5C3E45B91478}">
                 <Folder Name="Remote Persistance" XML_Guid="{1F3F343E-A7A0-4558-9134-C3116DDB291E}">
                     <Macro Name="Desktop Remote: Close" id="1117" Enabled="False" XML_Guid="{9C15F51C-F939-4458-8ADE-3571F80F848E}">
@@ -2851,8 +2752,8 @@
                     <Event Name="*.hide" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                 </Macro>
             </Folder>
-            <Folder Name="Idle manager" XML_Guid="{55295123-3A51-4E36-995A-C2ECCD29738F}">
-                <Macro Name="Idle" Enabled="False" XML_Guid="{25003479-FF1F-433E-AEA8-0FEE8A756BA5}">
+            <Folder Name="Idle manager" XML_Guid="{55295123-3A51-4E36-995A-C2ECCD29738F}" Expanded="True">
+                <Macro Name="Idle" Enabled="False" XML_Guid="{25003479-FF1F-433E-AEA8-0FEE8A756BA5}" Expanded="True">
                     <Event Name="System.Idle" XML_Guid="{072928B2-8B43-41F3-AA2E-63F271FE59A3}" />
                     <Action Name="doze. {add if public}" Enabled="False" XML_Guid="{4C3ECBFF-54AE-4652-B6D4-6252A7E14165}">
                         EventGhost.TriggerEvent(u'doze', 0.0, None, False, False, False)
@@ -2861,7 +2762,7 @@
                         EventGhost.PythonScript(u"eg.plugins.EventGhost.TriggerEvent(u'update_time', 0.0, None, False, False, False)\neg.plugins.System.Command(u'rost status/ghost/idle True - {eg.globals.time}', False, False, u'', False, False, False, False, False)\n")
                     </Action>
                 </Macro>
-                <Macro Name="UnIdle" Enabled="False" XML_Guid="{E19E71C7-8D53-49CE-9A2C-A8A319EEBDC5}">
+                <Macro Name="UnIdle" Enabled="False" XML_Guid="{E19E71C7-8D53-49CE-9A2C-A8A319EEBDC5}" Expanded="True">
                     <Event Name="System.UnIdle" XML_Guid="{882743CE-30B4-4D29-B24D-F46C93DA527C}" />
                     <Action Name="mqttpub - unidle" XML_Guid="{721C825C-8682-4D5C-A040-73234DC56CE1}">
                         EventGhost.PythonScript(u"eg.plugins.EventGhost.TriggerEvent(u'update_time', 0.0, None, False, False, False)\neg.plugins.System.Command(u'rost status/ghost/idle False - {eg.globals.time}', False, False, u'', False, False, False, False, False)\n")
@@ -2958,7 +2859,7 @@
                     EventGhost.OpenConfig(XmlIdLink(1367))
                 </Action>
                 <Action XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
-                    EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                    EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
                 </Action>
             </Macro>
             <Macro Name="Safe remove hardware window" XML_Guid="{A1AE6980-991E-4EA1-94B2-A9898033F424}">
@@ -3512,350 +3413,8 @@
                 </Folder>
             </Folder>
         </Folder>
-        <Folder Name="Python" Enabled="False" XML_Guid="{F6BB9806-8012-4E83-8B93-81F754C09FCB}">
-            <Folder Name="Scripts" XML_Guid="{88B73A33-5AE7-42AF-AF4C-02917981DFBD}">
-                <Folder Name="OnCmd with query" Enabled="False" XML_Guid="{518DD4F0-1780-4C91-B03D-BF32E403BD0E}">
-                    <Macro Name="AutoRemote: Show input dialog: Command title" XML_Guid="{6F0A26A5-34F7-48E9-A0A8-DEFC4EBDEB9D}">
-                        <Action XML_Guid="{1504AFD4-2A18-4AFC-9C16-E703F5223CE3}">
-                            AutoRemote.ShowInputDialog(u'Command title', u'Will set clipboard to your command', u'', u'code.input.defcmd', False)
-                        </Action>
-                    </Macro>
-                    <Macro Name="something about icons" XML_Guid="{6EBAE908-37A4-4CF4-A1CC-0CD37C9D9A19}">
-                        <Action Name="clip icon thing" XML_Guid="{C65D2A60-7FE5-472B-946B-C7EE711EBC98}">
-                            EventGhost.PythonScript(u'var1 = \'\'\'    def OnCmd\'\'\'+eg.event.payload+\'\'\'IconLibrary(self):\n        import webbrowser\n        webbrowser.open("https://icons8.com/icons", 2, 1)\n\'\'\'\neg.plugins.System.SetClipboard(var1)\nprint "IF code set"')
-                        </Action>
-                    </Macro>
-                </Folder>
-                <Macro Name="Folder by day created" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Event Name="*.active?sort?created" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
-                    <Action Name="Sort a folder into days modified folders" XML_Guid="{21298378-3437-4DEC-8127-347BF2E53E0C}">
-                        EventGhost.PythonScript(u"egg = eg.globals\nimport os\nimport shutil\nimport os.path, time\nfrom datetime import datetime\npath = egg.activedir\n \nlis = os.listdir(path)\nlis.sort(key=lambda x: os.stat(os.path.join(path, x)).st_mtime)\nfiles = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]\nos.chdir(path)\n\nfor x in files:\n    creation_time_string = time.ctime(os.path.getmtime(os.path.join(path, x)))\n    modified_time_string = time.ctime(os.path.getmtime(os.path.join(path, x)))\n    creation_datetime_obj = datetime.strptime(creation_time_string, '%a %b %d %H:%M:%S %Y')\n    modified_datetime_obj = datetime.strptime(modified_time_string, '%a %b %d %H:%M:%S %Y')\n    modified_date  = str(modified_datetime_obj.day) + '-' + str(modified_datetime_obj.month) + '-' + str(modified_datetime_obj.year)\n    creation_date  = str(creation_datetime_obj.day) + '-' + str(creation_datetime_obj.month) + '-' + str(modified_datetime_obj.year)\n   \n    if(os.path.isdir(creation_date)):\n         shutil.move(os.path.join(path, x), creation_date)\n    else:\n        os.makedirs(creation_date)\n        shutil.move(os.path.join(path, x), modified_date)")
-                    </Action>
-                </Macro>
-                <Macro Name="switch date and month" XML_Guid="{C9A2DFA5-3657-4E88-9239-E222439FFED3}">
-                    <Action Name="switch date and month in folder name" XML_Guid="{74897703-2BBE-4B49-83DB-73A211D7A39D}">
-                        EventGhost.PythonScript(u"#switch date and month in folder name\n\negg = eg.globals\nimport os\nimport shutil\nimport os.path, time\n\n\npath = egg.activedir\nlis = os.listdir(path)\n    \n\n\nfor f in os.listdir(path):\n    x = f.split('-')\n    g = x[2] + '-' + x[1] + '-' + x[0]\n    os.rename(f, g)\n    print f,g\n")
-                    </Action>
-                </Macro>
-                <Macro Name="Change video?to?mp3" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Event Name="*.video?to?mp3" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
-                    <Action Name="Change from video?to?mp3" XML_Guid="{81F9EE43-907F-4D14-8B68-016945E94408}">
-                        EventGhost.PythonScript(u'import moviepy.editor as mp\nimport win32clipboard\nwin32clipboard.OpenClipboard()\nclip = win32clipboard.GetClipboardData()\nwin32clipboard.CloseClipboard()\nvideo = mp.VideoFileClip(clip)\nvideo.audio.write_audiofile(clip+"_converted.mp3")')
-                    </Action>
-                </Macro>
-                <Macro Name="List help" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="List info" id="1642" Enabled="False" XML_Guid="{1EBF64CE-53F9-4ACB-8A08-F3F1E3D30B87}">
-                        EventGhost.PythonScript(u'#Sorting by date\n#results.sort(key=lambda r: getattr(r.person, \'birthday\', datetime.max))\n#sorted(results, key=...)\n\n\n#how a list(array) works\n#mylist = ["a", "b", "a", "c", "c"]\n#mylist = list(dict.fromkeys(mylist))\n#print(mylist)\n\n\n#remove duplicates\n#def my_function(x):\n  #return list(dict.fromkeys(x))\n#mylist = my_function(["a", "b", "a", "c", "c"])\n#print(mylist)\n\n\n\n#import win32clipboard\n#import re\n\n# get clipboard data\n#win32clipboard.OpenClipboard()\n#result2 = win32clipboard.GetClipboardData()\n#win32clipboard.CloseClipboard()\n\n#if re.match(r"https?://www\\.youtube\\.com/watch\\?v=",result2,re.IGNORECASE):\n    #eg.TriggerEvent(u\'FoundURL\', payload=result2)')
-                    </Action>
-                    <Event Name="*.list?help" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                    <Action XML_Guid="{51D166BE-3ED9-471F-93CC-04BF33329520}">
-                        EventGhost.OpenConfig(XmlIdLink(1642))
-                    </Action>
-                </Macro>
-                <Macro Name="Listen to PDF" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Event Name="*.pdf?listen" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
-                    <Action Name="Listen to PDF" XML_Guid="{1AF5E58D-C80B-49AD-A987-3EA9EFD85155}">
-                        EventGhost.PythonScript(u'import PyPDF2\nimport os\nfrom gtts import gTTS\nimport re\nimport win32clipboard\nwin32clipboard.OpenClipboard()\nclip = win32clipboard.GetClipboardData()\nwin32clipboard.CloseClipboard()\n\nfile_path = clip\n \nif(os.path.exists(file_path)):\n    pass\nelse:\n    print("File does not exists")\n    exit()\n \nf = open(file_path, \'rb\')\n \n# Get the no of pages in pdf\n \n \npdffile = PyPDF2.PdfFileReader(f)\nno_of_pages = pdffile.getNumPages()\n \n# Iterate all the pages\n \n# Using regex to filter only words and numbers\n \n# Concatenate the words in each page\n \nstring_words = \'\'\nfor pageno in range(no_of_pages):\n    pi = pdffile.getPage(pageno)\n    page = pdffile.getPage(pageno)\n    content = page.extractText()\n    textonly = re.findall(r\'[a-zA-Z0-9]+\', content)\n    for word in textonly:\n        string_words = string_words + \' \' + word\n \n# Convert the string of words to mp3 file \nprint(string_words)\ntts = gTTS(text=string_words, lang=\'en\')\ntts.save("listen_pdf.mp3")')
-                    </Action>
-                </Macro>
-                <Macro Name="remove filename prefix" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Event Name="*.remove?prefix" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
-                    <Action Name="Remove filename prefix" XML_Guid="{B096F46F-A24F-48E4-B0DF-F806B80EFA2A}">
-                        EventGhost.PythonScript(u'import os\nfor filename in os.listdir(eg.globals.activedir): #for current directory\n\tif filename.startswith("("):\n\t\tos.rename(filename, filename[5:])')
-                    </Action>
-                </Macro>
-                <Macro Name="Sort images into resolutions" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="Sort images into resolutions" XML_Guid="{5CF303A1-3F42-49E3-AB49-166AD1F99610}">
-                        EventGhost.PythonScript(u'#Sort images into resolutions\n\n\nimport cv2\t\t#Image processing library\nimport os,glob\t#For os manipulation\n \nim_4k = 0\t\t#Initializing counts for each category\nim_1080 = 0\nim_720 = 0\n \nos.system("mkdir 4K")\t#Creating directories for each type\nos.system("mkdir 1080p")\nos.system("mkdir 720p")\n \nfor image in glob.glob(\'*.jpg\'):\t#Selecting images one by one\n\tprint(image)\n\timg = cv2.imread(image)\t\t#Reading image\n\theight, width, channel = img.shape\t#getting image resolution\n\tif(width&gt;=3840 and height&gt;=2160):\t#Comparing image resolutions and moving them accordingly\n\t\tos.system("move "+image+" 4K")\n\t\tim_4k = im_4k+1\n\t\tcontinue\n\tif(width&gt;=1920 and height&gt;=1080):\n\t\tos.system("move "+image+" 1080p")\n\t\tim_1080 = im_1080+1\n\t\tcontinue\n\tif(width&gt;=1280 and height&gt;=720):\n\t\tos.system("move "+image+" 720p")\n\t\tim_720 = im_720+1\n\t\tcontinue\nprint(im_4k," 4K images moved to 4K folder")\t#Printing counts for each type\nprint(im_1080," 1080p images moved to 1080p folder")\t\nprint(im_720," 720p images moved to 720p folder")\t')
-                    </Action>
-                </Macro>
-                <Macro Name="Find all links" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="Find all links" XML_Guid="{3EB0FC6F-824C-4FE8-B01F-D99CA6EDDC28}">
-                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\nprint website.text\n# read html\n#html = website.text\n\n# use re.findall to grab all the links\n#links = re.findall(\'"((http|ftp)s?://.*?)"\', html)\n\n# output links\n#for link in links:\n    #print(link[0])')
-                    </Action>
-                    <Action Name="Find all links" XML_Guid="{3EB0FC6F-824C-4FE8-B01F-D99CA6EDDC28}">
-                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\nprint website.text\n# read html\n#html = website.text\n\n# use re.findall to grab all the links\n#links = re.findall(\'"((http|ftp)s?://.*?)"\', html)\n\n# output links\n#for link in links:\n    #print(link[0])')
-                    </Action>
-                </Macro>
-                <Macro Name="excution time function" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="excution time example" XML_Guid="{01DF94CB-D452-447F-BA27-F0C811201718}">
-                        EventGhost.PythonScript(u'"""\nExecutionTime\nThis class is used for timing execution of code.\nFor example:\n    timer = ExecutionTime()\n    print \'Hello world!\'\n    print \'Finished in {} seconds.\'.format(timer.duration())\n"""\n\n\nimport time\nimport random\n\n\nclass ExecutionTime:\n    def __init__(self):\n        self.start_time = time.time()\n\n    def duration(self):\n        return time.time() - self.start_time\n\n\n# ---- run code ---- #\n\n\ntimer = ExecutionTime()\nsample_list = list()\nmy_list = [random.randint(1, 888898) for num in\n           range(1, 1000000) if num % 2 == 0]\nprint(\'Finished in {} seconds.\'.format(timer.duration()))')
-                    </Action>
-                </Macro>
-                <Macro Name="email crawler" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="email crawler" XML_Guid="{7EB7D69F-DD1C-460E-ACCC-17D544C4E1D8}">
-                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\n# read html\nhtml = website.text\n\n# use re.findall to grab all the links\nlinks = re.findall(\'"((http|ftp)s?://.*?)"\', html)\nemails = re.findall(\'([\\w\\.,]+@[\\w\\.,]+\\.\\w+)\', html)\n\n\n# print the number of links in the list\nprint("\\nFound {} links".format(len(links)))\nfor email in emails:\n    print(email)')
-                    </Action>
-                </Macro>
-                <Macro Name="url crtawler" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="url crtawler" XML_Guid="{E6C72342-E0EF-4E3A-BA2A-DC9B991EEEAE}">
-                        EventGhost.PythonScript(u'import requests\nimport re\ntry:\n    from urllib.parse import urljoin\nexcept ImportError:\n    from urlparse import urljoin\n\n# regex\nlink_re = re.compile(r\'href="(.*?)"\')\n\n\ndef crawl(url):\n\n    req = requests.get(url)\n\n    # Check if successful\n    if(req.status_code != 200):\n        return []\n\n    # Find links\n    links = link_re.findall(req.text)\n\n    print("\\nFound {} links".format(len(links)))\n\n    # Search links for emails\n    for link in links:\n\n        # Get an absolute URL for a link\n        link = urljoin(url, link)\n\n        print(link)\n\nif __name__ == \'__main__\':\n    crawl(\'http://www.eventghost.net/forum/viewtopic.php?t=5695\')')
-                    </Action>
-                </Macro>
-                <Macro Name="find_files_recursively" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="find_files_recursively" XML_Guid="{2F8DB9F5-C4AC-4EE9-9171-FC233AB6700B}">
-                        EventGhost.PythonScript(u'import fnmatch\nimport os\n\n# constants\nPATH = \'./\'\nPATTERN = \'*.md\'\n\n\ndef get_file_names(filepath, pattern):\n    matches = []\n    if os.path.exists(filepath):\n        for root, dirnames, filenames in os.walk(filepath):\n            for filename in fnmatch.filter(filenames, pattern):\n                # matches.append(os.path.join(root, filename))  # full path\n                matches.append(os.path.join(filename))  # just file name\n        if matches:\n            print("Found {} files:".format(len(matches)))\n            output_files(matches)\n        else:\n            print("No files found.")\n    else:\n        print("Sorry that path does not exist. Try again.")\n\n\ndef output_files(list_of_files):\n    for filename in list_of_files:\n        print(filename)\n\n\nif __name__ == \'__main__\':\n    get_file_names(PATH, PATTERN)')
-                    </Action>
-                </Macro>
-                <Macro Name="optimize image" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="optimize image" XML_Guid="{B82B40F2-B16B-4881-8AB6-C57EA1401043}">
-                        EventGhost.PythonScript(u'\'\'\'simport fnmatch\nimport os\n\n# pip install Wand\nfrom wand.image import Image\n# pip install http://pypi.python.org/packages/source/h/hurry.filesize/hurry.filesize-0.9.tar.gz\nfrom hurry.filesize import size\n\n\n# constants\nPATH = \'/../../../..\'\nPATTERN = \'*.jpg\'\n\n\ndef get_image_file_names(filepath, pattern):\n    matches = []\n    if os.path.exists(filepath):\n        for root, dirnames, filenames in os.walk(filepath):\n            for filename in fnmatch.filter(filenames, pattern):\n                matches.append(os.path.join(root, filename))  # full path\n        if matches:\n            print("Found {} files, with a total file size of {}.".format(\n                len(matches), get_total_size(matches)))\n            return matches\n        else:\n            print("No files found.")\n    else:\n        print("Sorry that path does not exist. Try again.")\n\n\ndef get_total_size(list_of_image_names):\n    total_size = 0\n    for image_name in list_of_image_names:\n        total_size += os.path.getsize(image_name)\n    return size(total_size)\n\n\ndef resize_images(list_of_image_names):\n    print("Optimizing ... ")\n    for index, image_name in enumerate(list_of_image_names):\n        with open(image_name) as f:\n            image_binary = f.read()\n        with Image(blob=image_binary) as img:\n            if img.height &gt;= 600:\n                img.transform(resize=\'x600\')\n                img.save(filename=image_name)\n    print("Optimization complete.")\n\n\nif __name__ == \'__main__\':\n    all_images = get_image_file_names(PATH, PATTERN)\n    resize_images(all_images)\n    get_image_file_names(PATH, PATTERN)\n    \'\'\'\n    ')
-                    </Action>
-                </Macro>
-                <Macro Name="ip geolocate" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="ip geolocate" XML_Guid="{D3CC6E13-B5BB-4F85-AD8A-D3CC058B69B7}">
-                        EventGhost.PythonScript(u'import csv\nimport requests\n\n\ndef get_addresses(filename):\n    """\n    Given a CSV file, this function returns a list of lists\n    where each element (list) in the outer list contains the\n    row info from the csv file.\n    """\n    all_addresses = []\n    with open(filename, \'rt\') as f:\n        reader = csv.reader(f)\n        for row in reader:\n            all_addresses.append(row)\n    return all_addresses\n\n\ndef get_geolocation(all_the_ip_address):\n    """\n    Given a list of lists from `get_addresses()`, this function\n    returns an updated lists of lists containing the geolocation.\n    """\n    print("Getting geo information...")\n    updated_addresses = []\n    counter = 1\n    # update header\n    header_row = all_the_ip_address.pop(0)\n    header_row.extend([\'Country\', \'City\'])\n    # get geolocation\n    for line in all_the_ip_address:\n        print("Grabbing geo info for row # {0}".format(counter))\n        r = requests.get(\'https://freegeoip.net/json/{0}\'.format(line[0]))\n        line.extend([str(r.json()[\'country_name\']), str(r.json()[\'city\'])])\n        updated_addresses.append(line)\n        counter += 1\n    updated_addresses.insert(0, header_row)\n    return updated_addresses\n\n\ndef create_csv(updated_address_list):\n    """\n    Given the updated lists of lists from `get_geolocation()`, this function\n    creates a new CSV.\n    """\n    import sys\n    if sys.version_info &gt;= (3, 0, 0):\n        f = open(\'output.csv\', \'w\', newline=\'\')\n    else:\n        f = open(\'output.csv\', \'wb\')\n    with f:\n        writer = csv.writer(f)\n        writer.writerows(updated_address_list)\n    print("All done!")\n\n\nif __name__ == \'__main__\':\n    csv_file = \'25_sample_csv.csv\'\n    all_the_ip_address = get_addresses(csv_file)\n    updated_address_list = get_geolocation(all_the_ip_address)\n    create_csv(updated_address_list)')
-                    </Action>
-                </Macro>
-                <Macro Name="folder zipper" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
-                    <Action Name="folder zipper" XML_Guid="{F88AD373-9C96-43EA-8709-27DAA49B460B}">
-                        EventGhost.PythonScript(u"import os\nfrom datetime import datetime\nfrom zipfile import ZipFile\n\n\n# set file name and time of creation\ntoday = datetime.now()\nfile_name = 'zipper_' + today.strftime('%Y.%m.%dh%H%M') + '.zip'\ndir_name = 'tmp/'  # update path\n\n\ndef zipdir(path, zip):\n    for root, dirs, files in os.walk(path):\n        for file in files:\n            zip.write(os.path.join(root, file))\n\nif __name__ == '__main__':\n    zipfile = ZipFile(file_name, 'w')\n    zipdir(dir_name, zipfile)\n    zipfile.close()")
-                    </Action>
-                </Macro>
-                <Macro Name="create a scratch frame" XML_Guid="{201A8BB4-9C9D-439F-92E8-E373BA99D7A8}">
-                    <Action Name="frame with subm" Enabled="False" XML_Guid="{5CA6F633-1BBF-4A15-B34A-4B6E8AF00F8F}">
-                        EventGhost.PythonScript(u'import wx\n\n\nclass Frame(wx.Frame):\n\n    def __init__(self):\n\n        wx.Frame.__init__(self, None, -1, size=(200, 300))\n\n        menu_bar = wx.MenuBar()\n        menu = wx.Menu()\n        menu.AppendCheckItem(wx.NewId(), \'item 1\')\n\n        sub_menu = wx.Menu()\n        sub_menu.AppendCheckItem(wx.NewId(), \'item 2\')\n\n        menu.AppendSubMenu(sub_menu, \'sub_menu\')\n\n        menu_bar.Append(menu, "some menu")\n        self.SetMenuBar(menu_bar)\n\n\napp = wx.GetApp()\n\nif app:\n    frame = Frame()\n    frame.Show()\n\nelse:\n    app = wx.App()\n    \n    frame = Frame()\n    frame.Show()\n\n    app.MainLoop()\n    \n    \n    \nx =  \'\'\'Traceback (most recent call last) (WIP):\n  File "C:\\Program Files (x86)\\EventGhost\\eg\\Classes\\ThreadWorker.py", line 261, in __DoOneEvent\n    self.__PumpWaitingMessages()\n  File "C:\\Program Files (x86)\\EventGhost\\eg\\Classes\\ThreadWorker.py", line 287, in __PumpWaitingMessages\n    while PeekMessage(byref(msg), 0, 0, 0, PM_REMOVE):\nArgumentError: argument 2: &lt;class \'wx._core.PyAssertionError\'&gt;: C++ assertion "m_menuDepth &gt; 0" failed at ..\\..\\src\\msw\\toplevel.cpp(1544) in wxTopLevelWindowMSW::DoSendMenuOpenCloseEvent(): No open menus?\'\'\'')
-                    </Action>
-                </Macro>
-                <Macro Name="rename dat to geo and remove dat" XML_Guid="{B79D975D-EFF7-44D3-93E8-C5621258FFB6}">
-                    <Event Name="*.makegeo" XML_Guid="{8E5C0E2D-1D63-4E5B-96BA-A9CE9AB24102}" />
-                    <Action XML_Guid="{F2E6FDA7-811C-4676-88F8-D61C3D1541C2}">
-                        EventGhost.PythonScript(u'import os\nimport shutil\nfrom datetime import datetime\n\n#Gets the date to remove\ntoday = datetime.today()\ntodayyearday = "_"+today.strftime("%Y_%m")+".dat"\n\n#Tests if target directory is set and not Default\ntry:\n    eg.globals.activedir\n    if eg.globals.activedir == "C:\\Users\\Dan.Edens\\Desktop\\\\":\n        print "Active directory has not been set"\n        exit()\n    else:\n        pass\nexcept AttributeError:\n    print "Active directory has not been set"\n    exit()\n#prints info it\'s going to use to move files. \n#This helps to find missing items if something goes wrong.\nprint "renaming Files ending in \\""+todayyearday+"\\""+" in target directory "+eg.globals.activedir\n\n#Change to target directory\nos.chdir(eg.globals.activedir)\n#To prevent unknowning loss of files for whatever reason. \n#Save the number of files to check against afterwards.\n#account for the new temp folder we will create\n\nnumberoffiles = int(len([name for name in os.listdir(\'.\') if os.path.isfile(name)]))\nfilesafter = numberoffiles-1\n\n#debug line\n#x= """\n#Checks if the directory contains a temp folder and creates one if not.\ntry:\n    os.mkdir("temp")\nexcept WindowsError:\n    print "Already created temp"\n\n#reads in filenames\nfor filename in os.listdir("."):\n    #if the filename is a dat file, remove the date tail\n    if filename.endswith(".dat"):\n        os.rename(filename, filename.replace(todayyearday,""))\n        #logs the file that is being renamed\n        print "renamed "+filename\n    #if the file doesnt match than move it to temp, \n    #ignoring already converted files.\n    if os.path.exists(filename) and filename[:-3] != "geo":\n        #log these moved filenames\n        print "moving "+filename\n        try:\n            shutil.move(filename, "temp\\\\"+filename)\n        except:\n            #if the move fails for some reason log\n            print "move failed - "+filename\n    else:\n        #exception for files moved unexceptedly\n        print("Cannot remove file as it doesn\'t exist!")\n\n#Check the new number of files against the predicted number\nnumberoffiles = numberoffiles-1\nnewnumber = int(len([name for name in os.listdir(\'.\') if os.path.isfile(name)]))\n#print to log if mismatch\nif filesafter != newnumber:\n    print "File count mismatch detected, please check temp folder for files not matched"\nelse:\n    print "Conversion complete"')
-                    </Action>
-                </Macro>
-                <Macro Name="get size project" XML_Guid="{6685A326-75AD-4336-9DFE-B717AFC7CE9D}">
-                    <Action XML_Guid="{7EA9FA10-8B42-4C9E-92CF-E30F580EB5FC}">
-                        EventGhost.PythonScript(u"import os\npath = eg.globals.activedir\n#os.chdir(path)\n\nx = '''\nfor f in os.listdir(path): \n    print f \n    os.path.getsize(f)'''\n    \ndef get_size(start_path = path):\n    total_size = 0\n    for dirpath, dirnames, filenames in os.walk(start_path):\n        for f in filenames:\n            fp = os.path.join(dirpath, f)\n            # skip if it is symbolic link\n            if not os.path.islink(fp):\n                total_size += os.path.getsize(fp)\n\n    return total_size\n\nprint(get_size(), 'bytes')\n")
-                    </Action>
-                </Macro>
-            </Folder>
-        </Folder>
-        <Folder Name="Lua" Enabled="False" XML_Guid="{F053FC30-ABD1-4BC9-9650-07B3EA47FBB2}" Expanded="True">
-            <Folder Name="Rain Variable Editor" Enabled="False" XML_Guid="{7D55C823-99EE-4649-B4A9-D8515E26BB04}">
-                <Macro Name="Variable" XML_Guid="{A1622F71-5A60-483B-A1FC-0180D745C9A4}">
-                    <Event Name="*.rain?skinpath" XML_Guid="{25DF1AB1-B830-4314-84A3-2C1A8650F203}" />
-                    <Event Name="*.rain?path" XML_Guid="{01B7E0D8-0757-4D9E-B94A-800C8AADC42A}" />
-                    <Action Enabled="False" XML_Guid="{6CDAF907-D57D-47B9-AF5A-4CFFB5057D3A}">
-                        EventGhost.PythonScript(u'eg.globals.rainpath = eg.event.payload\nprint eg.globals.rainpath')
-                    </Action>
-                    <Action XML_Guid="{4243A974-250E-4599-AD54-074549C90149}">
-                        AutoRemote.ShowInputDialog(u'Variable Editor', u'Which Variable is target?', u'jobname', u'rain value', False)
-                    </Action>
-                </Macro>
-                <Macro Name="Value" XML_Guid="{E0613ECB-6C17-4D0C-AB83-78EEA3684F2B}">
-                    <Event Name="*.rain?value" XML_Guid="{8DB190C4-11E0-42F8-8F17-296CB968C928}" />
-                    <Action XML_Guid="{6CDAF907-D57D-47B9-AF5A-4CFFB5057D3A}">
-                        EventGhost.PythonScript(u'eg.globals.rainvar = eg.event.payload\nprint eg.globals.rainvar\ndel eg.event.payload')
-                    </Action>
-                    <Action XML_Guid="{4243A974-250E-4599-AD54-074549C90149}">
-                        AutoRemote.ShowInputDialog(u'Variable Editor', u'Input new value', u'', u'rain var', False)
-                    </Action>
-                </Macro>
-                <Macro Name="if custom" XML_Guid="{5527FA6B-9F27-4FA0-8B06-CFB732451D25}">
-                    <Event Name="*.rain var" Enabled="False" XML_Guid="{E5FE9CCE-1CD4-4CF7-9247-E31A41E55212}" />
-                    <Action XML_Guid="{6CDAF907-D57D-47B9-AF5A-4CFFB5057D3A}">
-                        EventGhost.PythonScript(u'if eg.event.payload == "none":\n    del eg.event.payload\nelif eg.event.payload != "none":\n    eg.globals.rainvalue = eg.event.payload\n')
-                    </Action>
-                    <Action Name="rainmeter var value path template" XML_Guid="{F17764A2-AE5C-4107-A27F-0891BFC9241C}">
-                        EventGhost.PythonScript(u'try:\n    eg.globals.rainvar\nexcept AttributeError: #sets a default value if not otherwise specified\n    eg.globals.rainvar = "jobname"\n    pass\nelse:\n    pass\n\ntry:\n    eg.globals.rainvalue\nexcept AttributeError:  #sets a default value if not otherwise specified\n    eg.globals.rainvalue = eg.globals.jobname\n    pass\nelse:\n    pass\n\neg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', False, False, False, False, False)\neg.plugins.EventGhost.ShowOSD(u\' Jobname set to {eg.globals.jobname}\', u\'0;-24;0;0;0;700;0;0;0;1;0;0;2;32;Arial\', (200, 190, 4), (0, 0, 0), 0, (400, 100), 2, 3.0, u\'Default\')\nprint "sent"\ndel eg.globals.rainvalue')
-                    </Action>
-                    <Action XML_Guid="{BE3600E3-C728-4832-8929-0057984D7253}">
-                        AutoRemote.SendMessage(u'Pixel', u'http://goo.gl/VjAqkR', u'APA91bEdoLlyAUKL6RP1si7Mo25PaGVTxiG9XuNdKI9s1HsnfOOB0f2UOsndoDr2zZkvnYi7hMMBzZBCGlGXjEtHs1mjYeG_BqgDV_FmREao87vkDFvwAbq8SvlW97s7WFaISrDBNmcw', u'var=:=Jobname {eg.globals.jobname}', u'', u'', u'', '', u'', u'')
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="Rainmeter Layouts" XML_Guid="{1D08F539-F233-4C02-AFF2-1E40C3BB3907}">
-                <Macro Name="Desk _Layout" XML_Guid="{6A625BF7-E45F-4D36-BC49-8B7BA7BB7A21}">
-                    <Event Name="*.rain?desk" XML_Guid="{F358878C-F6F4-448B-AD73-B7E205253CAF}" />
-                    <Event Name="*.rain?1" XML_Guid="{F358878C-F6F4-448B-AD73-B7E205253CAF}" />
-                    <Action XML_Guid="{80CD7FF5-5E8D-494E-8E5E-47E58F075A15}">
-                        System.Command(u'"C:\\Program Files\\Rainmeter\\Rainmeter.exe" !LoadLayout "Desk_Layout"', True, False, u'', True, False, False, False, False)
-                    </Action>
-                    <Action XML_Guid="{17B6A2C6-1E9C-4601-BC83-954E4754BF08}">
-                        DesktopRemote.Close()
-                    </Action>
-                </Macro>
-                <Macro Name="Mobile_Layout" XML_Guid="{AB589E5C-2C9B-4420-856E-6FE084655EB9}">
-                    <Event Name="*.rain?mobile" XML_Guid="{535B69D6-761C-4AFD-BB62-68CFEC4E0F30}" />
-                    <Event Name="*.rain?2" XML_Guid="{535B69D6-761C-4AFD-BB62-68CFEC4E0F30}" />
-                    <Event Name="System.PowerSource.Battery" Enabled="False" XML_Guid="{38B85633-651C-450B-992C-079DADA55BC9}" />
-                    <Action Name='\Rainmeter.exe" !LoadLayout "Mobile_Layout"' XML_Guid="{80CD7FF5-5E8D-494E-8E5E-47E58F075A15}">
-                        System.Command(u'"C:\\Program Files\\Rainmeter\\Rainmeter.exe" !LoadLayout "Mobile_Layout"', True, False, u'', True, False, False, False, False)
-                    </Action>
-                    <Action XML_Guid="{17B6A2C6-1E9C-4601-BC83-954E4754BF08}">
-                        DesktopRemote.Close()
-                    </Action>
-                </Macro>
-                <Macro Name="Debug layout 1" XML_Guid="{6FAA100A-6A8E-43E4-A1A6-0F820EA754FD}">
-                    <Event Name="*.rain?3" XML_Guid="{535B69D6-761C-4AFD-BB62-68CFEC4E0F30}" />
-                    <Event Name="*.rain?debug" XML_Guid="{535B69D6-761C-4AFD-BB62-68CFEC4E0F30}" />
-                    <Action XML_Guid="{80CD7FF5-5E8D-494E-8E5E-47E58F075A15}">
-                        System.Command(u'"C:\\Program Files\\Rainmeter\\Rainmeter.exe" !LoadLayout "Debug mode"', True, False, u'', True, False, False, False, False)
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="open or refresh" XML_Guid="{A3AF2877-DA79-44C6-A0B8-1CBC93A0FBCC}">
-                <Macro Name="Run Command refresh rainmeter" XML_Guid="{25C2CF23-59C1-401A-A61E-3AA2B371F55B}">
-                    <Event Name="*.refresh?rain" XML_Guid="{35D23B18-9281-4AE4-8DC1-9EDABE61B9FC}" />
-                    <Action Name='\Rainmeter\Rainmeter.exe" !RefreshApp' XML_Guid="{42CD945F-B86A-4886-A68F-200D39A5F8BB}">
-                        System.Command(u'"C:\\Program Files\\Rainmeter\\Rainmeter.exe" !RefreshApp', True, False, u'', True, False, False, False, False)
-                    </Action>
-                </Macro>
-                <Macro Name="open rainmeter manager" XML_Guid="{1BA34AEA-999D-4565-BBEF-D9F60F33EA1B}">
-                    <Event Name="*.manage?rain" XML_Guid="{AFCBDC68-3EDD-41C8-B817-773B1CAACA32}" />
-                    <Action XML_Guid="{71F3334F-412C-49DD-9557-DD018CD1CF6F}">
-                        System.Execute(u'C:\\Program Files\\Rainmeter\\Rainmeter.exe', u'!Manage', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="Var Files" XML_Guid="{884152AE-A61F-4B28-8722-B6A08F5A20DB}" Expanded="True">
-                <Macro Name="Open termlink variables file" XML_Guid="{7113632F-7224-4874-94A7-C2E3EFFC42EC}" Expanded="True">
-                    <Event Name="*.var?station" XML_Guid="{CC1CBE7D-CAA9-496E-967B-3FBF40AD503C}" />
-                    <Action Enabled="False" XML_Guid="{1518B763-CE47-4D47-BC74-857E5EF6AC65}">
-                        System.Execute(u'C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\Fly\\@Recources\\Variables\\options.inc', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                    </Action>
-                </Macro>
-                <Macro Name="Open fly variables file" XML_Guid="{7113632F-7224-4874-94A7-C2E3EFFC42EC}" Expanded="True">
-                    <Event Name="*.var?termlink" XML_Guid="{CC1CBE7D-CAA9-496E-967B-3FBF40AD503C}" />
-                    <Action XML_Guid="{1518B763-CE47-4D47-BC74-857E5EF6AC65}">
-                        System.Execute(u'C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                    </Action>
-                </Macro>
-                <Macro Name="Open station status temp name variables file" XML_Guid="{7113632F-7224-4874-94A7-C2E3EFFC42EC}" Expanded="True">
-                    <Event Name="*.var?disk1temp" XML_Guid="{CC1CBE7D-CAA9-496E-967B-3FBF40AD503C}" />
-                    <Action XML_Guid="{1518B763-CE47-4D47-BC74-857E5EF6AC65}">
-                        System.Execute(u'C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\Station Status\\1 Disk.ini', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
-                    </Action>
-                </Macro>
-            </Folder>
-            <Folder Name="Set vars" XML_Guid="{1B396610-FC54-4759-AC69-40D5E3946F50}">
-                <Macro Name="send activedir" XML_Guid="{5527FA6B-9F27-4FA0-8B06-CFB732451D25}">
-                    <Event Name="*.rain?activedir" XML_Guid="{CC757D82-8D35-4CBD-BD7C-0B4A5CB4A108}" />
-                    <Action Name="rainmeter var value path template" Enabled="False" XML_Guid="{F17764A2-AE5C-4107-A27F-0891BFC9241C}">
-                        EventGhost.PythonScript(u'eg.globals.rainvar = "Activedir"\neg.globals.rainvalue = eg.globals.activedir\nprint eg.globals.rainvalue\ntry:\n    eg.globals.rainpath\nexcept AttributeError:\n    eg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\nelse:\n    pass\neg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', False, False, False, False, False)\neg.plugins.EventGhost.ShowOSD(u\' Jobname set to {eg.globals.jobname}\', u\'0;-24;0;0;0;700;0;0;0;1;0;0;2;32;Arial\', (200, 190, 4), (0, 0, 0), 0, (400, 100), 2, 3.0, u\'Default\')\n')
-                    </Action>
-                </Macro>
-                <Macro Name="send state" XML_Guid="{5527FA6B-9F27-4FA0-8B06-CFB732451D25}">
-                    <Event Name="*.rain?state" XML_Guid="{CC757D82-8D35-4CBD-BD7C-0B4A5CB4A108}" />
-                    <Action Name="rainmeter var value path template" XML_Guid="{F17764A2-AE5C-4107-A27F-0891BFC9241C}">
-                        EventGhost.PythonScript(u'eg.globals.rainvar = "state"\neg.globals.rainvalue = eg.globals.state\nprint eg.globals.rainvalue\ntry:\n    eg.globals.rainpath\nexcept AttributeError:\n    eg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\nelse:\n    pass\neg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', False, False, False, False, False)\neg.plugins.EventGhost.ShowOSD(u\' Jobname set to {eg.globals.jobname}\', u\'0;-24;0;0;0;700;0;0;0;1;0;0;2;32;Arial\', (200, 190, 4), (0, 0, 0), 0, (400, 100), 2, 3.0, u\'Default\')\n')
-                    </Action>
-                </Macro>
-                <Macro Name="send jobname" Enabled="False" XML_Guid="{5527FA6B-9F27-4FA0-8B06-CFB732451D25}">
-                    <Event Name="*.rain?var" XML_Guid="{CC757D82-8D35-4CBD-BD7C-0B4A5CB4A108}" />
-                    <Action XML_Guid="{CD80D7E3-244B-4F1A-85ED-07D603407F79}">
-                        TrayTip.ShowTip(u'Jobname set to {eg.globals.jobname}', u'Path = {eg.globals.jobpath}', u'', 0, True)
-                    </Action>
-                    <Action Name="rainmeter var value path template" XML_Guid="{F17764A2-AE5C-4107-A27F-0891BFC9241C}">
-                        EventGhost.PythonScript(u'egg = eg.globals\negp = eg.plugins\nesc = eg.plugins.System.Command\neg.globals.rainvar = "jobname"\neg.globals.rainvalue = eg.globals.jobname\nprint egg.rainvalue\ntry:\n    egg.rainpath\nexcept AttributeError:\n    egg.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\nelse:\n    pass\n#eg.plugins.TrayTip.ShowTip(u\'Jobname set to {eg.globals.jobname}\', u\'Path = {eg.globals.jobpath}\', u\'\', \'C:\\\\Users\\\\Dan.Edens\\\\Desktop\\\\Tree\\\\Geo_tree\\\\Images\\\\geo_logo_9Am_icon.ico;0\', False)\n#esc(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\n#esc(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables Activedir "{eg.globals.jobpath}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\n#egp.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables jobcustomer "{eg.globals.jobcustomer}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\n#esc(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'setx jobname "{eg.globals.jobname}"\', False, False, u\'\', False, False, False, False, True)\n#print eg.globals.jobpath\neg.plugins.System.Command(u\'setx jobpath \\""{eg.globals.jobpath}\', False, False, u\'\', False, False, False, False, True)\nimport os\nprint os.environ[\'JOBPATH\']\n\n')
-                    </Action>
-                    <Action XML_Guid="{DB7B3CB0-3678-44A0-86B6-D33D2970E0C7}">
-                        System.Command(u'setx jobpath "{eg.globals.jobpath}"', False, False, u'', False, False, False, False, True)
-                    </Action>
-                </Macro>
-                <Macro Name="path (probably wont use this)" Enabled="False" XML_Guid="{9CA155C9-859E-4556-ACDD-AA8CA843AD49}">
-                    <Event Name="*.rain?path" XML_Guid="{01B7E0D8-0757-4D9E-B94A-800C8AADC42A}" />
-                    <Action XML_Guid="{4243A974-250E-4599-AD54-074549C90149}">
-                        AutoRemote.ShowInputDialog(u'Variable Editor', u'Skin options path?', u'C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\', u'rain.skinpath', False)
-                    </Action>
-                </Macro>
-                <Folder Name="State" XML_Guid="{947CAE21-34E9-4A0B-995A-732CEB70B4E9}">
-                    <Macro Name="Set State to field" XML_Guid="{20DC7C08-D57C-4040-94AA-400C6665A9F1}">
-                        <Event Name="*.field" XML_Guid="{229C4C57-EDFC-483C-93C7-15FB6AF4AC3B}" />
-                        <Action Name="rainmeter var value path template" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                            EventGhost.PythonScript(u'eg.globals.rainvar = "state"\neg.globals.rainvalue = "Field"\neg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\neg.plugins.EventGhost.ShowMessageBox(u\'{eg.globals.rainvalue} mode Active\', u\'\', u\'\', u\'\', True, 28736, 1, 2)\neg.plugins.EventGhost.TriggerEvent(u\'{eg.globals.rainvalue}.build\', 0.0)')
-                        </Action>
-                    </Macro>
-                    <Macro Name="Set State to desk" XML_Guid="{01CE53BB-FCCE-49E2-B3C4-985C54045EF4}">
-                        <Event Name="*.desk" XML_Guid="{742B48E2-C60E-4DB5-B1F7-F47BE8E507BC}" />
-                        <Action Name="rainmeter var value path template" XML_Guid="{52509D25-4E3F-4D88-AEFE-266E6D000EDC}">
-                            EventGhost.PythonScript(u'eg.globals.rainvar = "state"\neg.globals.rainvalue = "Desk"\neg.globals.rainpath = "C:\\\\Users\\\\Dan.Edens\\\\Documents\\\\Rainmeter\\\\Skins\\\\Fly\\\\@Recources\\\\Variables\\\\Options.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\neg.plugins.EventGhost.ShowMessageBox(u\'{eg.globals.rainvalue} mode Active\', u\'\', u\'\', u\'\', True, 28736, 1, 2)\neg.plugins.EventGhost.TriggerEvent(u\'{eg.globals.rainvalue}.build\', 0.0)')
-                        </Action>
-                    </Macro>
-                </Folder>
-                <Folder Name="Termlink" XML_Guid="{4B45B985-CD08-42F3-9BE4-816EA1D5ECE1}">
-                    <Folder Name="Menus" XML_Guid="{75D5ACEE-B353-4ACD-AD07-525866365499}" />
-                    <Folder Name="Programs" XML_Guid="{CE9658D8-BA6E-4B3B-B417-4E7BEF1CEF2C}" />
-                    <Folder Name="games" XML_Guid="{C07C3DFF-38A6-47E7-B90C-2048D649B7B4}" />
-                    <Folder Name="Website" XML_Guid="{87B14189-5C10-4BB8-B1A2-80339BC2F5ED}">
-                        <Macro Name="website1" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Website1Text"\neg.globals.rainvalue = "unset"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Website1Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event null\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="website2" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Website2Text"\neg.globals.rainvalue = "unset"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Website2Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event null\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="website3" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Website3Text"\neg.globals.rainvalue = "unset"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Website3Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event null\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="website4" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Website4Text"\neg.globals.rainvalue = "unset"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Website4Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event null\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="website5" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Website5Text"\neg.globals.rainvalue = "unset"\neg.globals.rainvar2 = "Website5Target"\neg.globals.rainvalue2 = "C:\\\\Program Files (x86)\\\\EventGhost\\\\EventGhost.exe\\" -event null"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar2} "{eg.globals.rainvalue2}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                    </Folder>
-                    <Folder Name="Remote" XML_Guid="{BEA8A089-4B29-406F-9DC0-43B03279BFE3}">
-                        <Macro Name="remote1" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote1Text"\neg.globals.rainvalue = "job Remote"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote1Target"\neg.globals.rainvalue = "C://Program Files (x86)//EventGhost//EventGhost.exe -event job_selector"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote2" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote2Text"\neg.globals.rainvalue = "Code remote"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote2Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event code_selector\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote3" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote3Text"\neg.globals.rainvalue = "Info Remote"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote3Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event code_selector\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote4" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote4Text"\neg.globals.rainvalue = "Work menu"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote4Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event work_selector\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote5" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote5Text"\neg.globals.rainvalue = "Workspace"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote5Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event test\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote6" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote6Text"\neg.globals.rainvalue = "Empty Menu"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote6Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event sgsdfgsd\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote7" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote7Text"\neg.globals.rainvalue = "Selector menu"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote7Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event selector\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                        <Macro Name="remote8" XML_Guid="{15976FA5-E5B7-41EE-ACCF-53F44C797035}">
-                            <Action Name="rainmeter var value path termlink" XML_Guid="{062AE619-29E6-4CDC-AEF3-B02633DA4348}">
-                                EventGhost.PythonScript(u'eg.globals.rainvar = "Remote8Text"\neg.globals.rainvalue = "Context menu"\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n\neg.globals.rainvar = "Remote8Target"\neg.globals.rainvalue = \'C:/Program Files (x86)/EventGhost/EventGhost.exe" -event send_selector\'\neg.globals.rainpath = "C:\\Users\\Dan.Edens\\Documents\\Rainmeter\\Skins\\FalloutTerminal\\@resources\\Variables.inc"\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !WriteKeyValue Variables {eg.globals.rainvar} "{eg.globals.rainvalue}" "{eg.globals.rainpath}"\', True, False, u\'\', False, False, False, False, False)\neg.plugins.System.Command(u\'"C:\\\\Program Files\\\\Rainmeter\\\\Rainmeter.exe" !RefreshApp\', True, False, u\'\', True, False, False, False, False)\n')
-                            </Action>
-                        </Macro>
-                    </Folder>
-                </Folder>
-            </Folder>
-            <Macro Name="notes" XML_Guid="{17A372E3-E25D-4F5C-BEC8-3BE6F353554B}">
-                <Action Name="notes" XML_Guid="{37570C85-546D-4E00-9754-1FA949BF9530}">
-                    EventGhost.PythonScript(u"# block Rainmeter's context menu\n# RightMouseUpAction=!Execute\n\n")
-                </Action>
-            </Macro>
-        </Folder>
     </Folder>
-    <Folder Name="Main" XML_Guid="{A2DF748D-1A26-48B7-96BA-4BB24F475592}" Expanded="True">
+    <Folder Name="Main" id="1782" XML_Guid="{A2DF748D-1A26-48B7-96BA-4BB24F475592}" Expanded="True">
         <Folder Name="Clipboard Manager" XML_Guid="{FFA73B0A-D202-499E-B39B-7F98E46907BE}">
             <Folder Name="Extended" XML_Guid="{50EFD6F9-5847-4847-9141-A7B97F2F365D}">
                 <Folder Name="Clip" XML_Guid="{DFFCA712-054A-4F76-A736-A7A58075C1D4}">
@@ -4597,9 +4156,46 @@
                     </Macro>
                 </Folder>
             </Folder>
-            <Folder Name="Files" XML_Guid="{F2331FB9-38D2-407B-93F7-148690A27FFB}" />
+            <Folder Name="Desknote" XML_Guid="{9E5F326C-F4DC-413B-90C1-BB5C362168E4}">
+                <Macro Name="Append Payload from chrome plugin to note" XML_Guid="{A64A5576-EA3A-493C-832C-EF7EB60D76CE}">
+                    <Event Name="*.payload?chromenote" XML_Guid="{134BF3AB-4BF6-4B0C-B4A9-367D717D0ABF}" />
+                    <Event Name="Chrome.Selection.select" XML_Guid="{A73EE6E8-0A27-4E10-B672-90CE6442D08B}" />
+                    <Action Name="Need to change into python script to replace path" XML_Guid="{7A8BA41B-709A-4B68-9281-DC5B65D62743}">
+                        EventGhost.PythonScript(u"if eg.event.payload != None:\n    print eg.event.payload\n    eg.plugins.FileOperations.Write(2, u'{eg.event.payload}', u'{eg.globals.chromenote}', 2, 0, False, True, False, 'cp1252')\nelse:    \n    import win32clipboard\n    win32clipboard.OpenClipboard()\n    eg.globals.clip = win32clipboard.GetClipboardData()\n    win32clipboard.CloseClipboard()\n    print eg.globals.clip\n    eg.plugins.FileOperations.Write(2, u'{eg.globals.clip}', u'{eg.globals.chromenote}', 2, 0, False, True, False, 'cp1252')")
+                    </Action>
+                    <Action Name="File Operations: Write {eg.event.payload} to file" Enabled="False" XML_Guid="{21F918A7-070B-4ECF-8551-1B67CDA90CB2}">
+                        FileOperations.Write(2, u'{eg.event.payload}', u'{egg.desknote}', 2, 0, False, True, False, 'cp1252')
+                    </Action>
+                    <Action XML_Guid="{CA79C00D-CDEF-4070-8E0B-10A00634D026}">
+                        System.Execute(u'{eg.globals.chromenote}', u'', 0, False, 2, u'', False, False, u'', False, False, False, False)
+                    </Action>
+                </Macro>
+                <Macro Name="Append Payload from Tasker to Desktop notepad" XML_Guid="{A64A5576-EA3A-493C-832C-EF7EB60D76CE}">
+                    <Event Name="*.payload?desknote" XML_Guid="{134BF3AB-4BF6-4B0C-B4A9-367D717D0ABF}" />
+                    <Event Name="Chrome.Selection.select" XML_Guid="{A73EE6E8-0A27-4E10-B672-90CE6442D08B}" />
+                    <Action Name="Need to change into python script to replace path" XML_Guid="{7A8BA41B-709A-4B68-9281-DC5B65D62743}">
+                        EventGhost.PythonScript(u"if eg.event.payload != None:\n    print eg.event.payload\n    eg.plugins.FileOperations.Write(2, u'{eg.event.payload}', u'{eg.globals.desknote}', 2, 0, False, True, False, 'cp1252')\nelse:    \n    import win32clipboard\n    win32clipboard.OpenClipboard()\n    eg.globals.clip = win32clipboard.GetClipboardData()\n    win32clipboard.CloseClipboard()\n    print eg.globals.clip\n    eg.plugins.FileOperations.Write(2, u'{eg.globals.clip}', u'{eg.globals.desknote}', 2, 0, False, True, False, 'cp1252')")
+                    </Action>
+                    <Action Name="File Operations: Write {eg.event.payload} to file" Enabled="False" XML_Guid="{21F918A7-070B-4ECF-8551-1B67CDA90CB2}">
+                        FileOperations.Write(2, u'{eg.event.payload}', u'{egg.desknote}', 2, 0, False, True, False, 'cp1252')
+                    </Action>
+                </Macro>
+                <Macro Name="line to save command note" XML_Guid="{4A94BBDA-C089-4929-9E6A-182E5F683223}">
+                    <Event Name="*.note" XML_Guid="{8B215B2C-2D25-4032-8CF9-FD4B08BA69FF}" />
+                    <Action XML_Guid="{94DE6DDC-FA91-4626-AEBA-FEB38106C318}">
+                        AutoRemote.ShowInputDialog(u'Save to desktop note', u'Paste note', u'', u'payload_desknote', False)
+                    </Action>
+                </Macro>
+                <Macro Name="!open desknote" XML_Guid="{3B638438-3D6E-412E-B687-7F46A0C051DB}">
+                    <Event Name="*.open*desknote" XML_Guid="{61DDD526-052B-4CB4-AB0B-EFC31D68A325}" />
+                    <Event Name="Main.Input.OK.desknote" XML_Guid="{2A11ADED-8F86-4B26-834F-684BABC1859E}" />
+                    <Action Name="Open Desktop notepad" XML_Guid="{7358D345-7766-463C-BFE6-66690A9887E4}">
+                        System.Execute(u'C:\\Program Files\\Notepad++\\notepad++.exe', u'{eg.globals.desknote}', 0, False, 2, u'', False, False, u'', False, False, False, False)
+                    </Action>
+                </Macro>
+            </Folder>
         </Folder>
-        <Folder Name="Damage Control" XML_Guid="{FF2DEA4B-A66D-427C-833F-09AF9B1E397A}" Expanded="True">
+        <Folder Name="Damage Control" XML_Guid="{FF2DEA4B-A66D-427C-833F-09AF9B1E397A}">
             <Folder Name="!Debugging" XML_Guid="{252F5762-B0DE-43F9-BC1A-8CA911FAFB18}">
                 <Macro Name="Debugger" XML_Guid="{900471C6-6A5C-49B3-8E5E-1557D32E69DD}">
                     <Event Name="*.debug" XML_Guid="{139D14EB-19A4-4C4F-829F-CE246EA516B4}" />
@@ -4625,13 +4221,13 @@
                 <Macro Name="start log monitoring {eg.globals.monitorstr}" XML_Guid="{540EA769-6DD1-421E-935D-1104F82920A1}">
                     <Event Name="*.debug?start" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action XML_Guid="{7DBD7978-4803-41C9-B6F5-29FC4C51AA84}">
-                        EGAppControl.LogMonitor(True, {'caseSensitive': False, 'watchMsgTypes': [True, True, True, False, False, True], 'wholeMessage': False, 'searchMsg': u'{eg.globals.monitorstr}'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'DebugLogMessageFound', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                        EGAppControl.LogMonitor(True, {'caseSensitive': False, 'watchMsgTypes': [True, True, True, False, False, True], 'wholeMessage': False, 'searchMsg': u'{eg.globals.monitorstr}'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'DebugLogMessageFound', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
                     </Action>
                 </Macro>
                 <Macro Name="Stop debug monitoring (stop all)" XML_Guid="{540EA769-6DD1-421E-935D-1104F82920A1}">
                     <Event Name="*.debug?stop" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                     <Action XML_Guid="{7DBD7978-4803-41C9-B6F5-29FC4C51AA84}">
-                        EGAppControl.LogMonitor(False, {'caseSensitive': True, 'watchMsgTypes': [True, False, False, False, False, False], 'wholeMessage': False, 'searchMsg': u'Plugin "MusicBee" is not activated'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'LogMessageFound', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                        EGAppControl.LogMonitor(False, {'caseSensitive': True, 'watchMsgTypes': [True, False, False, False, False, False], 'wholeMessage': False, 'searchMsg': u'Plugin "MusicBee" is not activated'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'LogMessageFound', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
                     </Action>
                 </Macro>
             </Folder>
@@ -4657,55 +4253,11 @@
                         EventGhost.DisableItem(XmlIdLink(-1))
                     </Action>
                 </Macro>
-                <Folder Name="Mqtt" XML_Guid="{3795DE77-5C30-4503-BA3D-B2C1DE5EC8F6}" Expanded="True">
-                    <Folder Name="plugin control" XML_Guid="{FBB2F499-B65A-4A11-8734-A737F27F4161}">
-                        <Macro Name="Disable Plugin" XML_Guid="{500A0487-7147-4CA3-A41A-C360A19984F3}">
-                            <Event Name="*.mqtt?disable" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                            <Event Name="System.Device.Attached.NetworkAdapter.Intel(R) Ethernet Connection (4) I219-LM" Enabled="False" XML_Guid="{C7D32368-0ABB-4EB5-846E-7728D4FC1D47}" />
-                            <Action XML_Guid="{72883B02-C3C3-4BCE-B7A3-B478EA7C1370}">
-                                EventGhost.DisableItem(XmlIdLink(4))
-                            </Action>
-                        </Macro>
-                        <Macro Name="Enable plugin and resub" XML_Guid="{E84038CF-0F49-417B-8AFD-F755185C0683}">
-                            <Event Name="*.mqtt?enable" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                            <Action XML_Guid="{864C6395-7D9F-40CC-9ACB-048AF2657FDF}">
-                                EventGhost.EnableItem(XmlIdLink(4))
-                            </Action>
-                            <Action XML_Guid="{9293069F-9384-4875-8E4A-B06C75118802}">
-                                EventGhost.TriggerEvent(u'sub_buttclicker', 0.0, None, False, False, False)
-                            </Action>
-                        </Macro>
-                    </Folder>
-                    <Macro Name="Sub buttclicker" XML_Guid="{4EC815E9-AC4B-4F6E-8AA0-21B62BB39338}" Expanded="True">
-                        <Event Name="*.sub?buttclicker" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="!!findme MQTT Client: Start a new MQTT subscription " XML_Guid="{9559AC96-D165-4838-BC2D-23C3990CEBC0}">
-                            MQTTthreads.MQTTclient(u'buttclicker', u'3.134.3.199', 3001, u'buttclicker/#', True, '593652682787', True, False, u'', u'', False, u'', u'', u'', u'TLSv1.2')
-                        </Action>
-                    </Macro>
-                    <Macro Name='Start log monitoring: "..MQTT Client: Trying to reconnect with..."' XML_Guid="{2CBDAE7E-2026-4CF8-8591-3DDE9E429A96}">
-                        <Event Name="Main.OnInit" XML_Guid="{4B85E51E-4BA5-4BB3-92F8-BDF200952A00}" />
-                        <Action XML_Guid="{FD0F197A-9902-478C-B2A8-4C0A5DD2EC12}">
-                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'8:05:34 AM   MQTT Client: Trying to reconnect with...'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'mqtt-LogMessageFound', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
-                        </Action>
-                    </Macro>
-                    <Macro Name="MqttLogMessage  !TODO clean payload of mqtt escapes" XML_Guid="{0A44D5CD-D963-4FB4-84CD-0A1EB63E4DED}">
-                        <Event Name="*mqtt-LogMessageFound" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
-                        <Action Name="Fire Trigger: warning_reactor_exposed" XML_Guid="{D612F876-74D3-41C6-A247-A28C21997CEA}">
-                            EventGhost.TriggerEvent(u'warning_reactor_exposed', 0.0, None, False, False, False)
-                        </Action>
-                        <Action Name="traytip-log message found" XML_Guid="{269FC6AE-540D-4313-AFB4-C4E61AF7F6B5}">
-                            EventGhost.PythonScript(u'eg.globals.msg = "MQTT reconnect"\neg.plugins.TrayTip.ShowTip(u\'Log message found: \', u\'{eg.globals.msg}\', u\'\', 4, True)\n')
-                        </Action>
-                        <Action XML_Guid="{9553948A-689C-49AC-91AC-9CBAEF27BDE6}">
-                            EventGhost.OpenConfig(XmlIdLink(4))
-                        </Action>
-                    </Macro>
-                </Folder>
                 <Folder Name="Clip" XML_Guid="{C89A1211-A6A0-43E2-B453-5C8346B675E5}">
                     <Macro Name="Init Clip Repairbot" XML_Guid="{33F606D0-4F61-4317-A2B1-E624E71F5E01}" Expanded="True">
                         <Event Name="Main.OnInit" XML_Guid="{4B85E51E-4BA5-4BB3-92F8-BDF200952A00}" />
                         <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
-                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
                         </Action>
                     </Macro>
                     <Macro Name="Repairbot: FixClip " XML_Guid="{ECF2573F-A0A9-466B-9574-E4075F7E2C25}">
@@ -4715,7 +4267,7 @@
                             EventGhost.PythonScript(u'import win32clipboard\nwin32clipboard.OpenClipboard()\nwin32clipboard.CloseClipboard()\n\n\n#wxError1: Failed to get data from the clipboard (error -2147221040: openClipboard Failed)')
                         </Action>
                         <Action Name='Start log monitoring: "Failed to get data from the clipboard"' XML_Guid="{918DB7ED-21B8-43E2-83A5-D51CE0CABEE6}">
-                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+                            EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
                         </Action>
                     </Macro>
                 </Folder>
@@ -5050,6 +4602,119 @@
                     <Event Name="GoogleChrome.Browser.Connected" XML_Guid="{47F9DF4A-426E-4B8E-8C59-4F32B16F3795}" />
                     <Action XML_Guid="{7391E4A7-4690-4488-94FC-D77D0A7BD205}">
                         TrayTip.ShowTip(u'Browser connected', u'Tab changes will fire events', u'', 2, False)
+                    </Action>
+                </Macro>
+            </Folder>
+        </Folder>
+    </Folder>
+    <Folder Name="Bonus" XML_Guid="{267EB406-2073-451D-9E4D-42144D04C113}">
+        <Folder Name="random Python scripts to try!" Enabled="False" XML_Guid="{F6BB9806-8012-4E83-8B93-81F754C09FCB}">
+            <Folder Name="Scripts" XML_Guid="{88B73A33-5AE7-42AF-AF4C-02917981DFBD}" Expanded="True">
+                <Macro Name="Folder by day created" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Event Name="*.active?sort?created" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
+                    <Action Name="Sort a folder into days modified folders" XML_Guid="{21298378-3437-4DEC-8127-347BF2E53E0C}">
+                        EventGhost.PythonScript(u"egg = eg.globals\nimport os\nimport shutil\nimport os.path, time\nfrom datetime import datetime\npath = egg.activedir\n \nlis = os.listdir(path)\nlis.sort(key=lambda x: os.stat(os.path.join(path, x)).st_mtime)\nfiles = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]\nos.chdir(path)\n\nfor x in files:\n    creation_time_string = time.ctime(os.path.getmtime(os.path.join(path, x)))\n    modified_time_string = time.ctime(os.path.getmtime(os.path.join(path, x)))\n    creation_datetime_obj = datetime.strptime(creation_time_string, '%a %b %d %H:%M:%S %Y')\n    modified_datetime_obj = datetime.strptime(modified_time_string, '%a %b %d %H:%M:%S %Y')\n    modified_date  = str(modified_datetime_obj.day) + '-' + str(modified_datetime_obj.month) + '-' + str(modified_datetime_obj.year)\n    creation_date  = str(creation_datetime_obj.day) + '-' + str(creation_datetime_obj.month) + '-' + str(modified_datetime_obj.year)\n   \n    if(os.path.isdir(creation_date)):\n         shutil.move(os.path.join(path, x), creation_date)\n    else:\n        os.makedirs(creation_date)\n        shutil.move(os.path.join(path, x), modified_date)")
+                    </Action>
+                </Macro>
+                <Macro Name="something about icons" XML_Guid="{6EBAE908-37A4-4CF4-A1CC-0CD37C9D9A19}">
+                    <Action Name="clip icon thing" XML_Guid="{C65D2A60-7FE5-472B-946B-C7EE711EBC98}">
+                        EventGhost.PythonScript(u'var1 = \'\'\'    def OnCmd\'\'\'+eg.event.payload+\'\'\'IconLibrary(self):\n        import webbrowser\n        webbrowser.open("https://icons8.com/icons", 2, 1)\n\'\'\'\neg.plugins.System.SetClipboard(var1)\nprint "IF code set"')
+                    </Action>
+                </Macro>
+                <Macro Name="switch date and month" XML_Guid="{C9A2DFA5-3657-4E88-9239-E222439FFED3}">
+                    <Action Name="switch date and month in folder name" XML_Guid="{74897703-2BBE-4B49-83DB-73A211D7A39D}">
+                        EventGhost.PythonScript(u"#switch date and month in folder name\n\negg = eg.globals\nimport os\nimport shutil\nimport os.path, time\n\n\npath = egg.activedir\nlis = os.listdir(path)\n    \n\n\nfor f in os.listdir(path):\n    x = f.split('-')\n    g = x[2] + '-' + x[1] + '-' + x[0]\n    os.rename(f, g)\n    print f,g\n")
+                    </Action>
+                </Macro>
+                <Macro Name="Change video?to?mp3" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Event Name="*.video?to?mp3" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
+                    <Action Name="Change from video?to?mp3" XML_Guid="{81F9EE43-907F-4D14-8B68-016945E94408}">
+                        EventGhost.PythonScript(u'import moviepy.editor as mp\nimport win32clipboard\nwin32clipboard.OpenClipboard()\nclip = win32clipboard.GetClipboardData()\nwin32clipboard.CloseClipboard()\nvideo = mp.VideoFileClip(clip)\nvideo.audio.write_audiofile(clip+"_converted.mp3")')
+                    </Action>
+                </Macro>
+                <Macro Name="List help" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="List info" id="1642" Enabled="False" XML_Guid="{1EBF64CE-53F9-4ACB-8A08-F3F1E3D30B87}">
+                        EventGhost.PythonScript(u'#Sorting by date\n#results.sort(key=lambda r: getattr(r.person, \'birthday\', datetime.max))\n#sorted(results, key=...)\n\n\n#how a list(array) works\n#mylist = ["a", "b", "a", "c", "c"]\n#mylist = list(dict.fromkeys(mylist))\n#print(mylist)\n\n\n#remove duplicates\n#def my_function(x):\n  #return list(dict.fromkeys(x))\n#mylist = my_function(["a", "b", "a", "c", "c"])\n#print(mylist)\n\n\n\n#import win32clipboard\n#import re\n\n# get clipboard data\n#win32clipboard.OpenClipboard()\n#result2 = win32clipboard.GetClipboardData()\n#win32clipboard.CloseClipboard()\n\n#if re.match(r"https?://www\\.youtube\\.com/watch\\?v=",result2,re.IGNORECASE):\n    #eg.TriggerEvent(u\'FoundURL\', payload=result2)')
+                    </Action>
+                    <Event Name="*.list?help" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
+                    <Action XML_Guid="{51D166BE-3ED9-471F-93CC-04BF33329520}">
+                        EventGhost.OpenConfig(XmlIdLink(1642))
+                    </Action>
+                </Macro>
+                <Macro Name="Listen to PDF" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Event Name="*.pdf?listen" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
+                    <Action Name="Listen to PDF" XML_Guid="{1AF5E58D-C80B-49AD-A987-3EA9EFD85155}">
+                        EventGhost.PythonScript(u'import PyPDF2\nimport os\nfrom gtts import gTTS\nimport re\nimport win32clipboard\nwin32clipboard.OpenClipboard()\nclip = win32clipboard.GetClipboardData()\nwin32clipboard.CloseClipboard()\n\nfile_path = clip\n \nif(os.path.exists(file_path)):\n    pass\nelse:\n    print("File does not exists")\n    exit()\n \nf = open(file_path, \'rb\')\n \n# Get the no of pages in pdf\n \n \npdffile = PyPDF2.PdfFileReader(f)\nno_of_pages = pdffile.getNumPages()\n \n# Iterate all the pages\n \n# Using regex to filter only words and numbers\n \n# Concatenate the words in each page\n \nstring_words = \'\'\nfor pageno in range(no_of_pages):\n    pi = pdffile.getPage(pageno)\n    page = pdffile.getPage(pageno)\n    content = page.extractText()\n    textonly = re.findall(r\'[a-zA-Z0-9]+\', content)\n    for word in textonly:\n        string_words = string_words + \' \' + word\n \n# Convert the string of words to mp3 file \nprint(string_words)\ntts = gTTS(text=string_words, lang=\'en\')\ntts.save("listen_pdf.mp3")')
+                    </Action>
+                </Macro>
+                <Macro Name="remove filename prefix" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Event Name="*.remove?prefix" XML_Guid="{B64C6EE7-E415-4BB5-844F-56F8AE86A162}" />
+                    <Action Name="Remove filename prefix" XML_Guid="{B096F46F-A24F-48E4-B0DF-F806B80EFA2A}">
+                        EventGhost.PythonScript(u'import os\nfor filename in os.listdir(eg.globals.activedir): #for current directory\n\tif filename.startswith("("):\n\t\tos.rename(filename, filename[5:])')
+                    </Action>
+                </Macro>
+                <Macro Name="Sort images into resolutions" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="Sort images into resolutions" XML_Guid="{5CF303A1-3F42-49E3-AB49-166AD1F99610}">
+                        EventGhost.PythonScript(u'#Sort images into resolutions\n\n\nimport cv2\t\t#Image processing library\nimport os,glob\t#For os manipulation\n \nim_4k = 0\t\t#Initializing counts for each category\nim_1080 = 0\nim_720 = 0\n \nos.system("mkdir 4K")\t#Creating directories for each type\nos.system("mkdir 1080p")\nos.system("mkdir 720p")\n \nfor image in glob.glob(\'*.jpg\'):\t#Selecting images one by one\n\tprint(image)\n\timg = cv2.imread(image)\t\t#Reading image\n\theight, width, channel = img.shape\t#getting image resolution\n\tif(width&gt;=3840 and height&gt;=2160):\t#Comparing image resolutions and moving them accordingly\n\t\tos.system("move "+image+" 4K")\n\t\tim_4k = im_4k+1\n\t\tcontinue\n\tif(width&gt;=1920 and height&gt;=1080):\n\t\tos.system("move "+image+" 1080p")\n\t\tim_1080 = im_1080+1\n\t\tcontinue\n\tif(width&gt;=1280 and height&gt;=720):\n\t\tos.system("move "+image+" 720p")\n\t\tim_720 = im_720+1\n\t\tcontinue\nprint(im_4k," 4K images moved to 4K folder")\t#Printing counts for each type\nprint(im_1080," 1080p images moved to 1080p folder")\t\nprint(im_720," 720p images moved to 720p folder")\t')
+                    </Action>
+                </Macro>
+                <Macro Name="Find all links" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="Find all links" XML_Guid="{3EB0FC6F-824C-4FE8-B01F-D99CA6EDDC28}">
+                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\nprint website.text\n# read html\n#html = website.text\n\n# use re.findall to grab all the links\n#links = re.findall(\'"((http|ftp)s?://.*?)"\', html)\n\n# output links\n#for link in links:\n    #print(link[0])')
+                    </Action>
+                    <Action Name="Find all links" XML_Guid="{3EB0FC6F-824C-4FE8-B01F-D99CA6EDDC28}">
+                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\nprint website.text\n# read html\n#html = website.text\n\n# use re.findall to grab all the links\n#links = re.findall(\'"((http|ftp)s?://.*?)"\', html)\n\n# output links\n#for link in links:\n    #print(link[0])')
+                    </Action>
+                </Macro>
+                <Macro Name="excution time function" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="excution time example" XML_Guid="{01DF94CB-D452-447F-BA27-F0C811201718}">
+                        EventGhost.PythonScript(u'"""\nExecutionTime\nThis class is used for timing execution of code.\nFor example:\n    timer = ExecutionTime()\n    print \'Hello world!\'\n    print \'Finished in {} seconds.\'.format(timer.duration())\n"""\n\n\nimport time\nimport random\n\n\nclass ExecutionTime:\n    def __init__(self):\n        self.start_time = time.time()\n\n    def duration(self):\n        return time.time() - self.start_time\n\n\n# ---- run code ---- #\n\n\ntimer = ExecutionTime()\nsample_list = list()\nmy_list = [random.randint(1, 888898) for num in\n           range(1, 1000000) if num % 2 == 0]\nprint(\'Finished in {} seconds.\'.format(timer.duration()))')
+                    </Action>
+                </Macro>
+                <Macro Name="email crawler" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="email crawler" XML_Guid="{7EB7D69F-DD1C-460E-ACCC-17D544C4E1D8}">
+                        EventGhost.PythonScript(u'import requests\nimport re\n\n# get url\nurl = input(\'Enter a URL (include `http://`): \')\n\n# connect to the url\nwebsite = requests.get(url)\n\n# read html\nhtml = website.text\n\n# use re.findall to grab all the links\nlinks = re.findall(\'"((http|ftp)s?://.*?)"\', html)\nemails = re.findall(\'([\\w\\.,]+@[\\w\\.,]+\\.\\w+)\', html)\n\n\n# print the number of links in the list\nprint("\\nFound {} links".format(len(links)))\nfor email in emails:\n    print(email)')
+                    </Action>
+                </Macro>
+                <Macro Name="url crtawler" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="url crtawler" XML_Guid="{E6C72342-E0EF-4E3A-BA2A-DC9B991EEEAE}">
+                        EventGhost.PythonScript(u'import requests\nimport re\ntry:\n    from urllib.parse import urljoin\nexcept ImportError:\n    from urlparse import urljoin\n\n# regex\nlink_re = re.compile(r\'href="(.*?)"\')\n\n\ndef crawl(url):\n\n    req = requests.get(url)\n\n    # Check if successful\n    if(req.status_code != 200):\n        return []\n\n    # Find links\n    links = link_re.findall(req.text)\n\n    print("\\nFound {} links".format(len(links)))\n\n    # Search links for emails\n    for link in links:\n\n        # Get an absolute URL for a link\n        link = urljoin(url, link)\n\n        print(link)\n\nif __name__ == \'__main__\':\n    crawl(\'http://www.eventghost.net/forum/viewtopic.php?t=5695\')')
+                    </Action>
+                </Macro>
+                <Macro Name="find_files_recursively" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="find_files_recursively" XML_Guid="{2F8DB9F5-C4AC-4EE9-9171-FC233AB6700B}">
+                        EventGhost.PythonScript(u'import fnmatch\nimport os\n\n# constants\nPATH = \'./\'\nPATTERN = \'*.md\'\n\n\ndef get_file_names(filepath, pattern):\n    matches = []\n    if os.path.exists(filepath):\n        for root, dirnames, filenames in os.walk(filepath):\n            for filename in fnmatch.filter(filenames, pattern):\n                # matches.append(os.path.join(root, filename))  # full path\n                matches.append(os.path.join(filename))  # just file name\n        if matches:\n            print("Found {} files:".format(len(matches)))\n            output_files(matches)\n        else:\n            print("No files found.")\n    else:\n        print("Sorry that path does not exist. Try again.")\n\n\ndef output_files(list_of_files):\n    for filename in list_of_files:\n        print(filename)\n\n\nif __name__ == \'__main__\':\n    get_file_names(PATH, PATTERN)')
+                    </Action>
+                </Macro>
+                <Macro Name="optimize image" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="optimize image" XML_Guid="{B82B40F2-B16B-4881-8AB6-C57EA1401043}">
+                        EventGhost.PythonScript(u'\'\'\'simport fnmatch\nimport os\n\n# pip install Wand\nfrom wand.image import Image\n# pip install http://pypi.python.org/packages/source/h/hurry.filesize/hurry.filesize-0.9.tar.gz\nfrom hurry.filesize import size\n\n\n# constants\nPATH = \'/../../../..\'\nPATTERN = \'*.jpg\'\n\n\ndef get_image_file_names(filepath, pattern):\n    matches = []\n    if os.path.exists(filepath):\n        for root, dirnames, filenames in os.walk(filepath):\n            for filename in fnmatch.filter(filenames, pattern):\n                matches.append(os.path.join(root, filename))  # full path\n        if matches:\n            print("Found {} files, with a total file size of {}.".format(\n                len(matches), get_total_size(matches)))\n            return matches\n        else:\n            print("No files found.")\n    else:\n        print("Sorry that path does not exist. Try again.")\n\n\ndef get_total_size(list_of_image_names):\n    total_size = 0\n    for image_name in list_of_image_names:\n        total_size += os.path.getsize(image_name)\n    return size(total_size)\n\n\ndef resize_images(list_of_image_names):\n    print("Optimizing ... ")\n    for index, image_name in enumerate(list_of_image_names):\n        with open(image_name) as f:\n            image_binary = f.read()\n        with Image(blob=image_binary) as img:\n            if img.height &gt;= 600:\n                img.transform(resize=\'x600\')\n                img.save(filename=image_name)\n    print("Optimization complete.")\n\n\nif __name__ == \'__main__\':\n    all_images = get_image_file_names(PATH, PATTERN)\n    resize_images(all_images)\n    get_image_file_names(PATH, PATTERN)\n    \'\'\'\n    ')
+                    </Action>
+                </Macro>
+                <Macro Name="ip geolocate" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="ip geolocate" XML_Guid="{D3CC6E13-B5BB-4F85-AD8A-D3CC058B69B7}">
+                        EventGhost.PythonScript(u'import csv\nimport requests\n\n\ndef get_addresses(filename):\n    """\n    Given a CSV file, this function returns a list of lists\n    where each element (list) in the outer list contains the\n    row info from the csv file.\n    """\n    all_addresses = []\n    with open(filename, \'rt\') as f:\n        reader = csv.reader(f)\n        for row in reader:\n            all_addresses.append(row)\n    return all_addresses\n\n\ndef get_geolocation(all_the_ip_address):\n    """\n    Given a list of lists from `get_addresses()`, this function\n    returns an updated lists of lists containing the geolocation.\n    """\n    print("Getting geo information...")\n    updated_addresses = []\n    counter = 1\n    # update header\n    header_row = all_the_ip_address.pop(0)\n    header_row.extend([\'Country\', \'City\'])\n    # get geolocation\n    for line in all_the_ip_address:\n        print("Grabbing geo info for row # {0}".format(counter))\n        r = requests.get(\'https://freegeoip.net/json/{0}\'.format(line[0]))\n        line.extend([str(r.json()[\'country_name\']), str(r.json()[\'city\'])])\n        updated_addresses.append(line)\n        counter += 1\n    updated_addresses.insert(0, header_row)\n    return updated_addresses\n\n\ndef create_csv(updated_address_list):\n    """\n    Given the updated lists of lists from `get_geolocation()`, this function\n    creates a new CSV.\n    """\n    import sys\n    if sys.version_info &gt;= (3, 0, 0):\n        f = open(\'output.csv\', \'w\', newline=\'\')\n    else:\n        f = open(\'output.csv\', \'wb\')\n    with f:\n        writer = csv.writer(f)\n        writer.writerows(updated_address_list)\n    print("All done!")\n\n\nif __name__ == \'__main__\':\n    csv_file = \'25_sample_csv.csv\'\n    all_the_ip_address = get_addresses(csv_file)\n    updated_address_list = get_geolocation(all_the_ip_address)\n    create_csv(updated_address_list)')
+                    </Action>
+                </Macro>
+                <Macro Name="folder zipper" XML_Guid="{C12C0857-4C06-4E69-A888-89F1E9606D3C}">
+                    <Action Name="folder zipper" XML_Guid="{F88AD373-9C96-43EA-8709-27DAA49B460B}">
+                        EventGhost.PythonScript(u"import os\nfrom datetime import datetime\nfrom zipfile import ZipFile\n\n\n# set file name and time of creation\ntoday = datetime.now()\nfile_name = 'zipper_' + today.strftime('%Y.%m.%dh%H%M') + '.zip'\ndir_name = 'tmp/'  # update path\n\n\ndef zipdir(path, zip):\n    for root, dirs, files in os.walk(path):\n        for file in files:\n            zip.write(os.path.join(root, file))\n\nif __name__ == '__main__':\n    zipfile = ZipFile(file_name, 'w')\n    zipdir(dir_name, zipfile)\n    zipfile.close()")
+                    </Action>
+                </Macro>
+                <Macro Name="create a scratch frame" XML_Guid="{201A8BB4-9C9D-439F-92E8-E373BA99D7A8}">
+                    <Action Name="frame with subm" Enabled="False" XML_Guid="{5CA6F633-1BBF-4A15-B34A-4B6E8AF00F8F}">
+                        EventGhost.PythonScript(u'import wx\n\n\nclass Frame(wx.Frame):\n\n    def __init__(self):\n\n        wx.Frame.__init__(self, None, -1, size=(200, 300))\n\n        menu_bar = wx.MenuBar()\n        menu = wx.Menu()\n        menu.AppendCheckItem(wx.NewId(), \'item 1\')\n\n        sub_menu = wx.Menu()\n        sub_menu.AppendCheckItem(wx.NewId(), \'item 2\')\n\n        menu.AppendSubMenu(sub_menu, \'sub_menu\')\n\n        menu_bar.Append(menu, "some menu")\n        self.SetMenuBar(menu_bar)\n\n\napp = wx.GetApp()\n\nif app:\n    frame = Frame()\n    frame.Show()\n\nelse:\n    app = wx.App()\n    \n    frame = Frame()\n    frame.Show()\n\n    app.MainLoop()\n    \n    \n    \nx =  \'\'\'Traceback (most recent call last) (WIP):\n  File "C:\\Program Files (x86)\\EventGhost\\eg\\Classes\\ThreadWorker.py", line 261, in __DoOneEvent\n    self.__PumpWaitingMessages()\n  File "C:\\Program Files (x86)\\EventGhost\\eg\\Classes\\ThreadWorker.py", line 287, in __PumpWaitingMessages\n    while PeekMessage(byref(msg), 0, 0, 0, PM_REMOVE):\nArgumentError: argument 2: &lt;class \'wx._core.PyAssertionError\'&gt;: C++ assertion "m_menuDepth &gt; 0" failed at ..\\..\\src\\msw\\toplevel.cpp(1544) in wxTopLevelWindowMSW::DoSendMenuOpenCloseEvent(): No open menus?\'\'\'')
+                    </Action>
+                </Macro>
+                <Macro Name="rename dat to geo and remove dat" XML_Guid="{B79D975D-EFF7-44D3-93E8-C5621258FFB6}">
+                    <Event Name="*.makegeo" XML_Guid="{8E5C0E2D-1D63-4E5B-96BA-A9CE9AB24102}" />
+                    <Action XML_Guid="{F2E6FDA7-811C-4676-88F8-D61C3D1541C2}">
+                        EventGhost.PythonScript(u'import os\nimport shutil\nfrom datetime import datetime\n\n#Gets the date to remove\ntoday = datetime.today()\ntodayyearday = "_"+today.strftime("%Y_%m")+".dat"\n\n#Tests if target directory is set and not Default\ntry:\n    eg.globals.activedir\n    if eg.globals.activedir == "C:\\Users\\Dan.Edens\\Desktop\\\\":\n        print "Active directory has not been set"\n        exit()\n    else:\n        pass\nexcept AttributeError:\n    print "Active directory has not been set"\n    exit()\n#prints info it\'s going to use to move files. \n#This helps to find missing items if something goes wrong.\nprint "renaming Files ending in \\""+todayyearday+"\\""+" in target directory "+eg.globals.activedir\n\n#Change to target directory\nos.chdir(eg.globals.activedir)\n#To prevent unknowning loss of files for whatever reason. \n#Save the number of files to check against afterwards.\n#account for the new temp folder we will create\n\nnumberoffiles = int(len([name for name in os.listdir(\'.\') if os.path.isfile(name)]))\nfilesafter = numberoffiles-1\n\n#debug line\n#x= """\n#Checks if the directory contains a temp folder and creates one if not.\ntry:\n    os.mkdir("temp")\nexcept WindowsError:\n    print "Already created temp"\n\n#reads in filenames\nfor filename in os.listdir("."):\n    #if the filename is a dat file, remove the date tail\n    if filename.endswith(".dat"):\n        os.rename(filename, filename.replace(todayyearday,""))\n        #logs the file that is being renamed\n        print "renamed "+filename\n    #if the file doesnt match than move it to temp, \n    #ignoring already converted files.\n    if os.path.exists(filename) and filename[:-3] != "geo":\n        #log these moved filenames\n        print "moving "+filename\n        try:\n            shutil.move(filename, "temp\\\\"+filename)\n        except:\n            #if the move fails for some reason log\n            print "move failed - "+filename\n    else:\n        #exception for files moved unexceptedly\n        print("Cannot remove file as it doesn\'t exist!")\n\n#Check the new number of files against the predicted number\nnumberoffiles = numberoffiles-1\nnewnumber = int(len([name for name in os.listdir(\'.\') if os.path.isfile(name)]))\n#print to log if mismatch\nif filesafter != newnumber:\n    print "File count mismatch detected, please check temp folder for files not matched"\nelse:\n    print "Conversion complete"')
+                    </Action>
+                </Macro>
+                <Macro Name="get size project" XML_Guid="{6685A326-75AD-4336-9DFE-B717AFC7CE9D}">
+                    <Action XML_Guid="{7EA9FA10-8B42-4C9E-92CF-E30F580EB5FC}">
+                        EventGhost.PythonScript(u"import os\npath = eg.globals.activedir\n#os.chdir(path)\n\nx = '''\nfor f in os.listdir(path): \n    print f \n    os.path.getsize(f)'''\n    \ndef get_size(start_path = path):\n    total_size = 0\n    for dirpath, dirnames, filenames in os.walk(start_path):\n        for f in filenames:\n            fp = os.path.join(dirpath, f)\n            # skip if it is symbolic link\n            if not os.path.islink(fp):\n                total_size += os.path.getsize(fp)\n\n    return total_size\n\nprint(get_size(), 'bytes')\n")
                     </Action>
                 </Macro>
             </Folder>
