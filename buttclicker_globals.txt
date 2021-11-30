@@ -1,0 +1,51 @@
+import os
+
+eg.globals.version = 61
+eg.globals.boot = 1 
+eg.globals.debug = 0 # Print verbose debug messages
+eg.globals.status_battery = 0 # print out changes in battery value
+eg.globals.foomonitor = 0 # Number for default monitor
+eg.globals.screenlapOverride = False # Override default monitor and use foomonitor (WIP)
+eg.globals.remote_show_location = 'test' # "mouse" also accepted
+
+# Define system variables
+eg.globals.togglenumpad = 1
+eg.globals.mouse_return = 1
+eg.globals.h_x = 1
+eg.globals.h_y = 1
+eg.globals.picIsShowing = 0
+
+# Setup Environment
+# Device and jobname name
+eg.globals.userprofile = os.environ.get('USERPROFILE')
+eg.globals.DeNa = os.environ.get('hostname')
+eg.globals.jobname = os.environ.get('jobname', 'buttclicker')
+eg.globals.jobpath = os.environ.get('jobpath', eg.globals.userprofile + "\\" + eg.globals.jobname)
+
+#main repo
+eg.globals.workshopdir = os.environ.get('workshopdir', "C:\\Users\\Dan.Edens\\OneDrive - Keller\\.user\\the_lab\\raid\\buttsoaps-machine-shop")
+
+#submodules
+eg.globals.buttclickerdir = os.environ.get('buttclicker_root', eg.globals.workshopdir+"\\buttclicker\\")
+eg.globals.logparsedir = os.environ.get('rsl_log_parser_root', eg.globals.workshopdir+"\\rsl_log_parser\\")
+eg.globals.raidlockdir = os.environ.get('raidlock_root', eg.globals.workshopdir+"\\raidlock\\")
+eg.globals.detechEndCombatdir = os.environ.get('detechEndCombat_root', eg.globals.workshopdir+"\\detechEndCombat\\")
+
+# mqtt broker info
+eg.globals.awsip = os.environ.get('awsip', 'localhost')
+eg.globals.awsport = os.environ.get('awsport', '3001')
+
+# Useful locations
+eg.globals.desktop = eg.globals.userprofile+"\\Desktop\\"
+eg.globals.bin = eg.globals.userprofile+"\\bin"
+eg.globals.chromeurl = os.environ.get('chromeexe', 'chrome.exe')
+eg.globals.sharex = os.environ.get('portableapps', "C:\Program Files")+"\\ShareX.exe"
+eg.globals.logdir = os.environ.get('logs', eg.globals.desktop)
+eg.globals.notes = os.environ.get('notes', eg.globals.desktop)
+eg.globals.desknote = eg.globals.notes+"\\Desknote.txt"
+
+# Monitors for automated damage control
+eg.plugins.EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, False, False, False, False, False], 'wholeMessage': False, 'searchMsg': u'Traceback (most recent call last)'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': True, 'fireEvent': True, 'eventName': u'UnexpectedErrorOccurred', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': True})
+eg.plugins.EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Plugin "'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'PluginNotActive', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+eg.plugins.EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, False, False, False, False, False], 'wholeMessage': False, 'searchMsg': u'Error: Destination path'}, {'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchMode': 0, 'searchChar2': u'', 'searchChar1': u'', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': True, 'fireEvent': True, 'eventName': u'renamingoffileneeded', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})
+eg.plugins.EGAppControl.LogMonitor(True, {'caseSensitive': True, 'watchMsgTypes': [True, True, True, False, False, False], 'wholeMessage': False, 'searchMsg': u'Failed to get data from the clipboard'}, {'searchChar1': u'', 'searchMode': 0, 'searchChar2': u'', 'searchRegex': u'\\d*\\.\\d+|\\d+', 'searchPos1': 0, 'searchPos2': 0}, {'onlyOnce': False, 'fireEvent': True, 'eventName': u'clip_fix', 'printToLog': False, 'setVariable': False, 'variableName': u'MyVariable', 'eventPayload': False})

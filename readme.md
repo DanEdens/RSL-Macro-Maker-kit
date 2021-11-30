@@ -5,4 +5,5 @@ TODO:
 1. > Create build package
 1. > Add raid window locatior to click actions
 1. > Find a name
-
+1. > finish account switcher
+1. > finish clan boss logger
