@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{D6215D6E-4821-40C9-A37F-BF205DD39708}" Time="1638291036.95">
+<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{55994019-3EDA-4A0B-BBE6-7AD29839ECF1}" Time="1638294462.24">
     <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}">
         <Plugin XML_Guid="{7E4B3E75-0713-4CC4-86BE-A989C0E83E69}" Identifier="AutoRemote" Guid="{C18A174E-71E3-4C74-9A2B-8653CE9991E1}" File="AutoRemote">
             gAIoVQpBdXRvUmVtb3RlcQBNHAdYBQAAAEdob3N0cQFdcQIoKFgFAAAAUGl4ZWxxA1gUAAAAaHR0cDovL2dvby5nbC9WakFxa1JxBFiMAAAAQVBBOTFiRWRvTGx5QVVLTDZSUDFzaTdNbzI1UGFHVlR4aUc5WHVOZEtJOXMxSHNuZk9PQjBmMlVPc25kb0RyMnpaa3ZuWWk3aE1NQnpaQkNHbEdYakV0SHMxbWpZZUdfQnFnRFZfRm1SRWFvODd2a0RGdndBYnE4U3ZsVzk3czdXRmFJU3JEQk5tY3dxBVgAAAAAcQaIWAQAAAAxODE3cQd0cQgoWAsAAABTZXJ2ZXJnaG9zdHEJVQBxClisAAAAZ29vLmdsOmdjbUFQQTkxYkhMWV9lWG9DbnJVYlpFeDZ4N3l4THFqYll1bkJxSjJnZjcwdHEyS203MlZEbkljSlBxdmRBbzlKWTVPUnpqNTFxOGxFYlJ2U1ZCeTdZbEJzUnpUblpqNjZTYU50XzVSSm40TUYteUtlWVpkemZ6a0dDV2poYzdIVEtEZWRya1ZHTVpucFdTX0kzNTA3OEwyUGViYmFZWHBDdWV1QXELWA4AAAAxMi4yNDcuMjEzLjExOHEMiE50cQ0oWAsAAABzZXJ2ZXJnaG9zdHEOaApYCwAAAHNlcnZlcmdob3N0cQ9oBohYBAAAADE4MjFxEHRxEShYAgAAAHM4cRJoCliYAAAAY1VOemsxMGJEcWc6QVBBOTFiRnVTOFlrdVBZd0VWYXVwZnU5dFJ5ZVF1UlJaeXJmTGVfMURTWHltUERWakgzSWdFZFY1TnZuUE9UY3lFTmZkQWNoSzNwUXlmczc3QUs2Z0xmWjBRRnZVSmJna0Rxei1PTXlYZEdrd1dlakM1R0pBOHRqTlJnTmJjS1pWUUJ1QXV3VmF3OVZxE06JTnRxFGVoBlgdAAAAJVVTRVJQUk9GSUxFJVxEZXNrdG9wXFNvcnRpbmdxFYhYLQAAADEvTUhidHIyaHBuYnR1WHl4anNzdXNLN2tkR1hib1hIdUQ1c3Q0VmVZTVlOUXEWiYhYEgAAAFNlbmQgdG8gRXZlbnRHaG9zdHEXiGgGiHRxGC4=
@@ -616,7 +616,7 @@
                         EventGhost.OpenConfig(XmlIdLink(916))
                     </Action>
                 </Macro>
-                <Folder Name="Built-in Hotkeys" XML_Guid="{8059E88E-AE35-4292-BCC2-9C1920AA66A1}" Expanded="True">
+                <Folder Name="Built-in Hotkeys" XML_Guid="{8059E88E-AE35-4292-BCC2-9C1920AA66A1}">
                     <Macro Name="Shift = Speed in Battles or to trigger the left menu" XML_Guid="{2C3C8C3C-6B31-40A7-81FD-A324DAAF0A92}">
                         <Event Name="*.raid?key?shift" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Action Name="send_keystroke('{Shift}')" XML_Guid="{92665833-0ED4-40DC-B3A1-5B6656171C20}">
@@ -743,7 +743,7 @@
                             EventGhost.PythonScript(u"def send_keystroke(key='R', hide=False):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.SendKeys(key, False, 2)\n    \nsend_keystroke('W')")
                         </Action>
                     </Macro>
-                    <Macro Name="X = Edit team / Champion Index" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}" Expanded="True">
+                    <Macro Name="X = Edit team / Champion Index" XML_Guid="{98E31B38-702C-42D7-BD5D-1225657E1DCC}">
                         <Event Name="*.raid?key?x" XML_Guid="{837DD4E6-BA95-4AA5-8AD7-10057D70B555}" />
                         <Action Name="send_keystroke('X')" XML_Guid="{92665833-0ED4-40DC-B3A1-5B6656171C20}">
                             EventGhost.PythonScript(u"def send_keystroke(key='R', hide=False):\n    eg.plugins.Window.FindWindow('Raid.exe', None, None, None, None, None, False, 0.0, 0)\n    eg.plugins.Window.BringToFront()\n    eg.plugins.Window.SendKeys(key, False, 2)\n    \nsend_keystroke('X')")
@@ -837,6 +837,11 @@
                             </Action>
                         </Macro>
                     </Folder>
+                    <Macro Name="Python Script" XML_Guid="{01F4EB8E-792B-457C-AE0E-10A6DA1972CD}" Expanded="True">
+                        <Action XML_Guid="{87E03D0C-36A9-4AA2-8D75-304AEE907B54}">
+                            EventGhost.PythonScript(u'# click clanboss\n\n')
+                        </Action>
+                    </Macro>
                 </Folder>
             </Folder>
             <Folder Name="repo-tools" XML_Guid="{D553D227-90B0-45BC-BBCA-5380865B7BDC}">

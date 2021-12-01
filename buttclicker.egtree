@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{A53E257E-53D4-4665-91A7-56B5D107DA1F}" Time="1638292728.29">
+<EventGhost Version="WIP-2020.05.11-06.47.41" Guid="{55994019-3EDA-4A0B-BBE6-7AD29839ECF1}" Time="1638294462.24">
     <Autostart Name="Autostart" XML_Guid="{E70169AA-CAA1-47D5-8F5C-068AF2065C53}">
         <Plugin XML_Guid="{7E4B3E75-0713-4CC4-86BE-A989C0E83E69}" Identifier="AutoRemote" Guid="{C18A174E-71E3-4C74-9A2B-8653CE9991E1}" File="AutoRemote">
             gAIoVQpBdXRvUmVtb3RlcQBNHAdYBQAAAEdob3N0cQFdcQIoKFgFAAAAUGl4ZWxxA1gUAAAAaHR0cDovL2dvby5nbC9WakFxa1JxBFiMAAAAQVBBOTFiRWRvTGx5QVVLTDZSUDFzaTdNbzI1UGFHVlR4aUc5WHVOZEtJOXMxSHNuZk9PQjBmMlVPc25kb0RyMnpaa3ZuWWk3aE1NQnpaQkNHbEdYakV0SHMxbWpZZUdfQnFnRFZfRm1SRWFvODd2a0RGdndBYnE4U3ZsVzk3czdXRmFJU3JEQk5tY3dxBVgAAAAAcQaIWAQAAAAxODE3cQd0cQgoWAsAAABTZXJ2ZXJnaG9zdHEJVQBxClisAAAAZ29vLmdsOmdjbUFQQTkxYkhMWV9lWG9DbnJVYlpFeDZ4N3l4THFqYll1bkJxSjJnZjcwdHEyS203MlZEbkljSlBxdmRBbzlKWTVPUnpqNTFxOGxFYlJ2U1ZCeTdZbEJzUnpUblpqNjZTYU50XzVSSm40TUYteUtlWVpkemZ6a0dDV2poYzdIVEtEZWRya1ZHTVpucFdTX0kzNTA3OEwyUGViYmFZWHBDdWV1QXELWA4AAAAxMi4yNDcuMjEzLjExOHEMiE50cQ0oWAsAAABzZXJ2ZXJnaG9zdHEOaApYCwAAAHNlcnZlcmdob3N0cQ9oBohYBAAAADE4MjFxEHRxEShYAgAAAHM4cRJoCliYAAAAY1VOemsxMGJEcWc6QVBBOTFiRnVTOFlrdVBZd0VWYXVwZnU5dFJ5ZVF1UlJaeXJmTGVfMURTWHltUERWakgzSWdFZFY1TnZuUE9UY3lFTmZkQWNoSzNwUXlmczc3QUs2Z0xmWjBRRnZVSmJna0Rxei1PTXlYZEdrd1dlakM1R0pBOHRqTlJnTmJjS1pWUUJ1QXV3VmF3OVZxE06JTnRxFGVoBlgdAAAAJVVTRVJQUk9GSUxFJVxEZXNrdG9wXFNvcnRpbmdxFYhYLQAAADEvTUhidHIyaHBuYnR1WHl4anNzdXNLN2tkR1hib1hIdUQ1c3Q0VmVZTVlOUXEWiYhYEgAAAFNlbmQgdG8gRXZlbnRHaG9zdHEXiGgGiHRxGC4=
@@ -837,9 +837,9 @@
                             </Action>
                         </Macro>
                     </Folder>
-                    <Macro Name="&lt;unnamed macro&gt;" XML_Guid="{01F4EB8E-792B-457C-AE0E-10A6DA1972CD}" Expanded="True">
+                    <Macro Name="Python Script" XML_Guid="{01F4EB8E-792B-457C-AE0E-10A6DA1972CD}" Expanded="True">
                         <Action XML_Guid="{87E03D0C-36A9-4AA2-8D75-304AEE907B54}">
-                            EventGhost.PythonScript()
+                            EventGhost.PythonScript(u'# click clanboss\n\n')
                         </Action>
                     </Macro>
                 </Folder>
